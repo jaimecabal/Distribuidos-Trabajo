@@ -1,0 +1,2720 @@
+[
+    {
+        "name": "Bulbasaur",
+        "number": "#001",
+        "classification": "Seed Pok\u00e9mon",
+        "height": [
+            "2'04\"",
+            "0.7m"
+        ],
+        "weight": [
+            "15.2lbs",
+            "6.9kg"
+        ],
+        "hit_points": 45,
+        "attack": 49,
+        "defense": 49,
+        "special": 65,
+        "speed": 45
+    },
+    {
+        "name": "Ivysaur",
+        "number": "#002",
+        "classification": "Seed Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "28.7lbs",
+            "13kg"
+        ],
+        "hit_points": 60,
+        "attack": 62,
+        "defense": 63,
+        "special": 80,
+        "speed": 60
+    },
+    {
+        "name": "Venusaur",
+        "number": "#003",
+        "classification": "Seed Pok\u00e9mon",
+        "height": [
+            "6'07\"",
+            "2m"
+        ],
+        "weight": [
+            "220.5lbs",
+            "100kg"
+        ],
+        "hit_points": 80,
+        "attack": 82,
+        "defense": 83,
+        "special": 100,
+        "speed": 80
+    },
+    {
+        "name": "Charmander",
+        "number": "#004",
+        "classification": "Lizard Pok\u00e9mon",
+        "height": [
+            "2'00\"",
+            "0.6m"
+        ],
+        "weight": [
+            "18.7lbs",
+            "8.5kg"
+        ],
+        "hit_points": 39,
+        "attack": 52,
+        "defense": 43,
+        "special": 50,
+        "speed": 65
+    },
+    {
+        "name": "Charmeleon",
+        "number": "#005",
+        "classification": "Flame Pok\u00e9mon",
+        "height": [
+            "3'07\"",
+            "1.1m"
+        ],
+        "weight": [
+            "41.9lbs",
+            "19kg"
+        ],
+        "hit_points": 58,
+        "attack": 64,
+        "defense": 58,
+        "special": 65,
+        "speed": 80
+    },
+    {
+        "name": "Charizard",
+        "number": "#006",
+        "classification": "Flame Pok\u00e9mon",
+        "height": [
+            "5'07\"",
+            "1.7m"
+        ],
+        "weight": [
+            "199.5lbs",
+            "90.5kg"
+        ],
+        "hit_points": 78,
+        "attack": 84,
+        "defense": 78,
+        "special": 85,
+        "speed": 100
+    },
+    {
+        "name": "Squirtle",
+        "number": "#007",
+        "classification": "Tiny Turtle Pok\u00e9mon",
+        "height": [
+            "1'08\"",
+            "0.5m"
+        ],
+        "weight": [
+            "19.8lbs",
+            "9kg"
+        ],
+        "hit_points": 44,
+        "attack": 48,
+        "defense": 65,
+        "special": 50,
+        "speed": 43
+    },
+    {
+        "name": "Wartortle",
+        "number": "#008",
+        "classification": "Turtle Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "49.6lbs",
+            "22.5kg"
+        ],
+        "hit_points": 59,
+        "attack": 63,
+        "defense": 80,
+        "special": 65,
+        "speed": 58
+    },
+    {
+        "name": "Blastoise",
+        "number": "#009",
+        "classification": "Shellfish Pok\u00e9mon",
+        "height": [
+            "5'03\"",
+            "1.6m"
+        ],
+        "weight": [
+            "188.5lbs",
+            "85.5kg"
+        ],
+        "hit_points": 79,
+        "attack": 83,
+        "defense": 100,
+        "special": 85,
+        "speed": 78
+    },
+    {
+        "name": "Caterpie",
+        "number": "#010",
+        "classification": "Worm Pok\u00e9mon",
+        "height": [
+            "1'00\"",
+            "0.3m"
+        ],
+        "weight": [
+            "6.4lbs",
+            "2.9kg"
+        ],
+        "hit_points": 45,
+        "attack": 30,
+        "defense": 35,
+        "special": 20,
+        "speed": 45
+    },
+    {
+        "name": "Metapod",
+        "number": "#011",
+        "classification": "Cocoon Pok\u00e9mon",
+        "height": [
+            "2'04\"",
+            "0.7m"
+        ],
+        "weight": [
+            "21.8lbs",
+            "9.9kg"
+        ],
+        "hit_points": 50,
+        "attack": 20,
+        "defense": 55,
+        "special": 25,
+        "speed": 30
+    },
+    {
+        "name": "Butterfree",
+        "number": "#012",
+        "classification": "Butterfly Pok\u00e9mon",
+        "height": [
+            "3'07\"",
+            "1.1m"
+        ],
+        "weight": [
+            "70.5lbs",
+            "32kg"
+        ],
+        "hit_points": 60,
+        "attack": 45,
+        "defense": 50,
+        "special": 80,
+        "speed": 70
+    },
+    {
+        "name": "Weedle",
+        "number": "#013",
+        "classification": "Hairy Bug Pok\u00e9mon",
+        "height": [
+            "1'00\"",
+            "0.3m"
+        ],
+        "weight": [
+            "7.1lbs",
+            "3.2kg"
+        ],
+        "hit_points": 40,
+        "attack": 35,
+        "defense": 30,
+        "special": 20,
+        "speed": 50
+    },
+    {
+        "name": "Kakuna",
+        "number": "#014",
+        "classification": "Cocoon Pok\u00e9mon",
+        "height": [
+            "2'00\"",
+            "0.6m"
+        ],
+        "weight": [
+            "22.0lbs",
+            "10kg"
+        ],
+        "hit_points": 45,
+        "attack": 25,
+        "defense": 50,
+        "special": 25,
+        "speed": 35
+    },
+    {
+        "name": "Beedrill",
+        "number": "#015",
+        "classification": "Poison Bee Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "65.0lbs",
+            "29.5kg"
+        ],
+        "hit_points": 65,
+        "attack": 80,
+        "defense": 40,
+        "special": 45,
+        "speed": 75
+    },
+    {
+        "name": "Pidgey",
+        "number": "#016",
+        "classification": "Tiny Bird Pok\u00e9mon",
+        "height": [
+            "1'00\"",
+            "0.3m"
+        ],
+        "weight": [
+            "4.0lbs",
+            "1.8kg"
+        ],
+        "hit_points": 40,
+        "attack": 45,
+        "defense": 40,
+        "special": 35,
+        "speed": 56
+    },
+    {
+        "name": "Pidgeotto",
+        "number": "#017",
+        "classification": "Bird Pok\u00e9mon",
+        "height": [
+            "3'07\"",
+            "1.1m"
+        ],
+        "weight": [
+            "66.1lbs",
+            "30kg"
+        ],
+        "hit_points": 63,
+        "attack": 60,
+        "defense": 55,
+        "special": 50,
+        "speed": 71
+    },
+    {
+        "name": "Pidgeot",
+        "number": "#018",
+        "classification": "Bird Pok\u00e9mon",
+        "height": [
+            "4'11\"",
+            "1.5m"
+        ],
+        "weight": [
+            "87.1lbs",
+            "39.5kg"
+        ],
+        "hit_points": 83,
+        "attack": 80,
+        "defense": 75,
+        "special": 70,
+        "speed": 91
+    },
+    {
+        "name": "Rattata",
+        "number": "#019",
+        "classification": "Mouse Pok\u00e9mon",
+        "height": [
+            "1'00\"",
+            "0.3m"
+        ],
+        "weight": [
+            "7.7lbs",
+            "3.5kg"
+        ],
+        "hit_points": 30,
+        "attack": 56,
+        "defense": 35,
+        "special": 25,
+        "speed": 72
+    },
+    {
+        "name": "Raticate",
+        "number": "#020",
+        "classification": "Mouse Pok\u00e9mon",
+        "height": [
+            "2'04\"",
+            "0.7m"
+        ],
+        "weight": [
+            "40.8lbs",
+            "18.5kg"
+        ],
+        "hit_points": 55,
+        "attack": 81,
+        "defense": 60,
+        "special": 50,
+        "speed": 97
+    },
+    {
+        "name": "Spearow",
+        "number": "#021",
+        "classification": "Tiny Bird Pok\u00e9mon",
+        "height": [
+            "1'00\"",
+            "0.3m"
+        ],
+        "weight": [
+            "4.4lbs",
+            "2kg"
+        ],
+        "hit_points": 40,
+        "attack": 60,
+        "defense": 30,
+        "special": 31,
+        "speed": 70
+    },
+    {
+        "name": "Fearow",
+        "number": "#022",
+        "classification": "Beak Pok\u00e9mon",
+        "height": [
+            "3'11\"",
+            "1.2m"
+        ],
+        "weight": [
+            "83.8lbs",
+            "38kg"
+        ],
+        "hit_points": 65,
+        "attack": 90,
+        "defense": 65,
+        "special": 61,
+        "speed": 100
+    },
+    {
+        "name": "Ekans",
+        "number": "#023",
+        "classification": "Snake Pok\u00e9mon",
+        "height": [
+            "6'07\"",
+            "2m"
+        ],
+        "weight": [
+            "15.2lbs",
+            "6.9kg"
+        ],
+        "hit_points": 35,
+        "attack": 60,
+        "defense": 44,
+        "special": 40,
+        "speed": 55
+    },
+    {
+        "name": "Arbok",
+        "number": "#024",
+        "classification": "Cobra Pok\u00e9mon",
+        "height": [
+            "11'06\"",
+            "3.5m"
+        ],
+        "weight": [
+            "143.3lbs",
+            "65kg"
+        ],
+        "hit_points": 60,
+        "attack": 85,
+        "defense": 69,
+        "special": 65,
+        "speed": 80
+    },
+    {
+        "name": "Pikachu",
+        "number": "#025",
+        "classification": "Mouse Pok\u00e9mon",
+        "height": [
+            "1'04\"",
+            "0.4m"
+        ],
+        "weight": [
+            "13.2lbs",
+            "6kg"
+        ],
+        "hit_points": 35,
+        "attack": 55,
+        "defense": 30,
+        "special": 50,
+        "speed": 90
+    },
+    {
+        "name": "Raichu",
+        "number": "#026",
+        "classification": "Mouse Pok\u00e9mon",
+        "height": [
+            "2'07\"",
+            "0.8m"
+        ],
+        "weight": [
+            "66.1lbs",
+            "30kg"
+        ],
+        "hit_points": 60,
+        "attack": 90,
+        "defense": 55,
+        "special": 90,
+        "speed": 100
+    },
+    {
+        "name": "Sandshrew",
+        "number": "#027",
+        "classification": "Mouse Pok\u00e9mon",
+        "height": [
+            "2'00\"",
+            "0.6m"
+        ],
+        "weight": [
+            "26.5lbs",
+            "12kg"
+        ],
+        "hit_points": 50,
+        "attack": 75,
+        "defense": 85,
+        "special": 30,
+        "speed": 40
+    },
+    {
+        "name": "Sandslash",
+        "number": "#028",
+        "classification": "Mouse Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "65.0lbs",
+            "29.5kg"
+        ],
+        "hit_points": 75,
+        "attack": 100,
+        "defense": 110,
+        "special": 55,
+        "speed": 65
+    },
+    {
+        "name": "Nidoran\u2640",
+        "number": "#029",
+        "classification": "Poison Pin Pok\u00e9mon",
+        "height": [
+            "1'04\"",
+            "0.4m"
+        ],
+        "weight": [
+            "15.4lbs",
+            "7kg"
+        ],
+        "hit_points": 55,
+        "attack": 47,
+        "defense": 52,
+        "special": 40,
+        "speed": 41
+    },
+    {
+        "name": "Nidorina",
+        "number": "#030",
+        "classification": "Poison Pin Pok\u00e9mon",
+        "height": [
+            "2'07\"",
+            "0.8m"
+        ],
+        "weight": [
+            "44.1lbs",
+            "20kg"
+        ],
+        "hit_points": 70,
+        "attack": 62,
+        "defense": 67,
+        "special": 55,
+        "speed": 56
+    },
+    {
+        "name": "Nidoqueen",
+        "number": "#031",
+        "classification": "Drill Pok\u00e9mon",
+        "height": [
+            "4'03\"",
+            "1.3m"
+        ],
+        "weight": [
+            "132.3lbs",
+            "60kg"
+        ],
+        "hit_points": 90,
+        "attack": 82,
+        "defense": 87,
+        "special": 75,
+        "speed": 76
+    },
+    {
+        "name": "Nidoran\u2642",
+        "number": "#032",
+        "classification": "Poison Pin Pok\u00e9mon",
+        "height": [
+            "1'08\"",
+            "0.5m"
+        ],
+        "weight": [
+            "19.8lbs",
+            "9kg"
+        ],
+        "hit_points": 46,
+        "attack": 57,
+        "defense": 40,
+        "special": 40,
+        "speed": 50
+    },
+    {
+        "name": "Nidorino",
+        "number": "#033",
+        "classification": "Poison Pin Pok\u00e9mon",
+        "height": [
+            "2'11\"",
+            "0.9m"
+        ],
+        "weight": [
+            "43.0lbs",
+            "19.5kg"
+        ],
+        "hit_points": 61,
+        "attack": 72,
+        "defense": 57,
+        "special": 55,
+        "speed": 65
+    },
+    {
+        "name": "Nidoking",
+        "number": "#034",
+        "classification": "Drill Pok\u00e9mon",
+        "height": [
+            "4'07\"",
+            "1.4m"
+        ],
+        "weight": [
+            "136.7lbs",
+            "62kg"
+        ],
+        "hit_points": 81,
+        "attack": 92,
+        "defense": 77,
+        "special": 75,
+        "speed": 85
+    },
+    {
+        "name": "Clefairy",
+        "number": "#035",
+        "classification": "Fairy Pok\u00e9mon",
+        "height": [
+            "2'00\"",
+            "0.6m"
+        ],
+        "weight": [
+            "16.5lbs",
+            "7.5kg"
+        ],
+        "hit_points": 70,
+        "attack": 45,
+        "defense": 48,
+        "special": 60,
+        "speed": 35
+    },
+    {
+        "name": "Clefable",
+        "number": "#036",
+        "classification": "Fairy Pok\u00e9mon",
+        "height": [
+            "4'03\"",
+            "1.3m"
+        ],
+        "weight": [
+            "88.2lbs",
+            "40kg"
+        ],
+        "hit_points": 95,
+        "attack": 70,
+        "defense": 73,
+        "special": 85,
+        "speed": 60
+    },
+    {
+        "name": "Vulpix",
+        "number": "#037",
+        "classification": "Fox Pok\u00e9mon",
+        "height": [
+            "2'00\"",
+            "0.6m"
+        ],
+        "weight": [
+            "21.8lbs",
+            "9.9kg"
+        ],
+        "hit_points": 38,
+        "attack": 41,
+        "defense": 40,
+        "special": 65,
+        "speed": 65
+    },
+    {
+        "name": "Ninetales",
+        "number": "#038",
+        "classification": "Fox Pok\u00e9mon",
+        "height": [
+            "3'07\"",
+            "1.1m"
+        ],
+        "weight": [
+            "43.9lbs",
+            "19.9kg"
+        ],
+        "hit_points": 73,
+        "attack": 76,
+        "defense": 75,
+        "special": 100,
+        "speed": 100
+    },
+    {
+        "name": "Jigglypuff",
+        "number": "#039",
+        "classification": "Balloon Pok\u00e9mon",
+        "height": [
+            "1'08\"",
+            "0.5m"
+        ],
+        "weight": [
+            "12.1lbs",
+            "5.5kg"
+        ],
+        "hit_points": 115,
+        "attack": 45,
+        "defense": 20,
+        "special": 25,
+        "speed": 20
+    },
+    {
+        "name": "Wigglytuff",
+        "number": "#040",
+        "classification": "Balloon Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "26.5lbs",
+            "12kg"
+        ],
+        "hit_points": 140,
+        "attack": 70,
+        "defense": 45,
+        "special": 50,
+        "speed": 45
+    },
+    {
+        "name": "Zubat",
+        "number": "#041",
+        "classification": "Bat Pok\u00e9mon",
+        "height": [
+            "2'07\"",
+            "0.8m"
+        ],
+        "weight": [
+            "16.5lbs",
+            "7.5kg"
+        ],
+        "hit_points": 40,
+        "attack": 45,
+        "defense": 35,
+        "special": 40,
+        "speed": 55
+    },
+    {
+        "name": "Golbat",
+        "number": "#042",
+        "classification": "Bat Pok\u00e9mon",
+        "height": [
+            "5'03\"",
+            "1.6m"
+        ],
+        "weight": [
+            "121.3lbs",
+            "55kg"
+        ],
+        "hit_points": 75,
+        "attack": 80,
+        "defense": 70,
+        "special": 75,
+        "speed": 90
+    },
+    {
+        "name": "Oddish",
+        "number": "#043",
+        "classification": "Weed Pok\u00e9mon",
+        "height": [
+            "1'08\"",
+            "0.5m"
+        ],
+        "weight": [
+            "11.9lbs",
+            "5.4kg"
+        ],
+        "hit_points": 45,
+        "attack": 50,
+        "defense": 55,
+        "special": 75,
+        "speed": 30
+    },
+    {
+        "name": "Gloom",
+        "number": "#044",
+        "classification": "Weed Pok\u00e9mon",
+        "height": [
+            "2'07\"",
+            "0.8m"
+        ],
+        "weight": [
+            "19.0lbs",
+            "8.6kg"
+        ],
+        "hit_points": 60,
+        "attack": 65,
+        "defense": 70,
+        "special": 85,
+        "speed": 40
+    },
+    {
+        "name": "Vileplume",
+        "number": "#045",
+        "classification": "Flower Pok\u00e9mon",
+        "height": [
+            "3'11\"",
+            "1.2m"
+        ],
+        "weight": [
+            "41.0lbs",
+            "18.6kg"
+        ],
+        "hit_points": 75,
+        "attack": 80,
+        "defense": 85,
+        "special": 100,
+        "speed": 50
+    },
+    {
+        "name": "Paras",
+        "number": "#046",
+        "classification": "Mushroom Pok\u00e9mon",
+        "height": [
+            "1'00\"",
+            "0.3m"
+        ],
+        "weight": [
+            "11.9lbs",
+            "5.4kg"
+        ],
+        "hit_points": 35,
+        "attack": 70,
+        "defense": 55,
+        "special": 55,
+        "speed": 25
+    },
+    {
+        "name": "Parasect",
+        "number": "#047",
+        "classification": "Mushroom Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "65.0lbs",
+            "29.5kg"
+        ],
+        "hit_points": 60,
+        "attack": 95,
+        "defense": 80,
+        "special": 80,
+        "speed": 30
+    },
+    {
+        "name": "Venonat",
+        "number": "#048",
+        "classification": "Insect Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "66.1lbs",
+            "30kg"
+        ],
+        "hit_points": 60,
+        "attack": 55,
+        "defense": 50,
+        "special": 40,
+        "speed": 45
+    },
+    {
+        "name": "Venomoth",
+        "number": "#049",
+        "classification": "Poison Moth Pok\u00e9mon",
+        "height": [
+            "4'11\"",
+            "1.5m"
+        ],
+        "weight": [
+            "27.6lbs",
+            "12.5kg"
+        ],
+        "hit_points": 70,
+        "attack": 65,
+        "defense": 60,
+        "special": 90,
+        "speed": 90
+    },
+    {
+        "name": "Diglett",
+        "number": "#050",
+        "classification": "Mole Pok\u00e9mon",
+        "height": [
+            "0'08\"",
+            "0.2m"
+        ],
+        "weight": [
+            "1.8lbs",
+            "0.8kg"
+        ],
+        "hit_points": 10,
+        "attack": 55,
+        "defense": 25,
+        "special": 45,
+        "speed": 95
+    },
+    {
+        "name": "Dugtrio",
+        "number": "#051",
+        "classification": "Mole Pok\u00e9mon",
+        "height": [
+            "2'04\"",
+            "0.7m"
+        ],
+        "weight": [
+            "73.4lbs",
+            "33.3kg"
+        ],
+        "hit_points": 35,
+        "attack": 80,
+        "defense": 50,
+        "special": 70,
+        "speed": 120
+    },
+    {
+        "name": "Meowth",
+        "number": "#052",
+        "classification": "Scratch Cat Pok\u00e9mon",
+        "height": [
+            "1'04\"",
+            "0.4m"
+        ],
+        "weight": [
+            "9.3lbs",
+            "4.2kg"
+        ],
+        "hit_points": 40,
+        "attack": 45,
+        "defense": 35,
+        "special": 40,
+        "speed": 90
+    },
+    {
+        "name": "Persian",
+        "number": "#053",
+        "classification": "Classy Cat Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "70.5lbs",
+            "32kg"
+        ],
+        "hit_points": 65,
+        "attack": 70,
+        "defense": 60,
+        "special": 65,
+        "speed": 115
+    },
+    {
+        "name": "Psyduck",
+        "number": "#054",
+        "classification": "Duck Pok\u00e9mon",
+        "height": [
+            "2'07\"",
+            "0.8m"
+        ],
+        "weight": [
+            "43.2lbs",
+            "19.6kg"
+        ],
+        "hit_points": 50,
+        "attack": 52,
+        "defense": 48,
+        "special": 50,
+        "speed": 55
+    },
+    {
+        "name": "Golduck",
+        "number": "#055",
+        "classification": "Duck Pok\u00e9mon",
+        "height": [
+            "5'07\"",
+            "1.7m"
+        ],
+        "weight": [
+            "168.9lbs",
+            "76.6kg"
+        ],
+        "hit_points": 80,
+        "attack": 82,
+        "defense": 78,
+        "special": 80,
+        "speed": 85
+    },
+    {
+        "name": "Mankey",
+        "number": "#056",
+        "classification": "Pig Monkey Pok\u00e9mon",
+        "height": [
+            "1'08\"",
+            "0.5m"
+        ],
+        "weight": [
+            "61.7lbs",
+            "28kg"
+        ],
+        "hit_points": 40,
+        "attack": 80,
+        "defense": 35,
+        "special": 35,
+        "speed": 70
+    },
+    {
+        "name": "Primeape",
+        "number": "#057",
+        "classification": "Pig Monkey Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "70.5lbs",
+            "32kg"
+        ],
+        "hit_points": 65,
+        "attack": 105,
+        "defense": 60,
+        "special": 60,
+        "speed": 95
+    },
+    {
+        "name": "Growlithe",
+        "number": "#058",
+        "classification": "Puppy Pok\u00e9mon",
+        "height": [
+            "2'04\"",
+            "0.7m"
+        ],
+        "weight": [
+            "41.9lbs",
+            "19kg"
+        ],
+        "hit_points": 55,
+        "attack": 70,
+        "defense": 45,
+        "special": 50,
+        "speed": 60
+    },
+    {
+        "name": "Arcanine",
+        "number": "#059",
+        "classification": "Legendary Pok\u00e9mon",
+        "height": [
+            "6'03\"",
+            "1.9m"
+        ],
+        "weight": [
+            "341.7lbs",
+            "155kg"
+        ],
+        "hit_points": 90,
+        "attack": 110,
+        "defense": 80,
+        "special": 80,
+        "speed": 95
+    },
+    {
+        "name": "Poliwag",
+        "number": "#060",
+        "classification": "Tadpole Pok\u00e9mon",
+        "height": [
+            "2'00\"",
+            "0.6m"
+        ],
+        "weight": [
+            "27.3lbs",
+            "12.4kg"
+        ],
+        "hit_points": 40,
+        "attack": 50,
+        "defense": 40,
+        "special": 40,
+        "speed": 90
+    },
+    {
+        "name": "Poliwhirl",
+        "number": "#061",
+        "classification": "Tadpole Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "44.1lbs",
+            "20kg"
+        ],
+        "hit_points": 65,
+        "attack": 65,
+        "defense": 65,
+        "special": 50,
+        "speed": 90
+    },
+    {
+        "name": "Poliwrath",
+        "number": "#062",
+        "classification": "Tadpole Pok\u00e9mon",
+        "height": [
+            "4'03\"",
+            "1.3m"
+        ],
+        "weight": [
+            "119.0lbs",
+            "54kg"
+        ],
+        "hit_points": 90,
+        "attack": 85,
+        "defense": 95,
+        "special": 70,
+        "speed": 70
+    },
+    {
+        "name": "Abra",
+        "number": "#063",
+        "classification": "Psi Pok\u00e9mon",
+        "height": [
+            "2'11\"",
+            "0.9m"
+        ],
+        "weight": [
+            "43.0lbs",
+            "19.5kg"
+        ],
+        "hit_points": 25,
+        "attack": 20,
+        "defense": 15,
+        "special": 105,
+        "speed": 90
+    },
+    {
+        "name": "Kadabra",
+        "number": "#064",
+        "classification": "Psi Pok\u00e9mon",
+        "height": [
+            "4'03\"",
+            "1.3m"
+        ],
+        "weight": [
+            "124.6lbs",
+            "56.5kg"
+        ],
+        "hit_points": 40,
+        "attack": 35,
+        "defense": 30,
+        "special": 120,
+        "speed": 105
+    },
+    {
+        "name": "Alakazam",
+        "number": "#065",
+        "classification": "Psi Pok\u00e9mon",
+        "height": [
+            "4'11\"",
+            "1.5m"
+        ],
+        "weight": [
+            "105.8lbs",
+            "48kg"
+        ],
+        "hit_points": 55,
+        "attack": 50,
+        "defense": 45,
+        "special": 135,
+        "speed": 120
+    },
+    {
+        "name": "Machop",
+        "number": "#066",
+        "classification": "Superpower Pok\u00e9mon",
+        "height": [
+            "2'07\"",
+            "0.8m"
+        ],
+        "weight": [
+            "43.0lbs",
+            "19.5kg"
+        ],
+        "hit_points": 70,
+        "attack": 80,
+        "defense": 50,
+        "special": 35,
+        "speed": 35
+    },
+    {
+        "name": "Machoke",
+        "number": "#067",
+        "classification": "Superpower Pok\u00e9mon",
+        "height": [
+            "4'11\"",
+            "1.5m"
+        ],
+        "weight": [
+            "155.4lbs",
+            "70.5kg"
+        ],
+        "hit_points": 80,
+        "attack": 100,
+        "defense": 70,
+        "special": 50,
+        "speed": 45
+    },
+    {
+        "name": "Machamp",
+        "number": "#068",
+        "classification": "Superpower Pok\u00e9mon",
+        "height": [
+            "5'03\"",
+            "1.6m"
+        ],
+        "weight": [
+            "286.6lbs",
+            "130kg"
+        ],
+        "hit_points": 90,
+        "attack": 130,
+        "defense": 80,
+        "special": 65,
+        "speed": 55
+    },
+    {
+        "name": "Bellsprout",
+        "number": "#069",
+        "classification": "Flower Pok\u00e9mon",
+        "height": [
+            "2'04\"",
+            "0.7m"
+        ],
+        "weight": [
+            "8.8lbs",
+            "4kg"
+        ],
+        "hit_points": 50,
+        "attack": 75,
+        "defense": 35,
+        "special": 70,
+        "speed": 40
+    },
+    {
+        "name": "Weepinbell",
+        "number": "#070",
+        "classification": "Flycatcher Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "14.1lbs",
+            "6.4kg"
+        ],
+        "hit_points": 65,
+        "attack": 90,
+        "defense": 50,
+        "special": 85,
+        "speed": 55
+    },
+    {
+        "name": "Victreebel",
+        "number": "#071",
+        "classification": "Flycatcher Pok\u00e9mon",
+        "height": [
+            "5'07\"",
+            "1.7m"
+        ],
+        "weight": [
+            "34.2lbs",
+            "15.5kg"
+        ],
+        "hit_points": 80,
+        "attack": 105,
+        "defense": 65,
+        "special": 100,
+        "speed": 70
+    },
+    {
+        "name": "Tentacool",
+        "number": "#072",
+        "classification": "Jellyfish Pok\u00e9mon",
+        "height": [
+            "2'11\"",
+            "0.9m"
+        ],
+        "weight": [
+            "100.3lbs",
+            "45.5kg"
+        ],
+        "hit_points": 40,
+        "attack": 40,
+        "defense": 35,
+        "special": 100,
+        "speed": 70
+    },
+    {
+        "name": "Tentacruel",
+        "number": "#073",
+        "classification": "Jellyfish Pok\u00e9mon",
+        "height": [
+            "5'03\"",
+            "1.6m"
+        ],
+        "weight": [
+            "121.3lbs",
+            "55kg"
+        ],
+        "hit_points": 80,
+        "attack": 70,
+        "defense": 65,
+        "special": 120,
+        "speed": 100
+    },
+    {
+        "name": "Geodude",
+        "number": "#074",
+        "classification": "Rock Pok\u00e9mon",
+        "height": [
+            "1'04\"",
+            "0.4m"
+        ],
+        "weight": [
+            "44.1lbs",
+            "20kg"
+        ],
+        "hit_points": 40,
+        "attack": 80,
+        "defense": 100,
+        "special": 30,
+        "speed": 20
+    },
+    {
+        "name": "Graveler",
+        "number": "#075",
+        "classification": "Rock Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "231.5lbs",
+            "105kg"
+        ],
+        "hit_points": 55,
+        "attack": 95,
+        "defense": 115,
+        "special": 45,
+        "speed": 35
+    },
+    {
+        "name": "Golem",
+        "number": "#076",
+        "classification": "Megaton Pok\u00e9mon",
+        "height": [
+            "4'07\"",
+            "1.4m"
+        ],
+        "weight": [
+            "661.4lbs",
+            "300kg"
+        ],
+        "hit_points": 80,
+        "attack": 110,
+        "defense": 130,
+        "special": 55,
+        "speed": 45
+    },
+    {
+        "name": "Ponyta",
+        "number": "#077",
+        "classification": "Fire Horse Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "66.1lbs",
+            "30kg"
+        ],
+        "hit_points": 50,
+        "attack": 85,
+        "defense": 55,
+        "special": 65,
+        "speed": 90
+    },
+    {
+        "name": "Rapidash",
+        "number": "#078",
+        "classification": "Fire Horse Pok\u00e9mon",
+        "height": [
+            "5'07\"",
+            "1.7m"
+        ],
+        "weight": [
+            "209.4lbs",
+            "95kg"
+        ],
+        "hit_points": 65,
+        "attack": 100,
+        "defense": 70,
+        "special": 80,
+        "speed": 105
+    },
+    {
+        "name": "Slowpoke",
+        "number": "#079",
+        "classification": "Dopey Pok\u00e9mon",
+        "height": [
+            "3'11\"",
+            "1.2m"
+        ],
+        "weight": [
+            "79.4lbs",
+            "36kg"
+        ],
+        "hit_points": 90,
+        "attack": 65,
+        "defense": 65,
+        "special": 40,
+        "speed": 15
+    },
+    {
+        "name": "Slowbro",
+        "number": "#080",
+        "classification": "Hermit Crab Pok\u00e9mon",
+        "height": [
+            "5'03\"",
+            "1.6m"
+        ],
+        "weight": [
+            "173.1lbs",
+            "78.5kg"
+        ],
+        "hit_points": 95,
+        "attack": 75,
+        "defense": 110,
+        "special": 80,
+        "speed": 30
+    },
+    {
+        "name": "Magnemite",
+        "number": "#081",
+        "classification": "Magnet Pok\u00e9mon",
+        "height": [
+            "1'00\"",
+            "0.3m"
+        ],
+        "weight": [
+            "13.2lbs",
+            "6kg"
+        ],
+        "hit_points": 25,
+        "attack": 35,
+        "defense": 70,
+        "special": 95,
+        "speed": 45
+    },
+    {
+        "name": "Magneton",
+        "number": "#082",
+        "classification": "Magnet Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "132.3lbs",
+            "60kg"
+        ],
+        "hit_points": 50,
+        "attack": 60,
+        "defense": 95,
+        "special": 120,
+        "speed": 70
+    },
+    {
+        "name": "Farfetch'd",
+        "number": "#083",
+        "classification": "Wild Duck Pok\u00e9mon",
+        "height": [
+            "2'07\"",
+            "0.8m"
+        ],
+        "weight": [
+            "33.1lbs",
+            "15kg"
+        ],
+        "hit_points": 52,
+        "attack": 65,
+        "defense": 55,
+        "special": 58,
+        "speed": 60
+    },
+    {
+        "name": "Doduo",
+        "number": "#084",
+        "classification": "Twin Bird Pok\u00e9mon",
+        "height": [
+            "4'07\"",
+            "1.4m"
+        ],
+        "weight": [
+            "86.4lbs",
+            "39.2kg"
+        ],
+        "hit_points": 35,
+        "attack": 85,
+        "defense": 45,
+        "special": 35,
+        "speed": 75
+    },
+    {
+        "name": "Dodrio",
+        "number": "#085",
+        "classification": "Triple Bird Pok\u00e9mon",
+        "height": [
+            "5'11\"",
+            "1.8m"
+        ],
+        "weight": [
+            "187.8lbs",
+            "85.2kg"
+        ],
+        "hit_points": 60,
+        "attack": 110,
+        "defense": 70,
+        "special": 60,
+        "speed": 100
+    },
+    {
+        "name": "Seel",
+        "number": "#086",
+        "classification": "Sea Lion Pok\u00e9mon",
+        "height": [
+            "3'07\"",
+            "1.1m"
+        ],
+        "weight": [
+            "198.4lbs",
+            "90kg"
+        ],
+        "hit_points": 65,
+        "attack": 45,
+        "defense": 55,
+        "special": 70,
+        "speed": 45
+    },
+    {
+        "name": "Dewgong",
+        "number": "#087",
+        "classification": "Sea Lion Pok\u00e9mon",
+        "height": [
+            "5'07\"",
+            "1.7m"
+        ],
+        "weight": [
+            "264.6lbs",
+            "120kg"
+        ],
+        "hit_points": 90,
+        "attack": 70,
+        "defense": 80,
+        "special": 95,
+        "speed": 70
+    },
+    {
+        "name": "Grimer",
+        "number": "#088",
+        "classification": "Sludge Pok\u00e9mon",
+        "height": [
+            "2'11\"",
+            "0.9m"
+        ],
+        "weight": [
+            "66.1lbs",
+            "30kg"
+        ],
+        "hit_points": 80,
+        "attack": 80,
+        "defense": 50,
+        "special": 40,
+        "speed": 25
+    },
+    {
+        "name": "Muk",
+        "number": "#089",
+        "classification": "Sludge Pok\u00e9mon",
+        "height": [
+            "3'11\"",
+            "1.2m"
+        ],
+        "weight": [
+            "66.1lbs",
+            "30kg"
+        ],
+        "hit_points": 105,
+        "attack": 105,
+        "defense": 75,
+        "special": 65,
+        "speed": 50
+    },
+    {
+        "name": "Shellder",
+        "number": "#090",
+        "classification": "Bivalve Pok\u00e9mon",
+        "height": [
+            "1'00\"",
+            "0.3m"
+        ],
+        "weight": [
+            "8.8lbs",
+            "4kg"
+        ],
+        "hit_points": 30,
+        "attack": 65,
+        "defense": 100,
+        "special": 45,
+        "speed": 40
+    },
+    {
+        "name": "Cloyster",
+        "number": "#091",
+        "classification": "Bivalve Pok\u00e9mon",
+        "height": [
+            "4'11\"",
+            "1.5m"
+        ],
+        "weight": [
+            "292.1lbs",
+            "132.5kg"
+        ],
+        "hit_points": 50,
+        "attack": 95,
+        "defense": 180,
+        "special": 85,
+        "speed": 70
+    },
+    {
+        "name": "Gastly",
+        "number": "#092",
+        "classification": "Gas Pok\u00e9mon",
+        "height": [
+            "4'03\"",
+            "1.3m"
+        ],
+        "weight": [
+            "0.2lbs",
+            "0.1kg"
+        ],
+        "hit_points": 30,
+        "attack": 35,
+        "defense": 30,
+        "special": 100,
+        "speed": 80
+    },
+    {
+        "name": "Haunter",
+        "number": "#093",
+        "classification": "Gas Pok\u00e9mon",
+        "height": [
+            "5'03\"",
+            "1.6m"
+        ],
+        "weight": [
+            "0.2lbs",
+            "0.1kg"
+        ],
+        "hit_points": 45,
+        "attack": 50,
+        "defense": 45,
+        "special": 115,
+        "speed": 95
+    },
+    {
+        "name": "Gengar",
+        "number": "#094",
+        "classification": "Shadow Pok\u00e9mon",
+        "height": [
+            "4'11\"",
+            "1.5m"
+        ],
+        "weight": [
+            "89.3lbs",
+            "40.5kg"
+        ],
+        "hit_points": 60,
+        "attack": 65,
+        "defense": 60,
+        "special": 130,
+        "speed": 110
+    },
+    {
+        "name": "Onix",
+        "number": "#095",
+        "classification": "Rock Snake Pok\u00e9mon",
+        "height": [
+            "28'10\"",
+            "8.8m"
+        ],
+        "weight": [
+            "463.0lbs",
+            "210kg"
+        ],
+        "hit_points": 35,
+        "attack": 45,
+        "defense": 160,
+        "special": 30,
+        "speed": 70
+    },
+    {
+        "name": "Drowzee",
+        "number": "#096",
+        "classification": "Hypnosis Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "71.4lbs",
+            "32.4kg"
+        ],
+        "hit_points": 60,
+        "attack": 48,
+        "defense": 45,
+        "special": 90,
+        "speed": 42
+    },
+    {
+        "name": "Hypno",
+        "number": "#097",
+        "classification": "Hypnosis Pok\u00e9mon",
+        "height": [
+            "5'03\"",
+            "1.6m"
+        ],
+        "weight": [
+            "166.7lbs",
+            "75.6kg"
+        ],
+        "hit_points": 85,
+        "attack": 73,
+        "defense": 70,
+        "special": 115,
+        "speed": 67
+    },
+    {
+        "name": "Krabby",
+        "number": "#098",
+        "classification": "River Crab Pok\u00e9mon",
+        "height": [
+            "1'04\"",
+            "0.4m"
+        ],
+        "weight": [
+            "14.3lbs",
+            "6.5kg"
+        ],
+        "hit_points": 30,
+        "attack": 105,
+        "defense": 90,
+        "special": 25,
+        "speed": 50
+    },
+    {
+        "name": "Kingler",
+        "number": "#099",
+        "classification": "Pincer Pok\u00e9mon",
+        "height": [
+            "4'03\"",
+            "1.3m"
+        ],
+        "weight": [
+            "132.3lbs",
+            "60kg"
+        ],
+        "hit_points": 55,
+        "attack": 130,
+        "defense": 115,
+        "special": 50,
+        "speed": 75
+    },
+    {
+        "name": "Voltorb",
+        "number": "#100",
+        "classification": "Ball Pok\u00e9mon",
+        "height": [
+            "1'08\"",
+            "0.5m"
+        ],
+        "weight": [
+            "22.9lbs",
+            "10.4kg"
+        ],
+        "hit_points": 40,
+        "attack": 30,
+        "defense": 50,
+        "special": 55,
+        "speed": 100
+    },
+    {
+        "name": "Electrode",
+        "number": "#101",
+        "classification": "Ball Pok\u00e9mon",
+        "height": [
+            "3'11\"",
+            "1.2m"
+        ],
+        "weight": [
+            "146.8lbs",
+            "66.6kg"
+        ],
+        "hit_points": 60,
+        "attack": 50,
+        "defense": 70,
+        "special": 80,
+        "speed": 140
+    },
+    {
+        "name": "Exeggcute",
+        "number": "#102",
+        "classification": "Egg Pok\u00e9mon",
+        "height": [
+            "1'04\"",
+            "0.4m"
+        ],
+        "weight": [
+            "5.5lbs",
+            "2.5kg"
+        ],
+        "hit_points": 60,
+        "attack": 40,
+        "defense": 80,
+        "special": 60,
+        "speed": 40
+    },
+    {
+        "name": "Exeggutor",
+        "number": "#103",
+        "classification": "Coconut Pok\u00e9mon",
+        "height": [
+            "6'07\"",
+            "2m"
+        ],
+        "weight": [
+            "264.6lbs",
+            "120kg"
+        ],
+        "hit_points": 95,
+        "attack": 95,
+        "defense": 85,
+        "special": 125,
+        "speed": 55
+    },
+    {
+        "name": "Cubone",
+        "number": "#104",
+        "classification": "Lonely Pok\u00e9mon",
+        "height": [
+            "1'04\"",
+            "0.4m"
+        ],
+        "weight": [
+            "14.3lbs",
+            "6.5kg"
+        ],
+        "hit_points": 50,
+        "attack": 50,
+        "defense": 95,
+        "special": 40,
+        "speed": 35
+    },
+    {
+        "name": "Marowak",
+        "number": "#105",
+        "classification": "Bone Keeper Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "99.2lbs",
+            "45kg"
+        ],
+        "hit_points": 60,
+        "attack": 80,
+        "defense": 110,
+        "special": 50,
+        "speed": 45
+    },
+    {
+        "name": "Hitmonlee",
+        "number": "#106",
+        "classification": "Kicking Pok\u00e9mon",
+        "height": [
+            "4'11\"",
+            "1.5m"
+        ],
+        "weight": [
+            "109.8lbs",
+            "49.8kg"
+        ],
+        "hit_points": 50,
+        "attack": 120,
+        "defense": 53,
+        "special": 35,
+        "speed": 87
+    },
+    {
+        "name": "Hitmonchan",
+        "number": "#107",
+        "classification": "Punching Pok\u00e9mon",
+        "height": [
+            "4'07\"",
+            "1.4m"
+        ],
+        "weight": [
+            "110.7lbs",
+            "50.2kg"
+        ],
+        "hit_points": 50,
+        "attack": 105,
+        "defense": 79,
+        "special": 35,
+        "speed": 76
+    },
+    {
+        "name": "Lickitung",
+        "number": "#108",
+        "classification": "Licking Pok\u00e9mon",
+        "height": [
+            "3'11\"",
+            "1.2m"
+        ],
+        "weight": [
+            "144.4lbs",
+            "65.5kg"
+        ],
+        "hit_points": 90,
+        "attack": 55,
+        "defense": 75,
+        "special": 60,
+        "speed": 30
+    },
+    {
+        "name": "Koffing",
+        "number": "#109",
+        "classification": "Poison Gas Pok\u00e9mon",
+        "height": [
+            "2'00\"",
+            "0.6m"
+        ],
+        "weight": [
+            "2.2lbs",
+            "1kg"
+        ],
+        "hit_points": 40,
+        "attack": 65,
+        "defense": 95,
+        "special": 60,
+        "speed": 35
+    },
+    {
+        "name": "Weezing",
+        "number": "#110",
+        "classification": "Poison Gas Pok\u00e9mon",
+        "height": [
+            "3'11\"",
+            "1.2m"
+        ],
+        "weight": [
+            "20.9lbs",
+            "9.5kg"
+        ],
+        "hit_points": 65,
+        "attack": 90,
+        "defense": 120,
+        "special": 85,
+        "speed": 60
+    },
+    {
+        "name": "Rhyhorn",
+        "number": "#111",
+        "classification": "Spikes Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "253.5lbs",
+            "115kg"
+        ],
+        "hit_points": 80,
+        "attack": 85,
+        "defense": 95,
+        "special": 30,
+        "speed": 25
+    },
+    {
+        "name": "Rhydon",
+        "number": "#112",
+        "classification": "Drill Pok\u00e9mon",
+        "height": [
+            "6'03\"",
+            "1.9m"
+        ],
+        "weight": [
+            "264.6lbs",
+            "120kg"
+        ],
+        "hit_points": 105,
+        "attack": 130,
+        "defense": 120,
+        "special": 45,
+        "speed": 40
+    },
+    {
+        "name": "Chansey",
+        "number": "#113",
+        "classification": "Egg Pok\u00e9mon",
+        "height": [
+            "3'07\"",
+            "1.1m"
+        ],
+        "weight": [
+            "76.3lbs",
+            "34.6kg"
+        ],
+        "hit_points": 250,
+        "attack": 5,
+        "defense": 5,
+        "special": 105,
+        "speed": 50
+    },
+    {
+        "name": "Tangela",
+        "number": "#114",
+        "classification": "Vine Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "77.2lbs",
+            "35kg"
+        ],
+        "hit_points": 65,
+        "attack": 55,
+        "defense": 115,
+        "special": 100,
+        "speed": 60
+    },
+    {
+        "name": "Kangaskhan",
+        "number": "#115",
+        "classification": "Parent Pok\u00e9mon",
+        "height": [
+            "7'03\"",
+            "2.2m"
+        ],
+        "weight": [
+            "176.4lbs",
+            "80kg"
+        ],
+        "hit_points": 105,
+        "attack": 95,
+        "defense": 80,
+        "special": 40,
+        "speed": 90
+    },
+    {
+        "name": "Horsea",
+        "number": "#116",
+        "classification": "Dragon Pok\u00e9mon",
+        "height": [
+            "1'04\"",
+            "0.4m"
+        ],
+        "weight": [
+            "17.6lbs",
+            "8kg"
+        ],
+        "hit_points": 30,
+        "attack": 40,
+        "defense": 70,
+        "special": 70,
+        "speed": 60
+    },
+    {
+        "name": "Seadra",
+        "number": "#117",
+        "classification": "Dragon Pok\u00e9mon",
+        "height": [
+            "3'11\"",
+            "1.2m"
+        ],
+        "weight": [
+            "55.1lbs",
+            "25kg"
+        ],
+        "hit_points": 55,
+        "attack": 65,
+        "defense": 95,
+        "special": 95,
+        "speed": 85
+    },
+    {
+        "name": "Goldeen",
+        "number": "#118",
+        "classification": "Goldfish Pok\u00e9mon",
+        "height": [
+            "2'00\"",
+            "0.6m"
+        ],
+        "weight": [
+            "33.1lbs",
+            "15kg"
+        ],
+        "hit_points": 45,
+        "attack": 67,
+        "defense": 60,
+        "special": 50,
+        "speed": 63
+    },
+    {
+        "name": "Seaking",
+        "number": "#119",
+        "classification": "Goldfish Pok\u00e9mon",
+        "height": [
+            "4'03\"",
+            "1.3m"
+        ],
+        "weight": [
+            "86.0lbs",
+            "39kg"
+        ],
+        "hit_points": 80,
+        "attack": 92,
+        "defense": 65,
+        "special": 80,
+        "speed": 68
+    },
+    {
+        "name": "Staryu",
+        "number": "#120",
+        "classification": "Starshape Pok\u00e9mon",
+        "height": [
+            "2'07\"",
+            "0.8m"
+        ],
+        "weight": [
+            "76.1lbs",
+            "34.5kg"
+        ],
+        "hit_points": 30,
+        "attack": 45,
+        "defense": 55,
+        "special": 70,
+        "speed": 85
+    },
+    {
+        "name": "Starmie",
+        "number": "#121",
+        "classification": "Mysterious Pok\u00e9mon",
+        "height": [
+            "3'07\"",
+            "1.1m"
+        ],
+        "weight": [
+            "176.4lbs",
+            "80kg"
+        ],
+        "hit_points": 60,
+        "attack": 75,
+        "defense": 85,
+        "special": 100,
+        "speed": 115
+    },
+    {
+        "name": "Mr. Mime",
+        "number": "#122",
+        "classification": "Barrier Pok\u00e9mon",
+        "height": [
+            "4'03\"",
+            "1.3m"
+        ],
+        "weight": [
+            "120.2lbs",
+            "54.5kg"
+        ],
+        "hit_points": 40,
+        "attack": 45,
+        "defense": 65,
+        "special": 100,
+        "speed": 90
+    },
+    {
+        "name": "Scyther",
+        "number": "#123",
+        "classification": "Mantis Pok\u00e9mon",
+        "height": [
+            "4'11\"",
+            "1.5m"
+        ],
+        "weight": [
+            "123.5lbs",
+            "56kg"
+        ],
+        "hit_points": 70,
+        "attack": 110,
+        "defense": 80,
+        "special": 55,
+        "speed": 105
+    },
+    {
+        "name": "Jynx",
+        "number": "#124",
+        "classification": "Humanshape Pok\u00e9mon",
+        "height": [
+            "4'07\"",
+            "1.4m"
+        ],
+        "weight": [
+            "89.5lbs",
+            "40.6kg"
+        ],
+        "hit_points": 65,
+        "attack": 50,
+        "defense": 35,
+        "special": 95,
+        "speed": 95
+    },
+    {
+        "name": "Electabuzz",
+        "number": "#125",
+        "classification": "Electric Pok\u00e9mon",
+        "height": [
+            "3'07\"",
+            "1.1m"
+        ],
+        "weight": [
+            "66.1lbs",
+            "30kg"
+        ],
+        "hit_points": 65,
+        "attack": 83,
+        "defense": 57,
+        "special": 85,
+        "speed": 105
+    },
+    {
+        "name": "Magmar",
+        "number": "#126",
+        "classification": "Spitfire Pok\u00e9mon",
+        "height": [
+            "4'03\"",
+            "1.3m"
+        ],
+        "weight": [
+            "98.1lbs",
+            "44.5kg"
+        ],
+        "hit_points": 65,
+        "attack": 95,
+        "defense": 57,
+        "special": 85,
+        "speed": 93
+    },
+    {
+        "name": "Pinsir",
+        "number": "#127",
+        "classification": "Stagbeetle Pok\u00e9mon",
+        "height": [
+            "4'11\"",
+            "1.5m"
+        ],
+        "weight": [
+            "121.3lbs",
+            "55kg"
+        ],
+        "hit_points": 65,
+        "attack": 125,
+        "defense": 100,
+        "special": 55,
+        "speed": 85
+    },
+    {
+        "name": "Tauros",
+        "number": "#128",
+        "classification": "Wild Bull Pok\u00e9mon",
+        "height": [
+            "4'07\"",
+            "1.4m"
+        ],
+        "weight": [
+            "194.9lbs",
+            "88.4kg"
+        ],
+        "hit_points": 75,
+        "attack": 100,
+        "defense": 95,
+        "special": 70,
+        "speed": 110
+    },
+    {
+        "name": "Magikarp",
+        "number": "#129",
+        "classification": "Fish Pok\u00e9mon",
+        "height": [
+            "2'11\"",
+            "0.9m"
+        ],
+        "weight": [
+            "22.0lbs",
+            "10kg"
+        ],
+        "hit_points": 20,
+        "attack": 10,
+        "defense": 55,
+        "special": 20,
+        "speed": 80
+    },
+    {
+        "name": "Gyarados",
+        "number": "#130",
+        "classification": "Atrocious Pok\u00e9mon",
+        "height": [
+            "21'04\"",
+            "6.5m"
+        ],
+        "weight": [
+            "518.1lbs",
+            "235kg"
+        ],
+        "hit_points": 95,
+        "attack": 125,
+        "defense": 79,
+        "special": 100,
+        "speed": 81
+    },
+    {
+        "name": "Lapras",
+        "number": "#131",
+        "classification": "Transport Pok\u00e9mon",
+        "height": [
+            "8'02\"",
+            "2.5m"
+        ],
+        "weight": [
+            "485.0lbs",
+            "220kg"
+        ],
+        "hit_points": 130,
+        "attack": 85,
+        "defense": 80,
+        "special": 95,
+        "speed": 60
+    },
+    {
+        "name": "Ditto",
+        "number": "#132",
+        "classification": "Transform Pok\u00e9mon",
+        "height": [
+            "1'00\"",
+            "0.3m"
+        ],
+        "weight": [
+            "8.8lbs",
+            "4kg"
+        ],
+        "hit_points": 48,
+        "attack": 48,
+        "defense": 48,
+        "special": 48,
+        "speed": 48
+    },
+    {
+        "name": "Eevee",
+        "number": "#133",
+        "classification": "Evolution Pok\u00e9mon",
+        "height": [
+            "1'00\"",
+            "0.3m"
+        ],
+        "weight": [
+            "14.3lbs",
+            "6.5kg"
+        ],
+        "hit_points": 55,
+        "attack": 55,
+        "defense": 50,
+        "special": 65,
+        "speed": 55
+    },
+    {
+        "name": "Vaporeon",
+        "number": "#134",
+        "classification": "Bubble Jet Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "63.9lbs",
+            "29kg"
+        ],
+        "hit_points": 130,
+        "attack": 65,
+        "defense": 60,
+        "special": 110,
+        "speed": 65
+    },
+    {
+        "name": "Jolteon",
+        "number": "#135",
+        "classification": "Lightning Pok\u00e9mon",
+        "height": [
+            "2'07\"",
+            "0.8m"
+        ],
+        "weight": [
+            "54.0lbs",
+            "24.5kg"
+        ],
+        "hit_points": 65,
+        "attack": 65,
+        "defense": 60,
+        "special": 110,
+        "speed": 130
+    },
+    {
+        "name": "Flareon",
+        "number": "#136",
+        "classification": "Flame Pok\u00e9mon",
+        "height": [
+            "2'11\"",
+            "0.9m"
+        ],
+        "weight": [
+            "55.1lbs",
+            "25kg"
+        ],
+        "hit_points": 65,
+        "attack": 130,
+        "defense": 60,
+        "special": 110,
+        "speed": 65
+    },
+    {
+        "name": "Porygon",
+        "number": "#137",
+        "classification": "Virtual Pok\u00e9mon",
+        "height": [
+            "2'07\"",
+            "0.8m"
+        ],
+        "weight": [
+            "80.5lbs",
+            "36.5kg"
+        ],
+        "hit_points": 65,
+        "attack": 60,
+        "defense": 70,
+        "special": 75,
+        "speed": 40
+    },
+    {
+        "name": "Omanyte",
+        "number": "#138",
+        "classification": "Spiral Pok\u00e9mon",
+        "height": [
+            "1'04\"",
+            "0.4m"
+        ],
+        "weight": [
+            "16.5lbs",
+            "7.5kg"
+        ],
+        "hit_points": 35,
+        "attack": 40,
+        "defense": 100,
+        "special": 90,
+        "speed": 35
+    },
+    {
+        "name": "Omastar",
+        "number": "#139",
+        "classification": "Spiral Pok\u00e9mon",
+        "height": [
+            "3'03\"",
+            "1m"
+        ],
+        "weight": [
+            "77.2lbs",
+            "35kg"
+        ],
+        "hit_points": 70,
+        "attack": 60,
+        "defense": 125,
+        "special": 115,
+        "speed": 55
+    },
+    {
+        "name": "Kabuto",
+        "number": "#140",
+        "classification": "Shellfish Pok\u00e9mon",
+        "height": [
+            "1'08\"",
+            "0.5m"
+        ],
+        "weight": [
+            "25.4lbs",
+            "11.5kg"
+        ],
+        "hit_points": 30,
+        "attack": 80,
+        "defense": 90,
+        "special": 45,
+        "speed": 55
+    },
+    {
+        "name": "Kabutops",
+        "number": "#141",
+        "classification": "Shellfish Pok\u00e9mon",
+        "height": [
+            "4'03\"",
+            "1.3m"
+        ],
+        "weight": [
+            "89.3lbs",
+            "40.5kg"
+        ],
+        "hit_points": 60,
+        "attack": 115,
+        "defense": 105,
+        "special": 70,
+        "speed": 80
+    },
+    {
+        "name": "Aerodactyl",
+        "number": "#142",
+        "classification": "Fossil Pok\u00e9mon",
+        "height": [
+            "5'11\"",
+            "1.8m"
+        ],
+        "weight": [
+            "130.1lbs",
+            "59kg"
+        ],
+        "hit_points": 80,
+        "attack": 105,
+        "defense": 65,
+        "special": 60,
+        "speed": 130
+    },
+    {
+        "name": "Snorlax",
+        "number": "#143",
+        "classification": "Sleeping Pok\u00e9mon",
+        "height": [
+            "6'11\"",
+            "2.1m"
+        ],
+        "weight": [
+            "1014.1lbs",
+            "460kg"
+        ],
+        "hit_points": 160,
+        "attack": 110,
+        "defense": 65,
+        "special": 65,
+        "speed": 30
+    },
+    {
+        "name": "Articuno",
+        "number": "#144",
+        "classification": "Freeze Pok\u00e9mon",
+        "height": [
+            "5'07\"",
+            "1.7m"
+        ],
+        "weight": [
+            "122.1lbs",
+            "55.4kg"
+        ],
+        "hit_points": 90,
+        "attack": 85,
+        "defense": 100,
+        "special": 125,
+        "speed": 85
+    },
+    {
+        "name": "Zapdos",
+        "number": "#145",
+        "classification": "Electric Pok\u00e9mon",
+        "height": [
+            "5'03\"",
+            "1.6m"
+        ],
+        "weight": [
+            "116.0lbs",
+            "52.6kg"
+        ],
+        "hit_points": 90,
+        "attack": 90,
+        "defense": 85,
+        "special": 125,
+        "speed": 100
+    },
+    {
+        "name": "Moltres",
+        "number": "#146",
+        "classification": "Flame Pok\u00e9mon",
+        "height": [
+            "6'07\"",
+            "2m"
+        ],
+        "weight": [
+            "132.3lbs",
+            "60kg"
+        ],
+        "hit_points": 90,
+        "attack": 100,
+        "defense": 90,
+        "special": 125,
+        "speed": 90
+    },
+    {
+        "name": "Dratini",
+        "number": "#147",
+        "classification": "Dragon Pok\u00e9mon",
+        "height": [
+            "5'11\"",
+            "1.8m"
+        ],
+        "weight": [
+            "7.3lbs",
+            "3.3kg"
+        ],
+        "hit_points": 41,
+        "attack": 64,
+        "defense": 45,
+        "special": 50,
+        "speed": 50
+    },
+    {
+        "name": "Dragonair",
+        "number": "#148",
+        "classification": "Dragon Pok\u00e9mon",
+        "height": [
+            "13'01\"",
+            "4m"
+        ],
+        "weight": [
+            "36.4lbs",
+            "16.5kg"
+        ],
+        "hit_points": 61,
+        "attack": 84,
+        "defense": 65,
+        "special": 70,
+        "speed": 70
+    },
+    {
+        "name": "Dragonite",
+        "number": "#149",
+        "classification": "Dragon Pok\u00e9mon",
+        "height": [
+            "7'03\"",
+            "2.2m"
+        ],
+        "weight": [
+            "463.0lbs",
+            "210kg"
+        ],
+        "hit_points": 91,
+        "attack": 134,
+        "defense": 95,
+        "special": 100,
+        "speed": 80
+    },
+    {
+        "name": "Mewtwo",
+        "number": "#150",
+        "classification": "Genetic Pok\u00e9mon",
+        "height": [
+            "6'07\"",
+            "2m"
+        ],
+        "weight": [
+            "269.0lbs",
+            "122kg"
+        ],
+        "hit_points": 106,
+        "attack": 110,
+        "defense": 90,
+        "special": 154,
+        "speed": 130
+    },
+    {
+        "name": "Mew",
+        "number": "#151",
+        "classification": "New Species Pok\u00e9mon",
+        "height": [
+            "1'04\"",
+            "0.4m"
+        ],
+        "weight": [
+            "8.8lbs",
+            "4kg"
+        ],
+        "hit_points": 100,
+        "attack": 100,
+        "defense": 100,
+        "special": 100,
+        "speed": 100
+    }
+]

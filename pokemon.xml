@@ -1,0 +1,1815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pokedex>
+	<pokemon>
+		<number> 001</number>
+		<name>Bulbasaur</name>
+		<classification>Seed Pokémon</classification>
+		<height>0.7m</height>
+		<weight>6.9kg</weight>
+		<hit_points>45</hit_points>
+		<attack>49</attack>
+		<defense>49</defense>
+		<special>65</special>
+		<speed>45</speed>
+	</pokemon>
+	<pokemon>
+		<number> 002</number>
+		<name>Ivysaur</name>
+		<classification>Seed Pokémon</classification>
+		<height>1m</height>
+		<weight>13kg</weight>
+		<hit_points>60</hit_points>
+		<attack>62</attack>
+		<defense>63</defense>
+		<special>80</special>
+		<speed>60</speed>
+	</pokemon>
+	<pokemon>
+		<name>Venusaur</name>
+		<number> 003</number>
+		<classification>Seed Pokémon</classification>
+		<height>2m</height>
+		<weight>100kg</weight>
+		<hit_points>80</hit_points>
+		<attack>82</attack>
+		<defense>83</defense>
+		<special>100</special>
+		<speed>80</speed>
+	</pokemon>
+	<pokemon>
+		<name>Charmander</name>
+		<number> 004</number>
+		<classification>Lizard Pokémon</classification>
+		<height>0.6m</height>
+		<weight>8.5kg</weight>
+		<hit_points>39</hit_points>
+		<attack>52</attack>
+		<defense>43</defense>
+		<special>50</special>
+		<speed>65</speed>
+	</pokemon>
+	<pokemon>
+		<name>Charmeleon</name>
+		<number> 005</number>
+		<classification>Flame Pokémon</classification>
+		<height>1.1m</height>
+		<weight>19kg</weight>
+		<hit_points>58</hit_points>
+		<attack>64</attack>
+		<defense>58</defense>
+		<special>65</special>
+		<speed>80</speed>
+	</pokemon>
+	<pokemon>
+		<name>Charizard</name>
+		<number> 006</number>
+		<classification>Flame Pokémon</classification>
+		<height>1.7m</height>
+		<weight>90.5kg</weight>
+		<hit_points>78</hit_points>
+		<attack>84</attack>
+		<defense>78</defense>
+		<special>85</special>
+		<speed>100</speed>
+	</pokemon>
+	<pokemon>
+		<name>Squirtle</name>
+		<number> 007</number>
+		<classification>Tiny Turtle Pokémon</classification>
+		<height>0.5m</height>
+		<weight>9kg</weight>
+		<hit_points>44</hit_points>
+		<attack>48</attack>
+		<defense>65</defense>
+		<special>50</special>
+		<speed>43</speed>
+	</pokemon>
+	<pokemon>
+		<name>Wartortle</name>
+		<number> 008</number>
+		<classification>Turtle Pokémon</classification>
+		<height>1m</height>
+		<weight>22.5kg</weight>
+		<hit_points>59</hit_points>
+		<attack>63</attack>
+		<defense>80</defense>
+		<special>65</special>
+		<speed>58</speed>
+	</pokemon>
+	<pokemon>
+		<name>Blastoise</name>
+		<number> 009</number>
+		<classification>Shellfish Pokémon</classification>
+		<height>1.6m</height>
+		<weight>85.5kg</weight>
+		<hit_points>79</hit_points>
+		<attack>83</attack>
+		<defense>100</defense>
+		<special>85</special>
+		<speed>78</speed>
+	</pokemon>
+	<pokemon>
+		<name>Caterpie</name>
+		<number> 010</number>
+		<classification>Worm Pokémon</classification>
+		<height>0.3m</height>
+		<weight>2.9kg</weight>
+		<hit_points>45</hit_points>
+		<attack>30</attack>
+		<defense>35</defense>
+		<special>20</special>
+		<speed>45</speed>
+	</pokemon>
+	<pokemon>
+		<name>Metapod</name>
+		<number> 011</number>
+		<classification>Cocoon Pokémon</classification>
+		<height>0.7m</height>
+		<weight>9.9kg</weight>
+		<hit_points>50</hit_points>
+		<attack>20</attack>
+		<defense>55</defense>
+		<special>25</special>
+		<speed>30</speed>
+	</pokemon>
+	<pokemon>
+		<name>Butterfree</name>
+		<number> 012</number>
+		<classification>Butterfly Pokémon</classification>
+		<height>1.1m</height>
+		<weight>32kg</weight>
+		<hit_points>60</hit_points>
+		<attack>45</attack>
+		<defense>50</defense>
+		<special>80</special>
+		<speed>70</speed>
+	</pokemon>
+	<pokemon>
+		<name>Weedle</name>
+		<number> 013</number>
+		<classification>Hairy Bug Pokémon</classification>
+		<height>0.3m</height>
+		<weight>3.2kg</weight>
+		<hit_points>40</hit_points>
+		<attack>35</attack>
+		<defense>30</defense>
+		<special>20</special>
+		<speed>50</speed>
+	</pokemon>
+	<pokemon>
+		<name>Kakuna</name>
+		<number> 014</number>
+		<classification>Cocoon Pokémon</classification>
+		<height>0.6m</height>
+		<weight>10kg</weight>
+		<hit_points>45</hit_points>
+		<attack>25</attack>
+		<defense>50</defense>
+		<special>25</special>
+		<speed>35</speed>
+	</pokemon>
+	<pokemon>
+		<name>Beedrill</name>
+		<number> 015</number>
+		<classification>Poison Bee Pokémon</classification>
+		<height>1m</height>
+		<weight>29.5kg</weight>
+		<hit_points>65</hit_points>
+		<attack>80</attack>
+		<defense>40</defense>
+		<special>45</special>
+		<speed>75</speed>
+	</pokemon>
+	<pokemon>
+		<name>Pidgey</name>
+		<number> 016</number>
+		<classification>Tiny Bird Pokémon</classification>
+		<height>0.3m</height>
+		<weight>1.8kg</weight>
+		<hit_points>40</hit_points>
+		<attack>45</attack>
+		<defense>40</defense>
+		<special>35</special>
+		<speed>56</speed>
+	</pokemon>
+	<pokemon>
+		<name>Pidgeotto</name>
+		<number> 017</number>
+		<classification>Bird Pokémon</classification>
+		<height>1.1m</height>
+		<weight>30kg</weight>
+		<hit_points>63</hit_points>
+		<attack>60</attack>
+		<defense>55</defense>
+		<special>50</special>
+		<speed>71</speed>
+	</pokemon>
+	<pokemon>
+		<name>Pidgeot</name>
+		<number> 018</number>
+		<classification>Bird Pokémon</classification>
+		<height>1.5m</height>
+		<weight>39.5kg</weight>
+		<hit_points>83</hit_points>
+		<attack>80</attack>
+		<defense>75</defense>
+		<special>70</special>
+		<speed>91</speed>
+	</pokemon>
+	<pokemon>
+		<name>Rattata</name>
+		<number> 019</number>
+		<classification>Mouse Pokémon</classification>
+		<height>0.3m</height>
+		<weight>3.5kg</weight>
+		<hit_points>30</hit_points>
+		<attack>56</attack>
+		<defense>35</defense>
+		<special>25</special>
+		<speed>72</speed>
+	</pokemon>
+	<pokemon>
+		<name>Raticate</name>
+		<number> 020</number>
+		<classification>Mouse Pokémon</classification>
+		<height>0.7m</height>
+		<weight>18.5kg</weight>
+		<hit_points>55</hit_points>
+		<attack>81</attack>
+		<defense>60</defense>
+		<special>50</special>
+		<speed>97</speed>
+	</pokemon>
+	<pokemon>
+		<name>Speapokemon</name>
+		<number> 021</number>
+		<classification>Tiny Bird Pokémon</classification>
+		<height>0.3m</height>
+		<weight>2kg</weight>
+		<hit_points>40</hit_points>
+		<attack>60</attack>
+		<defense>30</defense>
+		<special>31</special>
+		<speed>70</speed>
+	</pokemon>
+	<pokemon>
+		<name>Feapokemon</name>
+		<number> 022</number>
+		<classification>Beak Pokémon</classification>
+		<height>1.2m</height>
+		<weight>38kg</weight>
+		<hit_points>65</hit_points>
+		<attack>90</attack>
+		<defense>65</defense>
+		<special>61</special>
+		<speed>100</speed>
+	</pokemon>
+	<pokemon>
+		<name>Ekans</name>
+		<number> 023</number>
+		<classification>Snake Pokémon</classification>
+		<height>2m</height>
+		<weight>6.9kg</weight>
+		<hit_points>35</hit_points>
+		<attack>60</attack>
+		<defense>44</defense>
+		<special>40</special>
+		<speed>55</speed>
+	</pokemon>
+	<pokemon>
+		<name>Arbok</name>
+		<number> 024</number>
+		<classification>Cobra Pokémon</classification>
+		<height>3.5m</height>
+		<weight>65kg</weight>
+		<hit_points>60</hit_points>
+		<attack>85</attack>
+		<defense>69</defense>
+		<special>65</special>
+		<speed>80</speed>
+	</pokemon>
+	<pokemon>
+		<name>Pikachu</name>
+		<number> 025</number>
+		<classification>Mouse Pokémon</classification>
+		<height>0.4m</height>
+		<weight>6kg</weight>
+		<hit_points>35</hit_points>
+		<attack>55</attack>
+		<defense>30</defense>
+		<special>50</special>
+		<speed>90</speed>
+	</pokemon>
+	<pokemon>
+		<name>Raichu</name>
+		<number> 026</number>
+		<classification>Mouse Pokémon</classification>
+		<height>0.8m</height>
+		<weight>30kg</weight>
+		<hit_points>60</hit_points>
+		<attack>90</attack>
+		<defense>55</defense>
+		<special>90</special>
+		<speed>100</speed>
+	</pokemon>
+	<pokemon>
+		<name>Sandshrew</name>
+		<number> 027</number>
+		<classification>Mouse Pokémon</classification>
+		<height>0.6m</height>
+		<weight>12kg</weight>
+		<hit_points>50</hit_points>
+		<attack>75</attack>
+		<defense>85</defense>
+		<special>30</special>
+		<speed>40</speed>
+	</pokemon>
+	<pokemon>
+		<name>Sandslash</name>
+		<number> 028</number>
+		<classification>Mouse Pokémon</classification>
+		<height>1m</height>
+		<weight>29.5kg</weight>
+		<hit_points>75</hit_points>
+		<attack>100</attack>
+		<defense>110</defense>
+		<special>55</special>
+		<speed>65</speed>
+	</pokemon>
+	<pokemon>
+		<name>Nidoran♀</name>
+		<number> 029</number>
+		<classification>Poison Pin Pokémon</classification>
+		<height>0.4m</height>
+		<weight>7kg</weight>
+		<hit_points>55</hit_points>
+		<attack>47</attack>
+		<defense>52</defense>
+		<special>40</special>
+		<speed>41</speed>
+	</pokemon>
+	<pokemon>
+		<name>Nidorina</name>
+		<number> 030</number>
+		<classification>Poison Pin Pokémon</classification>
+		<height>0.8m</height>
+		<weight>20kg</weight>
+		<hit_points>70</hit_points>
+		<attack>62</attack>
+		<defense>67</defense>
+		<special>55</special>
+		<speed>56</speed>
+	</pokemon>
+	<pokemon>
+		<name>Nidoqueen</name>
+		<number> 031</number>
+		<classification>Drill Pokémon</classification>
+		<height>1.3m</height>
+		<weight>60kg</weight>
+		<hit_points>90</hit_points>
+		<attack>82</attack>
+		<defense>87</defense>
+		<special>75</special>
+		<speed>76</speed>
+	</pokemon>
+	<pokemon>
+		<name>Nidoran♂</name>
+		<number> 032</number>
+		<classification>Poison Pin Pokémon</classification>
+		<height>0.5m</height>
+		<weight>9kg</weight>
+		<hit_points>46</hit_points>
+		<attack>57</attack>
+		<defense>40</defense>
+		<special>40</special>
+		<speed>50</speed>
+	</pokemon>
+	<pokemon>
+		<name>Nidorino</name>
+		<number> 033</number>
+		<classification>Poison Pin Pokémon</classification>
+		<height>0.9m</height>
+		<weight>19.5kg</weight>
+		<hit_points>61</hit_points>
+		<attack>72</attack>
+		<defense>57</defense>
+		<special>55</special>
+		<speed>65</speed>
+	</pokemon>
+	<pokemon>
+		<name>Nidoking</name>
+		<number> 034</number>
+		<classification>Drill Pokémon</classification>
+		<height>1.4m</height>
+		<weight>62kg</weight>
+		<hit_points>81</hit_points>
+		<attack>92</attack>
+		<defense>77</defense>
+		<special>75</special>
+		<speed>85</speed>
+	</pokemon>
+	<pokemon>
+		<name>Clefairy</name>
+		<number> 035</number>
+		<classification>Fairy Pokémon</classification>
+		<height>0.6m</height>
+		<weight>7.5kg</weight>
+		<hit_points>70</hit_points>
+		<attack>45</attack>
+		<defense>48</defense>
+		<special>60</special>
+		<speed>35</speed>
+	</pokemon>
+	<pokemon>
+		<name>Clefable</name>
+		<number> 036</number>
+		<classification>Fairy Pokémon</classification>
+		<height>1.3m</height>
+		<weight>40kg</weight>
+		<hit_points>95</hit_points>
+		<attack>70</attack>
+		<defense>73</defense>
+		<special>85</special>
+		<speed>60</speed>
+	</pokemon>
+	<pokemon>
+		<name>Vulpix</name>
+		<number> 037</number>
+		<classification>Fox Pokémon</classification>
+		<height>0.6m</height>
+		<weight>9.9kg</weight>
+		<hit_points>38</hit_points>
+		<attack>41</attack>
+		<defense>40</defense>
+		<special>65</special>
+		<speed>65</speed>
+	</pokemon>
+	<pokemon>
+		<name>Ninetales</name>
+		<number> 038</number>
+		<classification>Fox Pokémon</classification>
+		<height>1.1m</height>
+		<weight>19.9kg</weight>
+		<hit_points>73</hit_points>
+		<attack>76</attack>
+		<defense>75</defense>
+		<special>100</special>
+		<speed>100</speed>
+	</pokemon>
+	<pokemon>
+		<name>Jigglypuff</name>
+		<number> 039</number>
+		<classification>Balloon Pokémon</classification>
+		<height>0.5m</height>
+		<weight>5.5kg</weight>
+		<hit_points>115</hit_points>
+		<attack>45</attack>
+		<defense>20</defense>
+		<special>25</special>
+		<speed>20</speed>
+	</pokemon>
+	<pokemon>
+		<name>Wigglytuff</name>
+		<number> 040</number>
+		<classification>Balloon Pokémon</classification>
+		<height>1m</height>
+		<weight>12kg</weight>
+		<hit_points>140</hit_points>
+		<attack>70</attack>
+		<defense>45</defense>
+		<special>50</special>
+		<speed>45</speed>
+	</pokemon>
+	<pokemon>
+		<name>Zubat</name>
+		<number> 041</number>
+		<classification>Bat Pokémon</classification>
+		<height>0.8m</height>
+		<weight>7.5kg</weight>
+		<hit_points>40</hit_points>
+		<attack>45</attack>
+		<defense>35</defense>
+		<special>40</special>
+		<speed>55</speed>
+	</pokemon>
+	<pokemon>
+		<name>Golbat</name>
+		<number> 042</number>
+		<classification>Bat Pokémon</classification>
+		<height>1.6m</height>
+		<weight>55kg</weight>
+		<hit_points>75</hit_points>
+		<attack>80</attack>
+		<defense>70</defense>
+		<special>75</special>
+		<speed>90</speed>
+	</pokemon>
+	<pokemon>
+		<name>Oddish</name>
+		<number> 043</number>
+		<classification>Weed Pokémon</classification>
+		<height>0.5m</height>
+		<weight>5.4kg</weight>
+		<hit_points>45</hit_points>
+		<attack>50</attack>
+		<defense>55</defense>
+		<special>75</special>
+		<speed>30</speed>
+	</pokemon>
+	<pokemon>
+		<name>Gloom</name>
+		<number> 044</number>
+		<classification>Weed Pokémon</classification>
+		<height>0.8m</height>
+		<weight>8.6kg</weight>
+		<hit_points>60</hit_points>
+		<attack>65</attack>
+		<defense>70</defense>
+		<special>85</special>
+		<speed>40</speed>
+	</pokemon>
+	<pokemon>
+		<name>Vileplume</name>
+		<number> 045</number>
+		<classification>Flower Pokémon</classification>
+		<height>1.2m</height>
+		<weight>18.6kg</weight>
+		<hit_points>75</hit_points>
+		<attack>80</attack>
+		<defense>85</defense>
+		<special>100</special>
+		<speed>50</speed>
+	</pokemon>
+	<pokemon>
+		<name>Paras</name>
+		<number> 046</number>
+		<classification>Mushroom Pokémon</classification>
+		<height>0.3m</height>
+		<weight>5.4kg</weight>
+		<hit_points>35</hit_points>
+		<attack>70</attack>
+		<defense>55</defense>
+		<special>55</special>
+		<speed>25</speed>
+	</pokemon>
+	<pokemon>
+		<name>Parasect</name>
+		<number> 047</number>
+		<classification>Mushroom Pokémon</classification>
+		<height>1m</height>
+		<weight>29.5kg</weight>
+		<hit_points>60</hit_points>
+		<attack>95</attack>
+		<defense>80</defense>
+		<special>80</special>
+		<speed>30</speed>
+	</pokemon>
+	<pokemon>
+		<name>Venonat</name>
+		<number> 048</number>
+		<classification>Insect Pokémon</classification>
+		<height>1m</height>
+		<weight>30kg</weight>
+		<hit_points>60</hit_points>
+		<attack>55</attack>
+		<defense>50</defense>
+		<special>40</special>
+		<speed>45</speed>
+	</pokemon>
+	<pokemon>
+		<name>Venomoth</name>
+		<number> 049</number>
+		<classification>Poison Moth Pokémon</classification>
+		<height>1.5m</height>
+		<weight>12.5kg</weight>
+		<hit_points>70</hit_points>
+		<attack>65</attack>
+		<defense>60</defense>
+		<special>90</special>
+		<speed>90</speed>
+	</pokemon>
+	<pokemon>
+		<name>Diglett</name>
+		<number> 050</number>
+		<classification>Mole Pokémon</classification>
+		<height>0.2m</height>
+		<weight>0.8kg</weight>
+		<hit_points>10</hit_points>
+		<attack>55</attack>
+		<defense>25</defense>
+		<special>45</special>
+		<speed>95</speed>
+	</pokemon>
+	<pokemon>
+		<name>Dugtrio</name>
+		<number> 051</number>
+		<classification>Mole Pokémon</classification>
+		<height>0.7m</height>
+		<weight>33.3kg</weight>
+		<hit_points>35</hit_points>
+		<attack>80</attack>
+		<defense>50</defense>
+		<special>70</special>
+		<speed>120</speed>
+	</pokemon>
+	<pokemon>
+		<name>Meowth</name>
+		<number> 052</number>
+		<classification>Scratch Cat Pokémon</classification>
+		<height>0.4m</height>
+		<weight>4.2kg</weight>
+		<hit_points>40</hit_points>
+		<attack>45</attack>
+		<defense>35</defense>
+		<special>40</special>
+		<speed>90</speed>
+	</pokemon>
+	<pokemon>
+		<name>Persian</name>
+		<number> 053</number>
+		<classification>Classy Cat Pokémon</classification>
+		<height>1m</height>
+		<weight>32kg</weight>
+		<hit_points>65</hit_points>
+		<attack>70</attack>
+		<defense>60</defense>
+		<special>65</special>
+		<speed>115</speed>
+	</pokemon>
+	<pokemon>
+		<name>Psyduck</name>
+		<number> 054</number>
+		<classification>Duck Pokémon</classification>
+		<height>0.8m</height>
+		<weight>19.6kg</weight>
+		<hit_points>50</hit_points>
+		<attack>52</attack>
+		<defense>48</defense>
+		<special>50</special>
+		<speed>55</speed>
+	</pokemon>
+	<pokemon>
+		<name>Golduck</name>
+		<number> 055</number>
+		<classification>Duck Pokémon</classification>
+		<height>1.7m</height>
+		<weight>76.6kg</weight>
+		<hit_points>80</hit_points>
+		<attack>82</attack>
+		<defense>78</defense>
+		<special>80</special>
+		<speed>85</speed>
+	</pokemon>
+	<pokemon>
+		<name>Mankey</name>
+		<number> 056</number>
+		<classification>Pig Monkey Pokémon</classification>
+		<height>0.5m</height>
+		<weight>28kg</weight>
+		<hit_points>40</hit_points>
+		<attack>80</attack>
+		<defense>35</defense>
+		<special>35</special>
+		<speed>70</speed>
+	</pokemon>
+	<pokemon>
+		<name>Primeape</name>
+		<number> 057</number>
+		<classification>Pig Monkey Pokémon</classification>
+		<height>1m</height>
+		<weight>32kg</weight>
+		<hit_points>65</hit_points>
+		<attack>105</attack>
+		<defense>60</defense>
+		<special>60</special>
+		<speed>95</speed>
+	</pokemon>
+	<pokemon>
+		<name>Growlithe</name>
+		<number> 058</number>
+		<classification>Puppy Pokémon</classification>
+		<height>0.7m</height>
+		<weight>19kg</weight>
+		<hit_points>55</hit_points>
+		<attack>70</attack>
+		<defense>45</defense>
+		<special>50</special>
+		<speed>60</speed>
+	</pokemon>
+	<pokemon>
+		<name>Arcanine</name>
+		<number> 059</number>
+		<classification>Legendary Pokémon</classification>
+		<height>1.9m</height>
+		<weight>155kg</weight>
+		<hit_points>90</hit_points>
+		<attack>110</attack>
+		<defense>80</defense>
+		<special>80</special>
+		<speed>95</speed>
+	</pokemon>
+	<pokemon>
+		<name>Poliwag</name>
+		<number> 060</number>
+		<classification>Tadpole Pokémon</classification>
+		<height>0.6m</height>
+		<weight>12.4kg</weight>
+		<hit_points>40</hit_points>
+		<attack>50</attack>
+		<defense>40</defense>
+		<special>40</special>
+		<speed>90</speed>
+	</pokemon>
+	<pokemon>
+		<name>Poliwhirl</name>
+		<number> 061</number>
+		<classification>Tadpole Pokémon</classification>
+		<height>1m</height>
+		<weight>20kg</weight>
+		<hit_points>65</hit_points>
+		<attack>65</attack>
+		<defense>65</defense>
+		<special>50</special>
+		<speed>90</speed>
+	</pokemon>
+	<pokemon>
+		<name>Poliwrath</name>
+		<number> 062</number>
+		<classification>Tadpole Pokémon</classification>
+		<height>1.3m</height>
+		<weight>54kg</weight>
+		<hit_points>90</hit_points>
+		<attack>85</attack>
+		<defense>95</defense>
+		<special>70</special>
+		<speed>70</speed>
+	</pokemon>
+	<pokemon>
+		<name>Abra</name>
+		<number> 063</number>
+		<classification>Psi Pokémon</classification>
+		<height>0.9m</height>
+		<weight>19.5kg</weight>
+		<hit_points>25</hit_points>
+		<attack>20</attack>
+		<defense>15</defense>
+		<special>105</special>
+		<speed>90</speed>
+	</pokemon>
+	<pokemon>
+		<name>Kadabra</name>
+		<number> 064</number>
+		<classification>Psi Pokémon</classification>
+		<height>1.3m</height>
+		<weight>56.5kg</weight>
+		<hit_points>40</hit_points>
+		<attack>35</attack>
+		<defense>30</defense>
+		<special>120</special>
+		<speed>105</speed>
+	</pokemon>
+	<pokemon>
+		<name>Alakazam</name>
+		<number> 065</number>
+		<classification>Psi Pokémon</classification>
+		<height>1.5m</height>
+		<weight>48kg</weight>
+		<hit_points>55</hit_points>
+		<attack>50</attack>
+		<defense>45</defense>
+		<special>135</special>
+		<speed>120</speed>
+	</pokemon>
+	<pokemon>
+		<name>Machop</name>
+		<number> 066</number>
+		<classification>Superpower Pokémon</classification>
+		<height>0.8m</height>
+		<weight>19.5kg</weight>
+		<hit_points>70</hit_points>
+		<attack>80</attack>
+		<defense>50</defense>
+		<special>35</special>
+		<speed>35</speed>
+	</pokemon>
+	<pokemon>
+		<name>Machoke</name>
+		<number> 067</number>
+		<classification>Superpower Pokémon</classification>
+		<height>1.5m</height>
+		<weight>70.5kg</weight>
+		<hit_points>80</hit_points>
+		<attack>100</attack>
+		<defense>70</defense>
+		<special>50</special>
+		<speed>45</speed>
+	</pokemon>
+	<pokemon>
+		<name>Machamp</name>
+		<number> 068</number>
+		<classification>Superpower Pokémon</classification>
+		<height>1.6m</height>
+		<weight>130kg</weight>
+		<hit_points>90</hit_points>
+		<attack>130</attack>
+		<defense>80</defense>
+		<special>65</special>
+		<speed>55</speed>
+	</pokemon>
+	<pokemon>
+		<name>Bellsprout</name>
+		<number> 069</number>
+		<classification>Flower Pokémon</classification>
+		<height>0.7m</height>
+		<weight>4kg</weight>
+		<hit_points>50</hit_points>
+		<attack>75</attack>
+		<defense>35</defense>
+		<special>70</special>
+		<speed>40</speed>
+	</pokemon>
+	<pokemon>
+		<name>Weepinbell</name>
+		<number> 070</number>
+		<classification>Flycatcher Pokémon</classification>
+		<height>1m</height>
+		<weight>6.4kg</weight>
+		<hit_points>65</hit_points>
+		<attack>90</attack>
+		<defense>50</defense>
+		<special>85</special>
+		<speed>55</speed>
+	</pokemon>
+	<pokemon>
+		<name>Victreebel</name>
+		<number> 071</number>
+		<classification>Flycatcher Pokémon</classification>
+		<height>1.7m</height>
+		<weight>15.5kg</weight>
+		<hit_points>80</hit_points>
+		<attack>105</attack>
+		<defense>65</defense>
+		<special>100</special>
+		<speed>70</speed>
+	</pokemon>
+	<pokemon>
+		<name>Tentacool</name>
+		<number> 072</number>
+		<classification>Jellyfish Pokémon</classification>
+		<height>0.9m</height>
+		<weight>45.5kg</weight>
+		<hit_points>40</hit_points>
+		<attack>40</attack>
+		<defense>35</defense>
+		<special>100</special>
+		<speed>70</speed>
+	</pokemon>
+	<pokemon>
+		<name>Tentacruel</name>
+		<number> 073</number>
+		<classification>Jellyfish Pokémon</classification>
+		<height>1.6m</height>
+		<weight>55kg</weight>
+		<hit_points>80</hit_points>
+		<attack>70</attack>
+		<defense>65</defense>
+		<special>120</special>
+		<speed>100</speed>
+	</pokemon>
+	<pokemon>
+		<name>Geodude</name>
+		<number> 074</number>
+		<classification>Rock Pokémon</classification>
+		<height>0.4m</height>
+		<weight>20kg</weight>
+		<hit_points>40</hit_points>
+		<attack>80</attack>
+		<defense>100</defense>
+		<special>30</special>
+		<speed>20</speed>
+	</pokemon>
+	<pokemon>
+		<name>Graveler</name>
+		<number> 075</number>
+		<classification>Rock Pokémon</classification>
+		<height>1m</height>
+		<weight>105kg</weight>
+		<hit_points>55</hit_points>
+		<attack>95</attack>
+		<defense>115</defense>
+		<special>45</special>
+		<speed>35</speed>
+	</pokemon>
+	<pokemon>
+		<name>Golem</name>
+		<number> 076</number>
+		<classification>Megaton Pokémon</classification>
+		<height>1.4m</height>
+		<weight>300kg</weight>
+		<hit_points>80</hit_points>
+		<attack>110</attack>
+		<defense>130</defense>
+		<special>55</special>
+		<speed>45</speed>
+	</pokemon>
+	<pokemon>
+		<name>Ponyta</name>
+		<number> 077</number>
+		<classification>Fire Horse Pokémon</classification>
+		<height>1m</height>
+		<weight>30kg</weight>
+		<hit_points>50</hit_points>
+		<attack>85</attack>
+		<defense>55</defense>
+		<special>65</special>
+		<speed>90</speed>
+	</pokemon>
+	<pokemon>
+		<name>Rapidash</name>
+		<number> 078</number>
+		<classification>Fire Horse Pokémon</classification>
+		<height>1.7m</height>
+		<weight>95kg</weight>
+		<hit_points>65</hit_points>
+		<attack>100</attack>
+		<defense>70</defense>
+		<special>80</special>
+		<speed>105</speed>
+	</pokemon>
+	<pokemon>
+		<name>Slowpoke</name>
+		<number> 079</number>
+		<classification>Dopey Pokémon</classification>
+		<height>1.2m</height>
+		<weight>36kg</weight>
+		<hit_points>90</hit_points>
+		<attack>65</attack>
+		<defense>65</defense>
+		<special>40</special>
+		<speed>15</speed>
+	</pokemon>
+	<pokemon>
+		<name>Slowbro</name>
+		<number> 080</number>
+		<classification>Hermit Crab Pokémon</classification>
+		<height>1.6m</height>
+		<weight>78.5kg</weight>
+		<hit_points>95</hit_points>
+		<attack>75</attack>
+		<defense>110</defense>
+		<special>80</special>
+		<speed>30</speed>
+	</pokemon>
+	<pokemon>
+		<name>Magnemite</name>
+		<number> 081</number>
+		<classification>Magnet Pokémon</classification>
+		<height>0.3m</height>
+		<weight>6kg</weight>
+		<hit_points>25</hit_points>
+		<attack>35</attack>
+		<defense>70</defense>
+		<special>95</special>
+		<speed>45</speed>
+	</pokemon>
+	<pokemon>
+		<name>Magneton</name>
+		<number> 082</number>
+		<classification>Magnet Pokémon</classification>
+		<height>1m</height>
+		<weight>60kg</weight>
+		<hit_points>50</hit_points>
+		<attack>60</attack>
+		<defense>95</defense>
+		<special>120</special>
+		<speed>70</speed>
+	</pokemon>
+	<pokemon>
+		<name>Farfetch'd</name>
+		<number> 083</number>
+		<classification>Wild Duck Pokémon</classification>
+		<height>0.8m</height>
+		<weight>15kg</weight>
+		<hit_points>52</hit_points>
+		<attack>65</attack>
+		<defense>55</defense>
+		<special>58</special>
+		<speed>60</speed>
+	</pokemon>
+	<pokemon>
+		<name>Doduo</name>
+		<number> 084</number>
+		<classification>Twin Bird Pokémon</classification>
+		<height>1.4m</height>
+		<weight>39.2kg</weight>
+		<hit_points>35</hit_points>
+		<attack>85</attack>
+		<defense>45</defense>
+		<special>35</special>
+		<speed>75</speed>
+	</pokemon>
+	<pokemon>
+		<name>Dodrio</name>
+		<number> 085</number>
+		<classification>Triple Bird Pokémon</classification>
+		<height>1.8m</height>
+		<weight>85.2kg</weight>
+		<hit_points>60</hit_points>
+		<attack>110</attack>
+		<defense>70</defense>
+		<special>60</special>
+		<speed>100</speed>
+	</pokemon>
+	<pokemon>
+		<name>Seel</name>
+		<number> 086</number>
+		<classification>Sea Lion Pokémon</classification>
+		<height>1.1m</height>
+		<weight>90kg</weight>
+		<hit_points>65</hit_points>
+		<attack>45</attack>
+		<defense>55</defense>
+		<special>70</special>
+		<speed>45</speed>
+	</pokemon>
+	<pokemon>
+		<name>Dewgong</name>
+		<number> 087</number>
+		<classification>Sea Lion Pokémon</classification>
+		<height>1.7m</height>
+		<weight>120kg</weight>
+		<hit_points>90</hit_points>
+		<attack>70</attack>
+		<defense>80</defense>
+		<special>95</special>
+		<speed>70</speed>
+	</pokemon>
+	<pokemon>
+		<name>Grimer</name>
+		<number> 088</number>
+		<classification>Sludge Pokémon</classification>
+		<height>0.9m</height>
+		<weight>30kg</weight>
+		<hit_points>80</hit_points>
+		<attack>80</attack>
+		<defense>50</defense>
+		<special>40</special>
+		<speed>25</speed>
+	</pokemon>
+	<pokemon>
+		<name>Muk</name>
+		<number> 089</number>
+		<classification>Sludge Pokémon</classification>
+		<height>1.2m</height>
+		<weight>30kg</weight>
+		<hit_points>105</hit_points>
+		<attack>105</attack>
+		<defense>75</defense>
+		<special>65</special>
+		<speed>50</speed>
+	</pokemon>
+	<pokemon>
+		<name>Shellder</name>
+		<number> 090</number>
+		<classification>Bivalve Pokémon</classification>
+		<height>0.3m</height>
+		<weight>4kg</weight>
+		<hit_points>30</hit_points>
+		<attack>65</attack>
+		<defense>100</defense>
+		<special>45</special>
+		<speed>40</speed>
+	</pokemon>
+	<pokemon>
+		<name>Cloyster</name>
+		<number> 091</number>
+		<classification>Bivalve Pokémon</classification>
+		<height>1.5m</height>
+		<weight>132.5kg</weight>
+		<hit_points>50</hit_points>
+		<attack>95</attack>
+		<defense>180</defense>
+		<special>85</special>
+		<speed>70</speed>
+	</pokemon>
+	<pokemon>
+		<name>Gastly</name>
+		<number> 092</number>
+		<classification>Gas Pokémon</classification>
+		<height>1.3m</height>
+		<weight>0.1kg</weight>
+		<hit_points>30</hit_points>
+		<attack>35</attack>
+		<defense>30</defense>
+		<special>100</special>
+		<speed>80</speed>
+	</pokemon>
+	<pokemon>
+		<name>Haunter</name>
+		<number> 093</number>
+		<classification>Gas Pokémon</classification>
+		<height>1.6m</height>
+		<weight>0.1kg</weight>
+		<hit_points>45</hit_points>
+		<attack>50</attack>
+		<defense>45</defense>
+		<special>115</special>
+		<speed>95</speed>
+	</pokemon>
+	<pokemon>
+		<name>Gengar</name>
+		<number> 094</number>
+		<classification>Shadow Pokémon</classification>
+		<height>1.5m</height>
+		<weight>40.5kg</weight>
+		<hit_points>60</hit_points>
+		<attack>65</attack>
+		<defense>60</defense>
+		<special>130</special>
+		<speed>110</speed>
+	</pokemon>
+	<pokemon>
+		<name>Onix</name>
+		<number> 095</number>
+		<classification>Rock Snake Pokémon</classification>
+		<height>8.8m</height>
+		<weight>210kg</weight>
+		<hit_points>35</hit_points>
+		<attack>45</attack>
+		<defense>160</defense>
+		<special>30</special>
+		<speed>70</speed>
+	</pokemon>
+	<pokemon>
+		<name>Drowzee</name>
+		<number> 096</number>
+		<classification>Hypnosis Pokémon</classification>
+		<height>1m</height>
+		<weight>32.4kg</weight>
+		<hit_points>60</hit_points>
+		<attack>48</attack>
+		<defense>45</defense>
+		<special>90</special>
+		<speed>42</speed>
+	</pokemon>
+	<pokemon>
+		<name>Hypno</name>
+		<number> 097</number>
+		<classification>Hypnosis Pokémon</classification>
+		<height>1.6m</height>
+		<weight>75.6kg</weight>
+		<hit_points>85</hit_points>
+		<attack>73</attack>
+		<defense>70</defense>
+		<special>115</special>
+		<speed>67</speed>
+	</pokemon>
+	<pokemon>
+		<name>Krabby</name>
+		<number> 098</number>
+		<classification>River Crab Pokémon</classification>
+		<height>0.4m</height>
+		<weight>6.5kg</weight>
+		<hit_points>30</hit_points>
+		<attack>105</attack>
+		<defense>90</defense>
+		<special>25</special>
+		<speed>50</speed>
+	</pokemon>
+	<pokemon>
+		<name>Kingler</name>
+		<number> 099</number>
+		<classification>Pincer Pokémon</classification>
+		<height>1.3m</height>
+		<weight>60kg</weight>
+		<hit_points>55</hit_points>
+		<attack>130</attack>
+		<defense>115</defense>
+		<special>50</special>
+		<speed>75</speed>
+	</pokemon>
+	<pokemon>
+		<name>Voltorb</name>
+		<number> 100</number>
+		<classification>Ball Pokémon</classification>
+		<height>0.5m</height>
+		<weight>10.4kg</weight>
+		<hit_points>40</hit_points>
+		<attack>30</attack>
+		<defense>50</defense>
+		<special>55</special>
+		<speed>100</speed>
+	</pokemon>
+	<pokemon>
+		<name>Electrode</name>
+		<number> 101</number>
+		<classification>Ball Pokémon</classification>
+		<height>1.2m</height>
+		<weight>66.6kg</weight>
+		<hit_points>60</hit_points>
+		<attack>50</attack>
+		<defense>70</defense>
+		<special>80</special>
+		<speed>140</speed>
+	</pokemon>
+	<pokemon>
+		<name>Exeggcute</name>
+		<number> 102</number>
+		<classification>Egg Pokémon</classification>
+		<height>0.4m</height>
+		<weight>2.5kg</weight>
+		<hit_points>60</hit_points>
+		<attack>40</attack>
+		<defense>80</defense>
+		<special>60</special>
+		<speed>40</speed>
+	</pokemon>
+	<pokemon>
+		<name>Exeggutor</name>
+		<number> 103</number>
+		<classification>Coconut Pokémon</classification>
+		<height>2m</height>
+		<weight>120kg</weight>
+		<hit_points>95</hit_points>
+		<attack>95</attack>
+		<defense>85</defense>
+		<special>125</special>
+		<speed>55</speed>
+	</pokemon>
+	<pokemon>
+		<name>Cubone</name>
+		<number> 104</number>
+		<classification>Lonely Pokémon</classification>
+		<height>0.4m</height>
+		<weight>6.5kg</weight>
+		<hit_points>50</hit_points>
+		<attack>50</attack>
+		<defense>95</defense>
+		<special>40</special>
+		<speed>35</speed>
+	</pokemon>
+	<pokemon>
+		<name>Mapokemonak</name>
+		<number> 105</number>
+		<classification>Bone Keeper Pokémon</classification>
+		<height>1m</height>
+		<weight>45kg</weight>
+		<hit_points>60</hit_points>
+		<attack>80</attack>
+		<defense>110</defense>
+		<special>50</special>
+		<speed>45</speed>
+	</pokemon>
+	<pokemon>
+		<name>Hitmonlee</name>
+		<number> 106</number>
+		<classification>Kicking Pokémon</classification>
+		<height>1.5m</height>
+		<weight>49.8kg</weight>
+		<hit_points>50</hit_points>
+		<attack>120</attack>
+		<defense>53</defense>
+		<special>35</special>
+		<speed>87</speed>
+	</pokemon>
+	<pokemon>
+		<name>Hitmonchan</name>
+		<number> 107</number>
+		<classification>Punching Pokémon</classification>
+		<height>1.4m</height>
+		<weight>50.2kg</weight>
+		<hit_points>50</hit_points>
+		<attack>105</attack>
+		<defense>79</defense>
+		<special>35</special>
+		<speed>76</speed>
+	</pokemon>
+	<pokemon>
+		<name>Lickitung</name>
+		<number> 108</number>
+		<classification>Licking Pokémon</classification>
+		<height>1.2m</height>
+		<weight>65.5kg</weight>
+		<hit_points>90</hit_points>
+		<attack>55</attack>
+		<defense>75</defense>
+		<special>60</special>
+		<speed>30</speed>
+	</pokemon>
+	<pokemon>
+		<name>Koffing</name>
+		<number> 109</number>
+		<classification>Poison Gas Pokémon</classification>
+		<height>0.6m</height>
+		<weight>1kg</weight>
+		<hit_points>40</hit_points>
+		<attack>65</attack>
+		<defense>95</defense>
+		<special>60</special>
+		<speed>35</speed>
+	</pokemon>
+	<pokemon>
+		<name>Weezing</name>
+		<number> 110</number>
+		<classification>Poison Gas Pokémon</classification>
+		<height>1.2m</height>
+		<weight>9.5kg</weight>
+		<hit_points>65</hit_points>
+		<attack>90</attack>
+		<defense>120</defense>
+		<special>85</special>
+		<speed>60</speed>
+	</pokemon>
+	<pokemon>
+		<name>Rhyhorn</name>
+		<number> 111</number>
+		<classification>Spikes Pokémon</classification>
+		<height>1m</height>
+		<weight>115kg</weight>
+		<hit_points>80</hit_points>
+		<attack>85</attack>
+		<defense>95</defense>
+		<special>30</special>
+		<speed>25</speed>
+	</pokemon>
+	<pokemon>
+		<name>Rhydon</name>
+		<number> 112</number>
+		<classification>Drill Pokémon</classification>
+		<height>1.9m</height>
+		<weight>120kg</weight>
+		<hit_points>105</hit_points>
+		<attack>130</attack>
+		<defense>120</defense>
+		<special>45</special>
+		<speed>40</speed>
+	</pokemon>
+	<pokemon>
+		<name>Chansey</name>
+		<number> 113</number>
+		<classification>Egg Pokémon</classification>
+		<height>1.1m</height>
+		<weight>34.6kg</weight>
+		<hit_points>250</hit_points>
+		<attack>5</attack>
+		<defense>5</defense>
+		<special>105</special>
+		<speed>50</speed>
+	</pokemon>
+	<pokemon>
+		<name>Tangela</name>
+		<number> 114</number>
+		<classification>Vine Pokémon</classification>
+		<height>1m</height>
+		<weight>35kg</weight>
+		<hit_points>65</hit_points>
+		<attack>55</attack>
+		<defense>115</defense>
+		<special>100</special>
+		<speed>60</speed>
+	</pokemon>
+	<pokemon>
+		<name>Kangaskhan</name>
+		<number> 115</number>
+		<classification>Parent Pokémon</classification>
+		<height>2.2m</height>
+		<weight>80kg</weight>
+		<hit_points>105</hit_points>
+		<attack>95</attack>
+		<defense>80</defense>
+		<special>40</special>
+		<speed>90</speed>
+	</pokemon>
+	<pokemon>
+		<name>Horsea</name>
+		<number> 116</number>
+		<classification>Dragon Pokémon</classification>
+		<height>0.4m</height>
+		<weight>8kg</weight>
+		<hit_points>30</hit_points>
+		<attack>40</attack>
+		<defense>70</defense>
+		<special>70</special>
+		<speed>60</speed>
+	</pokemon>
+	<pokemon>
+		<name>Seadra</name>
+		<number> 117</number>
+		<classification>Dragon Pokémon</classification>
+		<height>1.2m</height>
+		<weight>25kg</weight>
+		<hit_points>55</hit_points>
+		<attack>65</attack>
+		<defense>95</defense>
+		<special>95</special>
+		<speed>85</speed>
+	</pokemon>
+	<pokemon>
+		<name>Goldeen</name>
+		<number> 118</number>
+		<classification>Goldfish Pokémon</classification>
+		<height>0.6m</height>
+		<weight>15kg</weight>
+		<hit_points>45</hit_points>
+		<attack>67</attack>
+		<defense>60</defense>
+		<special>50</special>
+		<speed>63</speed>
+	</pokemon>
+	<pokemon>
+		<name>Seaking</name>
+		<number> 119</number>
+		<classification>Goldfish Pokémon</classification>
+		<height>1.3m</height>
+		<weight>39kg</weight>
+		<hit_points>80</hit_points>
+		<attack>92</attack>
+		<defense>65</defense>
+		<special>80</special>
+		<speed>68</speed>
+	</pokemon>
+	<pokemon>
+		<name>Staryu</name>
+		<number> 120</number>
+		<classification>Starshape Pokémon</classification>
+		<height>0.8m</height>
+		<weight>34.5kg</weight>
+		<hit_points>30</hit_points>
+		<attack>45</attack>
+		<defense>55</defense>
+		<special>70</special>
+		<speed>85</speed>
+	</pokemon>
+	<pokemon>
+		<name>Starmie</name>
+		<number> 121</number>
+		<classification>Mysterious Pokémon</classification>
+		<height>1.1m</height>
+		<weight>80kg</weight>
+		<hit_points>60</hit_points>
+		<attack>75</attack>
+		<defense>85</defense>
+		<special>100</special>
+		<speed>115</speed>
+	</pokemon>
+	<pokemon>
+		<name>Mr. Mime</name>
+		<number> 122</number>
+		<classification>Barrier Pokémon</classification>
+		<height>1.3m</height>
+		<weight>54.5kg</weight>
+		<hit_points>40</hit_points>
+		<attack>45</attack>
+		<defense>65</defense>
+		<special>100</special>
+		<speed>90</speed>
+	</pokemon>
+	<pokemon>
+		<name>Scyther</name>
+		<number> 123</number>
+		<classification>Mantis Pokémon</classification>
+		<height>1.5m</height>
+		<weight>56kg</weight>
+		<hit_points>70</hit_points>
+		<attack>110</attack>
+		<defense>80</defense>
+		<special>55</special>
+		<speed>105</speed>
+	</pokemon>
+	<pokemon>
+		<name>Jynx</name>
+		<number> 124</number>
+		<classification>Humanshape Pokémon</classification>
+		<height>1.4m</height>
+		<weight>40.6kg</weight>
+		<hit_points>65</hit_points>
+		<attack>50</attack>
+		<defense>35</defense>
+		<special>95</special>
+		<speed>95</speed>
+	</pokemon>
+	<pokemon>
+		<name>Electabuzz</name>
+		<number> 125</number>
+		<classification>Electric Pokémon</classification>
+		<height>1.1m</height>
+		<weight>30kg</weight>
+		<hit_points>65</hit_points>
+		<attack>83</attack>
+		<defense>57</defense>
+		<special>85</special>
+		<speed>105</speed>
+	</pokemon>
+	<pokemon>
+		<name>Magmar</name>
+		<number> 126</number>
+		<classification>Spitfire Pokémon</classification>
+		<height>1.3m</height>
+		<weight>44.5kg</weight>
+		<hit_points>65</hit_points>
+		<attack>95</attack>
+		<defense>57</defense>
+		<special>85</special>
+		<speed>93</speed>
+	</pokemon>
+	<pokemon>
+		<name>Pinsir</name>
+		<number> 127</number>
+		<classification>Stagbeetle Pokémon</classification>
+		<height>1.5m</height>
+		<weight>55kg</weight>
+		<hit_points>65</hit_points>
+		<attack>125</attack>
+		<defense>100</defense>
+		<special>55</special>
+		<speed>85</speed>
+	</pokemon>
+	<pokemon>
+		<name>Tauros</name>
+		<number> 128</number>
+		<classification>Wild Bull Pokémon</classification>
+		<height>1.4m</height>
+		<weight>88.4kg</weight>
+		<hit_points>75</hit_points>
+		<attack>100</attack>
+		<defense>95</defense>
+		<special>70</special>
+		<speed>110</speed>
+	</pokemon>
+	<pokemon>
+		<name>Magikarp</name>
+		<number> 129</number>
+		<classification>Fish Pokémon</classification>
+		<height>0.9m</height>
+		<weight>10kg</weight>
+		<hit_points>20</hit_points>
+		<attack>10</attack>
+		<defense>55</defense>
+		<special>20</special>
+		<speed>80</speed>
+	</pokemon>
+	<pokemon>
+		<name>Gyarados</name>
+		<number> 130</number>
+		<classification>Atrocious Pokémon</classification>
+		<height>6.5m</height>
+		<weight>235kg</weight>
+		<hit_points>95</hit_points>
+		<attack>125</attack>
+		<defense>79</defense>
+		<special>100</special>
+		<speed>81</speed>
+	</pokemon>
+	<pokemon>
+		<name>Lapras</name>
+		<number> 131</number>
+		<classification>Transport Pokémon</classification>
+		<height>2.5m</height>
+		<weight>220kg</weight>
+		<hit_points>130</hit_points>
+		<attack>85</attack>
+		<defense>80</defense>
+		<special>95</special>
+		<speed>60</speed>
+	</pokemon>
+	<pokemon>
+		<name>Ditto</name>
+		<number> 132</number>
+		<classification>Transform Pokémon</classification>
+		<height>0.3m</height>
+		<weight>4kg</weight>
+		<hit_points>48</hit_points>
+		<attack>48</attack>
+		<defense>48</defense>
+		<special>48</special>
+		<speed>48</speed>
+	</pokemon>
+	<pokemon>
+		<name>Eevee</name>
+		<number> 133</number>
+		<classification>Evolution Pokémon</classification>
+		<height>0.3m</height>
+		<weight>6.5kg</weight>
+		<hit_points>55</hit_points>
+		<attack>55</attack>
+		<defense>50</defense>
+		<special>65</special>
+		<speed>55</speed>
+	</pokemon>
+	<pokemon>
+		<name>Vaporeon</name>
+		<number> 134</number>
+		<classification>Bubble Jet Pokémon</classification>
+		<height>1m</height>
+		<weight>29kg</weight>
+		<hit_points>130</hit_points>
+		<attack>65</attack>
+		<defense>60</defense>
+		<special>110</special>
+		<speed>65</speed>
+	</pokemon>
+	<pokemon>
+		<name>Jolteon</name>
+		<number> 135</number>
+		<classification>Lightning Pokémon</classification>
+		<height>0.8m</height>
+		<weight>24.5kg</weight>
+		<hit_points>65</hit_points>
+		<attack>65</attack>
+		<defense>60</defense>
+		<special>110</special>
+		<speed>130</speed>
+	</pokemon>
+	<pokemon>
+		<name>Flareon</name>
+		<number> 136</number>
+		<classification>Flame Pokémon</classification>
+		<height>0.9m</height>
+		<weight>25kg</weight>
+		<hit_points>65</hit_points>
+		<attack>130</attack>
+		<defense>60</defense>
+		<special>110</special>
+		<speed>65</speed>
+	</pokemon>
+	<pokemon>
+		<name>Porygon</name>
+		<number> 137</number>
+		<classification>Virtual Pokémon</classification>
+		<height>0.8m</height>
+		<weight>36.5kg</weight>
+		<hit_points>65</hit_points>
+		<attack>60</attack>
+		<defense>70</defense>
+		<special>75</special>
+		<speed>40</speed>
+	</pokemon>
+	<pokemon>
+		<name>Omanyte</name>
+		<number> 138</number>
+		<classification>Spiral Pokémon</classification>
+		<height>0.4m</height>
+		<weight>7.5kg</weight>
+		<hit_points>35</hit_points>
+		<attack>40</attack>
+		<defense>100</defense>
+		<special>90</special>
+		<speed>35</speed>
+	</pokemon>
+	<pokemon>
+		<name>Omastar</name>
+		<number> 139</number>
+		<classification>Spiral Pokémon</classification>
+		<height>1m</height>
+		<weight>35kg</weight>
+		<hit_points>70</hit_points>
+		<attack>60</attack>
+		<defense>125</defense>
+		<special>115</special>
+		<speed>55</speed>
+	</pokemon>
+	<pokemon>
+		<name>Kabuto</name>
+		<number> 140</number>
+		<classification>Shellfish Pokémon</classification>
+		<height>0.5m</height>
+		<weight>11.5kg</weight>
+		<hit_points>30</hit_points>
+		<attack>80</attack>
+		<defense>90</defense>
+		<special>45</special>
+		<speed>55</speed>
+	</pokemon>
+	<pokemon>
+		<name>Kabutops</name>
+		<number> 141</number>
+		<classification>Shellfish Pokémon</classification>
+		<height>1.3m</height>
+		<weight>40.5kg</weight>
+		<hit_points>60</hit_points>
+		<attack>115</attack>
+		<defense>105</defense>
+		<special>70</special>
+		<speed>80</speed>
+	</pokemon>
+	<pokemon>
+		<name>Aerodactyl</name>
+		<number> 142</number>
+		<classification>Fossil Pokémon</classification>
+		<height>1.8m</height>
+		<weight>59kg</weight>
+		<hit_points>80</hit_points>
+		<attack>105</attack>
+		<defense>65</defense>
+		<special>60</special>
+		<speed>130</speed>
+	</pokemon>
+	<pokemon>
+		<name>Snorlax</name>
+		<number> 143</number>
+		<classification>Sleeping Pokémon</classification>
+		<height>2.1m</height>
+		<weight>460kg</weight>
+		<hit_points>160</hit_points>
+		<attack>110</attack>
+		<defense>65</defense>
+		<special>65</special>
+		<speed>30</speed>
+	</pokemon>
+	<pokemon>
+		<name>Articuno</name>
+		<number> 144</number>
+		<classification>Freeze Pokémon</classification>
+		<height>1.7m</height>
+		<weight>55.4kg</weight>
+		<hit_points>90</hit_points>
+		<attack>85</attack>
+		<defense>100</defense>
+		<special>125</special>
+		<speed>85</speed>
+	</pokemon>
+	<pokemon>
+		<name>Zapdos</name>
+		<number> 145</number>
+		<classification>Electric Pokémon</classification>
+		<height>1.6m</height>
+		<weight>52.6kg</weight>
+		<hit_points>90</hit_points>
+		<attack>90</attack>
+		<defense>85</defense>
+		<special>125</special>
+		<speed>100</speed>
+	</pokemon>
+	<pokemon>
+		<name>Moltres</name>
+		<number> 146</number>
+		<classification>Flame Pokémon</classification>
+		<height>2m</height>
+		<weight>60kg</weight>
+		<hit_points>90</hit_points>
+		<attack>100</attack>
+		<defense>90</defense>
+		<special>125</special>
+		<speed>90</speed>
+	</pokemon>
+	<pokemon>
+		<name>Dratini</name>
+		<number> 147</number>
+		<classification>Dragon Pokémon</classification>
+		<height>1.8m</height>
+		<weight>3.3kg</weight>
+		<hit_points>41</hit_points>
+		<attack>64</attack>
+		<defense>45</defense>
+		<special>50</special>
+		<speed>50</speed>
+	</pokemon>
+	<pokemon>
+		<name>Dragonair</name>
+		<number> 148</number>
+		<classification>Dragon Pokémon</classification>
+		<height>4m</height>
+		<weight>16.5kg</weight>
+		<hit_points>61</hit_points>
+		<attack>84</attack>
+		<defense>65</defense>
+		<special>70</special>
+		<speed>70</speed>
+	</pokemon>
+	<pokemon>
+		<name>Dragonite</name>
+		<number> 149</number>
+		<classification>Dragon Pokémon</classification>
+		<height>2.2m</height>
+		<weight>210kg</weight>
+		<hit_points>91</hit_points>
+		<attack>134</attack>
+		<defense>95</defense>
+		<special>100</special>
+		<speed>80</speed>
+	</pokemon>
+	<pokemon>
+		<name>Mewtwo</name>
+		<number> 150</number>
+		<classification>Genetic Pokémon</classification>
+		<height>2m</height>
+		<weight>122kg</weight>
+		<hit_points>106</hit_points>
+		<attack>110</attack>
+		<defense>90</defense>
+		<special>154</special>
+		<speed>130</speed>
+	</pokemon>
+	<pokemon>
+		<name>Mew</name>
+		<number> 151</number>
+		<classification>New Species Pokémon</classification>
+		<height>0.4m</height>
+		<weight>4kg</weight>
+		<hit_points>100</hit_points>
+		<attack>100</attack>
+		<defense>100</defense>
+		<special>100</special>
+		<speed>100</speed>
+	</pokemon>
+</pokedex>
