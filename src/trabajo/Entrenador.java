@@ -13,5 +13,6 @@ public class Entrenador {
 //		}
 //		peticion += "\r\n";
 //		System.out.println(peticion);
+		
 	}
 }
