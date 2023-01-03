@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<button type="button" onclick="loadXMLDoc()">Recargar Pokedex</button>
+	<table id="demo" class="tg">
+		<!--ESTA ES LA TABLA QUE CREAMOS USANDO JS-->
+	</table>
+	<script>
+		function loadXMLDoc() {
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function () {
+				if (this.readyState == 4 && this.status == 200) {
+					myFunction(this);
+				}
+			};
+			xmlhttp.open("GET", "pokemon.xml", true);
+			xmlhttp.send();
+		}
+		function myFunction(xml) {
+			var i;
+			var xmlDoc = xml.responseXML;
+			var table = "<thead><tr><th class=\"tg-m1ak\" rowspan=\"2\">No.</th><th class=\"tg-m1ak\" rowspan=\"2\">Pic<br></th><th class=\"tg-m1ak\" rowspan=\"2\">Name</th><th class=\"tg-m1ak\" rowspan=\"2\">Classification</th><th class=\"tg-m1ak\" rowspan=\"2\">Height</th><th class=\"tg-m1ak\" rowspan=\"2\">Weight</th><th class=\"tg-m1ak\" colspan=\"5\">Base stats</th></tr><tr><th class=\"tg-m1ak\">HP</th><th class=\"tg-m1ak\">Attack</th><th class=\"tg-m1ak\">Defense</th><th class=\"tg-m1ak\">Special</th><th class=\"tg-m1ak\">Speed</th></tr></thead>";
+			var x = xmlDoc.getElementsByTagName("pokemon");
+			for (i = 0; i < x.length; i++) {
+				table += "<tr><td>" +
+					x[i].getElementsByTagName("number")[0].childNodes[0].nodeValue +
+					"</td><td>" +
+					"<img src=\"images/pokemon-img/"+x[i].getElementsByTagName("number")[0].childNodes[0].nodeValue+".png>\"</td><td>" +
+					x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
+					"</td><td>" +
+					x[i].getElementsByTagName("classification")[0].childNodes[0].nodeValue +
+					"</td><td>" +
+					x[i].getElementsByTagName("height")[0].childNodes[0].nodeValue +
+					"</td><td>" +
+					x[i].getElementsByTagName("weight")[0].childNodes[0].nodeValue +
+					"</td><td>" +
+					x[i].getElementsByTagName("hit_points")[0].childNodes[0].nodeValue +
+					"</td><td>" +
+					x[i].getElementsByTagName("attack")[0].childNodes[0].nodeValue +
+					"</td><td>" +
+					x[i].getElementsByTagName("defense")[0].childNodes[0].nodeValue +
+					"</td><td>" +
+					x[i].getElementsByTagName("special")[0].childNodes[0].nodeValue +
+					"</td><td>" +
+					x[i].getElementsByTagName("speed")[0].childNodes[0].nodeValue +
+					"</td></tr>";
+			}
+			document.getElementById("demo").innerHTML = table;
+		}
+	</script>
+</body>
+
+</html>

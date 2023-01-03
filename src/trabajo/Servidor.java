@@ -11,6 +11,7 @@ public class Servidor {
 		try {
 			ServerSocket ss = new ServerSocket(8080);
 			ExecutorService pool = Executors.newCachedThreadPool();
+			System.out.println("Servidor lanzado");
 			while(true) {
 				Socket s = ss.accept();
 				pool.execute(new AtenderPeticion(s));

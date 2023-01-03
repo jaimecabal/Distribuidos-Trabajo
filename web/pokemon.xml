@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pokedex>
 	<pokemon>
-		<number> 001</number>
+		<number>001</number>
 		<name>Bulbasaur</name>
 		<classification>Seed Pokémon</classification>
 		<height>0.7m</height>
@@ -13,7 +13,7 @@
 		<speed>45</speed>
 	</pokemon>
 	<pokemon>
-		<number> 002</number>
+		<number>002</number>
 		<name>Ivysaur</name>
 		<classification>Seed Pokémon</classification>
 		<height>1m</height>
@@ -25,8 +25,8 @@
 		<speed>60</speed>
 	</pokemon>
 	<pokemon>
+		<number>003</number>
 		<name>Venusaur</name>
-		<number> 003</number>
 		<classification>Seed Pokémon</classification>
 		<height>2m</height>
 		<weight>100kg</weight>
@@ -37,8 +37,8 @@
 		<speed>80</speed>
 	</pokemon>
 	<pokemon>
+		<number>004</number>
 		<name>Charmander</name>
-		<number> 004</number>
 		<classification>Lizard Pokémon</classification>
 		<height>0.6m</height>
 		<weight>8.5kg</weight>
@@ -49,8 +49,8 @@
 		<speed>65</speed>
 	</pokemon>
 	<pokemon>
+		<number>005</number>
 		<name>Charmeleon</name>
-		<number> 005</number>
 		<classification>Flame Pokémon</classification>
 		<height>1.1m</height>
 		<weight>19kg</weight>
@@ -61,8 +61,8 @@
 		<speed>80</speed>
 	</pokemon>
 	<pokemon>
+		<number>006</number>
 		<name>Charizard</name>
-		<number> 006</number>
 		<classification>Flame Pokémon</classification>
 		<height>1.7m</height>
 		<weight>90.5kg</weight>
@@ -73,8 +73,8 @@
 		<speed>100</speed>
 	</pokemon>
 	<pokemon>
+		<number>007</number>
 		<name>Squirtle</name>
-		<number> 007</number>
 		<classification>Tiny Turtle Pokémon</classification>
 		<height>0.5m</height>
 		<weight>9kg</weight>
@@ -85,8 +85,8 @@
 		<speed>43</speed>
 	</pokemon>
 	<pokemon>
+		<number>008</number>
 		<name>Wartortle</name>
-		<number> 008</number>
 		<classification>Turtle Pokémon</classification>
 		<height>1m</height>
 		<weight>22.5kg</weight>
@@ -97,8 +97,8 @@
 		<speed>58</speed>
 	</pokemon>
 	<pokemon>
+		<number>009</number>
 		<name>Blastoise</name>
-		<number> 009</number>
 		<classification>Shellfish Pokémon</classification>
 		<height>1.6m</height>
 		<weight>85.5kg</weight>
@@ -109,8 +109,8 @@
 		<speed>78</speed>
 	</pokemon>
 	<pokemon>
+		<number>010</number>
 		<name>Caterpie</name>
-		<number> 010</number>
 		<classification>Worm Pokémon</classification>
 		<height>0.3m</height>
 		<weight>2.9kg</weight>
@@ -121,8 +121,8 @@
 		<speed>45</speed>
 	</pokemon>
 	<pokemon>
+		<number>011</number>
 		<name>Metapod</name>
-		<number> 011</number>
 		<classification>Cocoon Pokémon</classification>
 		<height>0.7m</height>
 		<weight>9.9kg</weight>
@@ -133,8 +133,8 @@
 		<speed>30</speed>
 	</pokemon>
 	<pokemon>
+		<number>012</number>
 		<name>Butterfree</name>
-		<number> 012</number>
 		<classification>Butterfly Pokémon</classification>
 		<height>1.1m</height>
 		<weight>32kg</weight>
@@ -145,8 +145,8 @@
 		<speed>70</speed>
 	</pokemon>
 	<pokemon>
+		<number>013</number>
 		<name>Weedle</name>
-		<number> 013</number>
 		<classification>Hairy Bug Pokémon</classification>
 		<height>0.3m</height>
 		<weight>3.2kg</weight>
@@ -157,8 +157,8 @@
 		<speed>50</speed>
 	</pokemon>
 	<pokemon>
+		<number>014</number>
 		<name>Kakuna</name>
-		<number> 014</number>
 		<classification>Cocoon Pokémon</classification>
 		<height>0.6m</height>
 		<weight>10kg</weight>
@@ -169,8 +169,8 @@
 		<speed>35</speed>
 	</pokemon>
 	<pokemon>
+		<number>015</number>
 		<name>Beedrill</name>
-		<number> 015</number>
 		<classification>Poison Bee Pokémon</classification>
 		<height>1m</height>
 		<weight>29.5kg</weight>
@@ -181,8 +181,8 @@
 		<speed>75</speed>
 	</pokemon>
 	<pokemon>
+		<number>016</number>
 		<name>Pidgey</name>
-		<number> 016</number>
 		<classification>Tiny Bird Pokémon</classification>
 		<height>0.3m</height>
 		<weight>1.8kg</weight>
@@ -193,8 +193,8 @@
 		<speed>56</speed>
 	</pokemon>
 	<pokemon>
+		<number>017</number>
 		<name>Pidgeotto</name>
-		<number> 017</number>
 		<classification>Bird Pokémon</classification>
 		<height>1.1m</height>
 		<weight>30kg</weight>
@@ -205,8 +205,8 @@
 		<speed>71</speed>
 	</pokemon>
 	<pokemon>
+		<number>018</number>
 		<name>Pidgeot</name>
-		<number> 018</number>
 		<classification>Bird Pokémon</classification>
 		<height>1.5m</height>
 		<weight>39.5kg</weight>
@@ -217,8 +217,8 @@
 		<speed>91</speed>
 	</pokemon>
 	<pokemon>
+		<number>019</number>
 		<name>Rattata</name>
-		<number> 019</number>
 		<classification>Mouse Pokémon</classification>
 		<height>0.3m</height>
 		<weight>3.5kg</weight>
@@ -229,8 +229,8 @@
 		<speed>72</speed>
 	</pokemon>
 	<pokemon>
+		<number>020</number>
 		<name>Raticate</name>
-		<number> 020</number>
 		<classification>Mouse Pokémon</classification>
 		<height>0.7m</height>
 		<weight>18.5kg</weight>
@@ -241,8 +241,8 @@
 		<speed>97</speed>
 	</pokemon>
 	<pokemon>
-		<name>Speapokemon</name>
-		<number> 021</number>
+		<number>021</number>
+		<name>Spearow</name>
 		<classification>Tiny Bird Pokémon</classification>
 		<height>0.3m</height>
 		<weight>2kg</weight>
@@ -253,8 +253,8 @@
 		<speed>70</speed>
 	</pokemon>
 	<pokemon>
-		<name>Feapokemon</name>
-		<number> 022</number>
+		<number>022</number>
+		<name>Fearow</name>
 		<classification>Beak Pokémon</classification>
 		<height>1.2m</height>
 		<weight>38kg</weight>
@@ -265,8 +265,8 @@
 		<speed>100</speed>
 	</pokemon>
 	<pokemon>
+		<number>023</number>
 		<name>Ekans</name>
-		<number> 023</number>
 		<classification>Snake Pokémon</classification>
 		<height>2m</height>
 		<weight>6.9kg</weight>
@@ -277,8 +277,8 @@
 		<speed>55</speed>
 	</pokemon>
 	<pokemon>
+		<number>024</number>
 		<name>Arbok</name>
-		<number> 024</number>
 		<classification>Cobra Pokémon</classification>
 		<height>3.5m</height>
 		<weight>65kg</weight>
@@ -289,8 +289,8 @@
 		<speed>80</speed>
 	</pokemon>
 	<pokemon>
+		<number>025</number>
 		<name>Pikachu</name>
-		<number> 025</number>
 		<classification>Mouse Pokémon</classification>
 		<height>0.4m</height>
 		<weight>6kg</weight>
@@ -301,8 +301,8 @@
 		<speed>90</speed>
 	</pokemon>
 	<pokemon>
+		<number>026</number>
 		<name>Raichu</name>
-		<number> 026</number>
 		<classification>Mouse Pokémon</classification>
 		<height>0.8m</height>
 		<weight>30kg</weight>
@@ -313,8 +313,8 @@
 		<speed>100</speed>
 	</pokemon>
 	<pokemon>
+		<number>027</number>
 		<name>Sandshrew</name>
-		<number> 027</number>
 		<classification>Mouse Pokémon</classification>
 		<height>0.6m</height>
 		<weight>12kg</weight>
@@ -325,8 +325,8 @@
 		<speed>40</speed>
 	</pokemon>
 	<pokemon>
+		<number>028</number>
 		<name>Sandslash</name>
-		<number> 028</number>
 		<classification>Mouse Pokémon</classification>
 		<height>1m</height>
 		<weight>29.5kg</weight>
@@ -337,8 +337,8 @@
 		<speed>65</speed>
 	</pokemon>
 	<pokemon>
+		<number>029</number>
 		<name>Nidoran♀</name>
-		<number> 029</number>
 		<classification>Poison Pin Pokémon</classification>
 		<height>0.4m</height>
 		<weight>7kg</weight>
@@ -349,8 +349,8 @@
 		<speed>41</speed>
 	</pokemon>
 	<pokemon>
+		<number>030</number>
 		<name>Nidorina</name>
-		<number> 030</number>
 		<classification>Poison Pin Pokémon</classification>
 		<height>0.8m</height>
 		<weight>20kg</weight>
@@ -361,8 +361,8 @@
 		<speed>56</speed>
 	</pokemon>
 	<pokemon>
+		<number>031</number>
 		<name>Nidoqueen</name>
-		<number> 031</number>
 		<classification>Drill Pokémon</classification>
 		<height>1.3m</height>
 		<weight>60kg</weight>
@@ -373,8 +373,8 @@
 		<speed>76</speed>
 	</pokemon>
 	<pokemon>
+		<number>032</number>
 		<name>Nidoran♂</name>
-		<number> 032</number>
 		<classification>Poison Pin Pokémon</classification>
 		<height>0.5m</height>
 		<weight>9kg</weight>
@@ -385,8 +385,8 @@
 		<speed>50</speed>
 	</pokemon>
 	<pokemon>
+		<number>033</number>
 		<name>Nidorino</name>
-		<number> 033</number>
 		<classification>Poison Pin Pokémon</classification>
 		<height>0.9m</height>
 		<weight>19.5kg</weight>
@@ -397,8 +397,8 @@
 		<speed>65</speed>
 	</pokemon>
 	<pokemon>
+		<number>034</number>
 		<name>Nidoking</name>
-		<number> 034</number>
 		<classification>Drill Pokémon</classification>
 		<height>1.4m</height>
 		<weight>62kg</weight>
@@ -409,8 +409,8 @@
 		<speed>85</speed>
 	</pokemon>
 	<pokemon>
+		<number>035</number>
 		<name>Clefairy</name>
-		<number> 035</number>
 		<classification>Fairy Pokémon</classification>
 		<height>0.6m</height>
 		<weight>7.5kg</weight>
@@ -421,8 +421,8 @@
 		<speed>35</speed>
 	</pokemon>
 	<pokemon>
+		<number>036</number>
 		<name>Clefable</name>
-		<number> 036</number>
 		<classification>Fairy Pokémon</classification>
 		<height>1.3m</height>
 		<weight>40kg</weight>
@@ -433,8 +433,8 @@
 		<speed>60</speed>
 	</pokemon>
 	<pokemon>
+		<number>037</number>
 		<name>Vulpix</name>
-		<number> 037</number>
 		<classification>Fox Pokémon</classification>
 		<height>0.6m</height>
 		<weight>9.9kg</weight>
@@ -445,8 +445,8 @@
 		<speed>65</speed>
 	</pokemon>
 	<pokemon>
+		<number>038</number>
 		<name>Ninetales</name>
-		<number> 038</number>
 		<classification>Fox Pokémon</classification>
 		<height>1.1m</height>
 		<weight>19.9kg</weight>
@@ -457,8 +457,8 @@
 		<speed>100</speed>
 	</pokemon>
 	<pokemon>
+		<number>039</number>
 		<name>Jigglypuff</name>
-		<number> 039</number>
 		<classification>Balloon Pokémon</classification>
 		<height>0.5m</height>
 		<weight>5.5kg</weight>
@@ -469,8 +469,8 @@
 		<speed>20</speed>
 	</pokemon>
 	<pokemon>
+		<number>040</number>
 		<name>Wigglytuff</name>
-		<number> 040</number>
 		<classification>Balloon Pokémon</classification>
 		<height>1m</height>
 		<weight>12kg</weight>
@@ -481,8 +481,8 @@
 		<speed>45</speed>
 	</pokemon>
 	<pokemon>
+		<number>041</number>
 		<name>Zubat</name>
-		<number> 041</number>
 		<classification>Bat Pokémon</classification>
 		<height>0.8m</height>
 		<weight>7.5kg</weight>
@@ -493,8 +493,8 @@
 		<speed>55</speed>
 	</pokemon>
 	<pokemon>
+		<number>042</number>
 		<name>Golbat</name>
-		<number> 042</number>
 		<classification>Bat Pokémon</classification>
 		<height>1.6m</height>
 		<weight>55kg</weight>
@@ -505,8 +505,8 @@
 		<speed>90</speed>
 	</pokemon>
 	<pokemon>
+		<number>043</number>
 		<name>Oddish</name>
-		<number> 043</number>
 		<classification>Weed Pokémon</classification>
 		<height>0.5m</height>
 		<weight>5.4kg</weight>
@@ -517,8 +517,8 @@
 		<speed>30</speed>
 	</pokemon>
 	<pokemon>
+		<number>044</number>
 		<name>Gloom</name>
-		<number> 044</number>
 		<classification>Weed Pokémon</classification>
 		<height>0.8m</height>
 		<weight>8.6kg</weight>
@@ -529,8 +529,8 @@
 		<speed>40</speed>
 	</pokemon>
 	<pokemon>
+		<number>045</number>
 		<name>Vileplume</name>
-		<number> 045</number>
 		<classification>Flower Pokémon</classification>
 		<height>1.2m</height>
 		<weight>18.6kg</weight>
@@ -541,8 +541,8 @@
 		<speed>50</speed>
 	</pokemon>
 	<pokemon>
+		<number>046</number>
 		<name>Paras</name>
-		<number> 046</number>
 		<classification>Mushroom Pokémon</classification>
 		<height>0.3m</height>
 		<weight>5.4kg</weight>
@@ -553,8 +553,8 @@
 		<speed>25</speed>
 	</pokemon>
 	<pokemon>
+		<number>047</number>
 		<name>Parasect</name>
-		<number> 047</number>
 		<classification>Mushroom Pokémon</classification>
 		<height>1m</height>
 		<weight>29.5kg</weight>
@@ -565,8 +565,8 @@
 		<speed>30</speed>
 	</pokemon>
 	<pokemon>
+		<number>048</number>
 		<name>Venonat</name>
-		<number> 048</number>
 		<classification>Insect Pokémon</classification>
 		<height>1m</height>
 		<weight>30kg</weight>
@@ -577,8 +577,8 @@
 		<speed>45</speed>
 	</pokemon>
 	<pokemon>
+		<number>049</number>
 		<name>Venomoth</name>
-		<number> 049</number>
 		<classification>Poison Moth Pokémon</classification>
 		<height>1.5m</height>
 		<weight>12.5kg</weight>
@@ -589,8 +589,8 @@
 		<speed>90</speed>
 	</pokemon>
 	<pokemon>
+		<number>050</number>
 		<name>Diglett</name>
-		<number> 050</number>
 		<classification>Mole Pokémon</classification>
 		<height>0.2m</height>
 		<weight>0.8kg</weight>
@@ -601,8 +601,8 @@
 		<speed>95</speed>
 	</pokemon>
 	<pokemon>
+		<number>051</number>
 		<name>Dugtrio</name>
-		<number> 051</number>
 		<classification>Mole Pokémon</classification>
 		<height>0.7m</height>
 		<weight>33.3kg</weight>
@@ -613,8 +613,8 @@
 		<speed>120</speed>
 	</pokemon>
 	<pokemon>
+		<number>052</number>
 		<name>Meowth</name>
-		<number> 052</number>
 		<classification>Scratch Cat Pokémon</classification>
 		<height>0.4m</height>
 		<weight>4.2kg</weight>
@@ -625,8 +625,8 @@
 		<speed>90</speed>
 	</pokemon>
 	<pokemon>
+		<number>053</number>
 		<name>Persian</name>
-		<number> 053</number>
 		<classification>Classy Cat Pokémon</classification>
 		<height>1m</height>
 		<weight>32kg</weight>
@@ -637,8 +637,8 @@
 		<speed>115</speed>
 	</pokemon>
 	<pokemon>
+		<number>054</number>
 		<name>Psyduck</name>
-		<number> 054</number>
 		<classification>Duck Pokémon</classification>
 		<height>0.8m</height>
 		<weight>19.6kg</weight>
@@ -650,7 +650,7 @@
 	</pokemon>
 	<pokemon>
 		<name>Golduck</name>
-		<number> 055</number>
+		<number>055</number>
 		<classification>Duck Pokémon</classification>
 		<height>1.7m</height>
 		<weight>76.6kg</weight>
@@ -662,7 +662,7 @@
 	</pokemon>
 	<pokemon>
 		<name>Mankey</name>
-		<number> 056</number>
+		<number>056</number>
 		<classification>Pig Monkey Pokémon</classification>
 		<height>0.5m</height>
 		<weight>28kg</weight>
@@ -673,8 +673,8 @@
 		<speed>70</speed>
 	</pokemon>
 	<pokemon>
+		<number>057</number>
 		<name>Primeape</name>
-		<number> 057</number>
 		<classification>Pig Monkey Pokémon</classification>
 		<height>1m</height>
 		<weight>32kg</weight>
@@ -685,8 +685,8 @@
 		<speed>95</speed>
 	</pokemon>
 	<pokemon>
+		<number>058</number>
 		<name>Growlithe</name>
-		<number> 058</number>
 		<classification>Puppy Pokémon</classification>
 		<height>0.7m</height>
 		<weight>19kg</weight>
@@ -697,8 +697,8 @@
 		<speed>60</speed>
 	</pokemon>
 	<pokemon>
+		<number>059</number>
 		<name>Arcanine</name>
-		<number> 059</number>
 		<classification>Legendary Pokémon</classification>
 		<height>1.9m</height>
 		<weight>155kg</weight>
@@ -709,8 +709,8 @@
 		<speed>95</speed>
 	</pokemon>
 	<pokemon>
+		<number>060</number>
 		<name>Poliwag</name>
-		<number> 060</number>
 		<classification>Tadpole Pokémon</classification>
 		<height>0.6m</height>
 		<weight>12.4kg</weight>
@@ -721,8 +721,8 @@
 		<speed>90</speed>
 	</pokemon>
 	<pokemon>
+		<number>061</number>
 		<name>Poliwhirl</name>
-		<number> 061</number>
 		<classification>Tadpole Pokémon</classification>
 		<height>1m</height>
 		<weight>20kg</weight>
@@ -733,8 +733,8 @@
 		<speed>90</speed>
 	</pokemon>
 	<pokemon>
+		<number>062</number>
 		<name>Poliwrath</name>
-		<number> 062</number>
 		<classification>Tadpole Pokémon</classification>
 		<height>1.3m</height>
 		<weight>54kg</weight>
@@ -745,8 +745,8 @@
 		<speed>70</speed>
 	</pokemon>
 	<pokemon>
+		<number>063</number>
 		<name>Abra</name>
-		<number> 063</number>
 		<classification>Psi Pokémon</classification>
 		<height>0.9m</height>
 		<weight>19.5kg</weight>
@@ -757,8 +757,8 @@
 		<speed>90</speed>
 	</pokemon>
 	<pokemon>
+		<number>064</number>
 		<name>Kadabra</name>
-		<number> 064</number>
 		<classification>Psi Pokémon</classification>
 		<height>1.3m</height>
 		<weight>56.5kg</weight>
@@ -769,8 +769,8 @@
 		<speed>105</speed>
 	</pokemon>
 	<pokemon>
+		<number>065</number>
 		<name>Alakazam</name>
-		<number> 065</number>
 		<classification>Psi Pokémon</classification>
 		<height>1.5m</height>
 		<weight>48kg</weight>
@@ -781,8 +781,8 @@
 		<speed>120</speed>
 	</pokemon>
 	<pokemon>
+		<number>066</number>
 		<name>Machop</name>
-		<number> 066</number>
 		<classification>Superpower Pokémon</classification>
 		<height>0.8m</height>
 		<weight>19.5kg</weight>
@@ -793,8 +793,8 @@
 		<speed>35</speed>
 	</pokemon>
 	<pokemon>
+		<number>067</number>
 		<name>Machoke</name>
-		<number> 067</number>
 		<classification>Superpower Pokémon</classification>
 		<height>1.5m</height>
 		<weight>70.5kg</weight>
@@ -805,8 +805,8 @@
 		<speed>45</speed>
 	</pokemon>
 	<pokemon>
+		<number>068</number>
 		<name>Machamp</name>
-		<number> 068</number>
 		<classification>Superpower Pokémon</classification>
 		<height>1.6m</height>
 		<weight>130kg</weight>
@@ -817,8 +817,8 @@
 		<speed>55</speed>
 	</pokemon>
 	<pokemon>
+		<number>069</number>
 		<name>Bellsprout</name>
-		<number> 069</number>
 		<classification>Flower Pokémon</classification>
 		<height>0.7m</height>
 		<weight>4kg</weight>
@@ -829,8 +829,8 @@
 		<speed>40</speed>
 	</pokemon>
 	<pokemon>
+		<number>070</number>
 		<name>Weepinbell</name>
-		<number> 070</number>
 		<classification>Flycatcher Pokémon</classification>
 		<height>1m</height>
 		<weight>6.4kg</weight>
@@ -841,8 +841,8 @@
 		<speed>55</speed>
 	</pokemon>
 	<pokemon>
+		<number>071</number>
 		<name>Victreebel</name>
-		<number> 071</number>
 		<classification>Flycatcher Pokémon</classification>
 		<height>1.7m</height>
 		<weight>15.5kg</weight>
@@ -853,8 +853,8 @@
 		<speed>70</speed>
 	</pokemon>
 	<pokemon>
+		<number>072</number>
 		<name>Tentacool</name>
-		<number> 072</number>
 		<classification>Jellyfish Pokémon</classification>
 		<height>0.9m</height>
 		<weight>45.5kg</weight>
@@ -865,8 +865,8 @@
 		<speed>70</speed>
 	</pokemon>
 	<pokemon>
+		<number>073</number>
 		<name>Tentacruel</name>
-		<number> 073</number>
 		<classification>Jellyfish Pokémon</classification>
 		<height>1.6m</height>
 		<weight>55kg</weight>
@@ -877,8 +877,8 @@
 		<speed>100</speed>
 	</pokemon>
 	<pokemon>
+		<number>074</number>
 		<name>Geodude</name>
-		<number> 074</number>
 		<classification>Rock Pokémon</classification>
 		<height>0.4m</height>
 		<weight>20kg</weight>
@@ -889,8 +889,8 @@
 		<speed>20</speed>
 	</pokemon>
 	<pokemon>
+		<number>075</number>
 		<name>Graveler</name>
-		<number> 075</number>
 		<classification>Rock Pokémon</classification>
 		<height>1m</height>
 		<weight>105kg</weight>
@@ -901,8 +901,8 @@
 		<speed>35</speed>
 	</pokemon>
 	<pokemon>
+		<number>076</number>
 		<name>Golem</name>
-		<number> 076</number>
 		<classification>Megaton Pokémon</classification>
 		<height>1.4m</height>
 		<weight>300kg</weight>
@@ -913,8 +913,8 @@
 		<speed>45</speed>
 	</pokemon>
 	<pokemon>
+		<number>077</number>
 		<name>Ponyta</name>
-		<number> 077</number>
 		<classification>Fire Horse Pokémon</classification>
 		<height>1m</height>
 		<weight>30kg</weight>
@@ -925,8 +925,8 @@
 		<speed>90</speed>
 	</pokemon>
 	<pokemon>
+		<number>078</number>
 		<name>Rapidash</name>
-		<number> 078</number>
 		<classification>Fire Horse Pokémon</classification>
 		<height>1.7m</height>
 		<weight>95kg</weight>
@@ -937,8 +937,8 @@
 		<speed>105</speed>
 	</pokemon>
 	<pokemon>
+		<number>079</number>
 		<name>Slowpoke</name>
-		<number> 079</number>
 		<classification>Dopey Pokémon</classification>
 		<height>1.2m</height>
 		<weight>36kg</weight>
@@ -949,8 +949,8 @@
 		<speed>15</speed>
 	</pokemon>
 	<pokemon>
+		<number>080</number>
 		<name>Slowbro</name>
-		<number> 080</number>
 		<classification>Hermit Crab Pokémon</classification>
 		<height>1.6m</height>
 		<weight>78.5kg</weight>
@@ -961,8 +961,8 @@
 		<speed>30</speed>
 	</pokemon>
 	<pokemon>
+		<number>081</number>
 		<name>Magnemite</name>
-		<number> 081</number>
 		<classification>Magnet Pokémon</classification>
 		<height>0.3m</height>
 		<weight>6kg</weight>
@@ -973,8 +973,8 @@
 		<speed>45</speed>
 	</pokemon>
 	<pokemon>
+		<number>082</number>
 		<name>Magneton</name>
-		<number> 082</number>
 		<classification>Magnet Pokémon</classification>
 		<height>1m</height>
 		<weight>60kg</weight>
@@ -985,8 +985,8 @@
 		<speed>70</speed>
 	</pokemon>
 	<pokemon>
+		<number>083</number>
 		<name>Farfetch'd</name>
-		<number> 083</number>
 		<classification>Wild Duck Pokémon</classification>
 		<height>0.8m</height>
 		<weight>15kg</weight>
@@ -997,8 +997,8 @@
 		<speed>60</speed>
 	</pokemon>
 	<pokemon>
+		<number>084</number>
 		<name>Doduo</name>
-		<number> 084</number>
 		<classification>Twin Bird Pokémon</classification>
 		<height>1.4m</height>
 		<weight>39.2kg</weight>
@@ -1009,8 +1009,8 @@
 		<speed>75</speed>
 	</pokemon>
 	<pokemon>
+		<number>085</number>
 		<name>Dodrio</name>
-		<number> 085</number>
 		<classification>Triple Bird Pokémon</classification>
 		<height>1.8m</height>
 		<weight>85.2kg</weight>
@@ -1021,8 +1021,8 @@
 		<speed>100</speed>
 	</pokemon>
 	<pokemon>
+		<number>086</number>
 		<name>Seel</name>
-		<number> 086</number>
 		<classification>Sea Lion Pokémon</classification>
 		<height>1.1m</height>
 		<weight>90kg</weight>
@@ -1033,8 +1033,8 @@
 		<speed>45</speed>
 	</pokemon>
 	<pokemon>
+		<number>087</number>
 		<name>Dewgong</name>
-		<number> 087</number>
 		<classification>Sea Lion Pokémon</classification>
 		<height>1.7m</height>
 		<weight>120kg</weight>
@@ -1045,8 +1045,8 @@
 		<speed>70</speed>
 	</pokemon>
 	<pokemon>
+		<number>088</number>
 		<name>Grimer</name>
-		<number> 088</number>
 		<classification>Sludge Pokémon</classification>
 		<height>0.9m</height>
 		<weight>30kg</weight>
@@ -1057,8 +1057,8 @@
 		<speed>25</speed>
 	</pokemon>
 	<pokemon>
+		<number>089</number>
 		<name>Muk</name>
-		<number> 089</number>
 		<classification>Sludge Pokémon</classification>
 		<height>1.2m</height>
 		<weight>30kg</weight>
@@ -1069,8 +1069,8 @@
 		<speed>50</speed>
 	</pokemon>
 	<pokemon>
+		<number>090</number>
 		<name>Shellder</name>
-		<number> 090</number>
 		<classification>Bivalve Pokémon</classification>
 		<height>0.3m</height>
 		<weight>4kg</weight>
@@ -1081,8 +1081,8 @@
 		<speed>40</speed>
 	</pokemon>
 	<pokemon>
+		<number>091</number>
 		<name>Cloyster</name>
-		<number> 091</number>
 		<classification>Bivalve Pokémon</classification>
 		<height>1.5m</height>
 		<weight>132.5kg</weight>
@@ -1093,8 +1093,8 @@
 		<speed>70</speed>
 	</pokemon>
 	<pokemon>
+		<number>092</number>
 		<name>Gastly</name>
-		<number> 092</number>
 		<classification>Gas Pokémon</classification>
 		<height>1.3m</height>
 		<weight>0.1kg</weight>
@@ -1105,8 +1105,8 @@
 		<speed>80</speed>
 	</pokemon>
 	<pokemon>
+		<number>093</number>
 		<name>Haunter</name>
-		<number> 093</number>
 		<classification>Gas Pokémon</classification>
 		<height>1.6m</height>
 		<weight>0.1kg</weight>
@@ -1117,8 +1117,8 @@
 		<speed>95</speed>
 	</pokemon>
 	<pokemon>
+		<number>094</number>
 		<name>Gengar</name>
-		<number> 094</number>
 		<classification>Shadow Pokémon</classification>
 		<height>1.5m</height>
 		<weight>40.5kg</weight>
@@ -1129,8 +1129,8 @@
 		<speed>110</speed>
 	</pokemon>
 	<pokemon>
+		<number>095</number>
 		<name>Onix</name>
-		<number> 095</number>
 		<classification>Rock Snake Pokémon</classification>
 		<height>8.8m</height>
 		<weight>210kg</weight>
@@ -1141,8 +1141,8 @@
 		<speed>70</speed>
 	</pokemon>
 	<pokemon>
+		<number>096</number>
 		<name>Drowzee</name>
-		<number> 096</number>
 		<classification>Hypnosis Pokémon</classification>
 		<height>1m</height>
 		<weight>32.4kg</weight>
@@ -1153,8 +1153,8 @@
 		<speed>42</speed>
 	</pokemon>
 	<pokemon>
+		<number>097</number>
 		<name>Hypno</name>
-		<number> 097</number>
 		<classification>Hypnosis Pokémon</classification>
 		<height>1.6m</height>
 		<weight>75.6kg</weight>
@@ -1165,8 +1165,8 @@
 		<speed>67</speed>
 	</pokemon>
 	<pokemon>
+		<number>098</number>
 		<name>Krabby</name>
-		<number> 098</number>
 		<classification>River Crab Pokémon</classification>
 		<height>0.4m</height>
 		<weight>6.5kg</weight>
@@ -1177,8 +1177,8 @@
 		<speed>50</speed>
 	</pokemon>
 	<pokemon>
+		<number>099</number>
 		<name>Kingler</name>
-		<number> 099</number>
 		<classification>Pincer Pokémon</classification>
 		<height>1.3m</height>
 		<weight>60kg</weight>
@@ -1189,8 +1189,8 @@
 		<speed>75</speed>
 	</pokemon>
 	<pokemon>
+		<number>100</number>
 		<name>Voltorb</name>
-		<number> 100</number>
 		<classification>Ball Pokémon</classification>
 		<height>0.5m</height>
 		<weight>10.4kg</weight>
@@ -1201,8 +1201,8 @@
 		<speed>100</speed>
 	</pokemon>
 	<pokemon>
+		<number>101</number>
 		<name>Electrode</name>
-		<number> 101</number>
 		<classification>Ball Pokémon</classification>
 		<height>1.2m</height>
 		<weight>66.6kg</weight>
@@ -1213,8 +1213,8 @@
 		<speed>140</speed>
 	</pokemon>
 	<pokemon>
+		<number>102</number>
 		<name>Exeggcute</name>
-		<number> 102</number>
 		<classification>Egg Pokémon</classification>
 		<height>0.4m</height>
 		<weight>2.5kg</weight>
@@ -1225,8 +1225,8 @@
 		<speed>40</speed>
 	</pokemon>
 	<pokemon>
+		<number>103</number>
 		<name>Exeggutor</name>
-		<number> 103</number>
 		<classification>Coconut Pokémon</classification>
 		<height>2m</height>
 		<weight>120kg</weight>
@@ -1237,8 +1237,8 @@
 		<speed>55</speed>
 	</pokemon>
 	<pokemon>
+		<number>104</number>
 		<name>Cubone</name>
-		<number> 104</number>
 		<classification>Lonely Pokémon</classification>
 		<height>0.4m</height>
 		<weight>6.5kg</weight>
@@ -1249,8 +1249,8 @@
 		<speed>35</speed>
 	</pokemon>
 	<pokemon>
-		<name>Mapokemonak</name>
-		<number> 105</number>
+		<number>105</number>
+		<name>Marowak</name>
 		<classification>Bone Keeper Pokémon</classification>
 		<height>1m</height>
 		<weight>45kg</weight>
@@ -1261,8 +1261,8 @@
 		<speed>45</speed>
 	</pokemon>
 	<pokemon>
+		<number>106</number>
 		<name>Hitmonlee</name>
-		<number> 106</number>
 		<classification>Kicking Pokémon</classification>
 		<height>1.5m</height>
 		<weight>49.8kg</weight>
@@ -1273,8 +1273,8 @@
 		<speed>87</speed>
 	</pokemon>
 	<pokemon>
+		<number>107</number>
 		<name>Hitmonchan</name>
-		<number> 107</number>
 		<classification>Punching Pokémon</classification>
 		<height>1.4m</height>
 		<weight>50.2kg</weight>
@@ -1285,8 +1285,8 @@
 		<speed>76</speed>
 	</pokemon>
 	<pokemon>
+		<number>108</number>
 		<name>Lickitung</name>
-		<number> 108</number>
 		<classification>Licking Pokémon</classification>
 		<height>1.2m</height>
 		<weight>65.5kg</weight>
@@ -1297,8 +1297,8 @@
 		<speed>30</speed>
 	</pokemon>
 	<pokemon>
+		<number>109</number>
 		<name>Koffing</name>
-		<number> 109</number>
 		<classification>Poison Gas Pokémon</classification>
 		<height>0.6m</height>
 		<weight>1kg</weight>
@@ -1309,8 +1309,8 @@
 		<speed>35</speed>
 	</pokemon>
 	<pokemon>
+		<number>110</number>
 		<name>Weezing</name>
-		<number> 110</number>
 		<classification>Poison Gas Pokémon</classification>
 		<height>1.2m</height>
 		<weight>9.5kg</weight>
@@ -1321,8 +1321,8 @@
 		<speed>60</speed>
 	</pokemon>
 	<pokemon>
+		<number>111</number>
 		<name>Rhyhorn</name>
-		<number> 111</number>
 		<classification>Spikes Pokémon</classification>
 		<height>1m</height>
 		<weight>115kg</weight>
@@ -1333,8 +1333,8 @@
 		<speed>25</speed>
 	</pokemon>
 	<pokemon>
+		<number>112</number>
 		<name>Rhydon</name>
-		<number> 112</number>
 		<classification>Drill Pokémon</classification>
 		<height>1.9m</height>
 		<weight>120kg</weight>
@@ -1345,8 +1345,8 @@
 		<speed>40</speed>
 	</pokemon>
 	<pokemon>
+		<number>113</number>
 		<name>Chansey</name>
-		<number> 113</number>
 		<classification>Egg Pokémon</classification>
 		<height>1.1m</height>
 		<weight>34.6kg</weight>
@@ -1357,8 +1357,8 @@
 		<speed>50</speed>
 	</pokemon>
 	<pokemon>
+		<number>114</number>
 		<name>Tangela</name>
-		<number> 114</number>
 		<classification>Vine Pokémon</classification>
 		<height>1m</height>
 		<weight>35kg</weight>
@@ -1369,8 +1369,8 @@
 		<speed>60</speed>
 	</pokemon>
 	<pokemon>
+		<number>115</number>
 		<name>Kangaskhan</name>
-		<number> 115</number>
 		<classification>Parent Pokémon</classification>
 		<height>2.2m</height>
 		<weight>80kg</weight>
@@ -1381,8 +1381,8 @@
 		<speed>90</speed>
 	</pokemon>
 	<pokemon>
+		<number>116</number>
 		<name>Horsea</name>
-		<number> 116</number>
 		<classification>Dragon Pokémon</classification>
 		<height>0.4m</height>
 		<weight>8kg</weight>
@@ -1393,8 +1393,8 @@
 		<speed>60</speed>
 	</pokemon>
 	<pokemon>
+		<number>117</number>
 		<name>Seadra</name>
-		<number> 117</number>
 		<classification>Dragon Pokémon</classification>
 		<height>1.2m</height>
 		<weight>25kg</weight>
@@ -1405,8 +1405,8 @@
 		<speed>85</speed>
 	</pokemon>
 	<pokemon>
+		<number>118</number>
 		<name>Goldeen</name>
-		<number> 118</number>
 		<classification>Goldfish Pokémon</classification>
 		<height>0.6m</height>
 		<weight>15kg</weight>
@@ -1417,8 +1417,8 @@
 		<speed>63</speed>
 	</pokemon>
 	<pokemon>
+		<number>119</number>
 		<name>Seaking</name>
-		<number> 119</number>
 		<classification>Goldfish Pokémon</classification>
 		<height>1.3m</height>
 		<weight>39kg</weight>
@@ -1429,8 +1429,8 @@
 		<speed>68</speed>
 	</pokemon>
 	<pokemon>
+		<number>120</number>
 		<name>Staryu</name>
-		<number> 120</number>
 		<classification>Starshape Pokémon</classification>
 		<height>0.8m</height>
 		<weight>34.5kg</weight>
@@ -1441,8 +1441,8 @@
 		<speed>85</speed>
 	</pokemon>
 	<pokemon>
+		<number>121</number>
 		<name>Starmie</name>
-		<number> 121</number>
 		<classification>Mysterious Pokémon</classification>
 		<height>1.1m</height>
 		<weight>80kg</weight>
@@ -1453,8 +1453,8 @@
 		<speed>115</speed>
 	</pokemon>
 	<pokemon>
+		<number>122</number>
 		<name>Mr. Mime</name>
-		<number> 122</number>
 		<classification>Barrier Pokémon</classification>
 		<height>1.3m</height>
 		<weight>54.5kg</weight>
@@ -1465,8 +1465,8 @@
 		<speed>90</speed>
 	</pokemon>
 	<pokemon>
+		<number>123</number>
 		<name>Scyther</name>
-		<number> 123</number>
 		<classification>Mantis Pokémon</classification>
 		<height>1.5m</height>
 		<weight>56kg</weight>
@@ -1477,8 +1477,8 @@
 		<speed>105</speed>
 	</pokemon>
 	<pokemon>
+		<number>124</number>
 		<name>Jynx</name>
-		<number> 124</number>
 		<classification>Humanshape Pokémon</classification>
 		<height>1.4m</height>
 		<weight>40.6kg</weight>
@@ -1489,8 +1489,8 @@
 		<speed>95</speed>
 	</pokemon>
 	<pokemon>
+		<number>125</number>
 		<name>Electabuzz</name>
-		<number> 125</number>
 		<classification>Electric Pokémon</classification>
 		<height>1.1m</height>
 		<weight>30kg</weight>
@@ -1501,8 +1501,8 @@
 		<speed>105</speed>
 	</pokemon>
 	<pokemon>
+		<number>126</number>
 		<name>Magmar</name>
-		<number> 126</number>
 		<classification>Spitfire Pokémon</classification>
 		<height>1.3m</height>
 		<weight>44.5kg</weight>
@@ -1513,8 +1513,8 @@
 		<speed>93</speed>
 	</pokemon>
 	<pokemon>
+		<number>127</number>
 		<name>Pinsir</name>
-		<number> 127</number>
 		<classification>Stagbeetle Pokémon</classification>
 		<height>1.5m</height>
 		<weight>55kg</weight>
@@ -1525,8 +1525,8 @@
 		<speed>85</speed>
 	</pokemon>
 	<pokemon>
+		<number>128</number>
 		<name>Tauros</name>
-		<number> 128</number>
 		<classification>Wild Bull Pokémon</classification>
 		<height>1.4m</height>
 		<weight>88.4kg</weight>
@@ -1537,8 +1537,8 @@
 		<speed>110</speed>
 	</pokemon>
 	<pokemon>
+		<number>129</number>
 		<name>Magikarp</name>
-		<number> 129</number>
 		<classification>Fish Pokémon</classification>
 		<height>0.9m</height>
 		<weight>10kg</weight>
@@ -1549,8 +1549,8 @@
 		<speed>80</speed>
 	</pokemon>
 	<pokemon>
+		<number>130</number>
 		<name>Gyarados</name>
-		<number> 130</number>
 		<classification>Atrocious Pokémon</classification>
 		<height>6.5m</height>
 		<weight>235kg</weight>
@@ -1561,8 +1561,8 @@
 		<speed>81</speed>
 	</pokemon>
 	<pokemon>
+		<number>131</number>
 		<name>Lapras</name>
-		<number> 131</number>
 		<classification>Transport Pokémon</classification>
 		<height>2.5m</height>
 		<weight>220kg</weight>
@@ -1573,8 +1573,8 @@
 		<speed>60</speed>
 	</pokemon>
 	<pokemon>
+		<number>132</number>
 		<name>Ditto</name>
-		<number> 132</number>
 		<classification>Transform Pokémon</classification>
 		<height>0.3m</height>
 		<weight>4kg</weight>
@@ -1585,8 +1585,8 @@
 		<speed>48</speed>
 	</pokemon>
 	<pokemon>
+		<number>133</number>
 		<name>Eevee</name>
-		<number> 133</number>
 		<classification>Evolution Pokémon</classification>
 		<height>0.3m</height>
 		<weight>6.5kg</weight>
@@ -1597,8 +1597,8 @@
 		<speed>55</speed>
 	</pokemon>
 	<pokemon>
+		<number>134</number>
 		<name>Vaporeon</name>
-		<number> 134</number>
 		<classification>Bubble Jet Pokémon</classification>
 		<height>1m</height>
 		<weight>29kg</weight>
@@ -1609,8 +1609,8 @@
 		<speed>65</speed>
 	</pokemon>
 	<pokemon>
+		<number>135</number>
 		<name>Jolteon</name>
-		<number> 135</number>
 		<classification>Lightning Pokémon</classification>
 		<height>0.8m</height>
 		<weight>24.5kg</weight>
@@ -1621,8 +1621,8 @@
 		<speed>130</speed>
 	</pokemon>
 	<pokemon>
+		<number>136</number>
 		<name>Flareon</name>
-		<number> 136</number>
 		<classification>Flame Pokémon</classification>
 		<height>0.9m</height>
 		<weight>25kg</weight>
@@ -1633,8 +1633,8 @@
 		<speed>65</speed>
 	</pokemon>
 	<pokemon>
+		<number>137</number>
 		<name>Porygon</name>
-		<number> 137</number>
 		<classification>Virtual Pokémon</classification>
 		<height>0.8m</height>
 		<weight>36.5kg</weight>
@@ -1645,8 +1645,8 @@
 		<speed>40</speed>
 	</pokemon>
 	<pokemon>
+		<number>138</number>
 		<name>Omanyte</name>
-		<number> 138</number>
 		<classification>Spiral Pokémon</classification>
 		<height>0.4m</height>
 		<weight>7.5kg</weight>
@@ -1657,8 +1657,8 @@
 		<speed>35</speed>
 	</pokemon>
 	<pokemon>
+		<number>139</number>
 		<name>Omastar</name>
-		<number> 139</number>
 		<classification>Spiral Pokémon</classification>
 		<height>1m</height>
 		<weight>35kg</weight>
@@ -1669,8 +1669,8 @@
 		<speed>55</speed>
 	</pokemon>
 	<pokemon>
+		<number>140</number>
 		<name>Kabuto</name>
-		<number> 140</number>
 		<classification>Shellfish Pokémon</classification>
 		<height>0.5m</height>
 		<weight>11.5kg</weight>
@@ -1681,8 +1681,8 @@
 		<speed>55</speed>
 	</pokemon>
 	<pokemon>
+		<number>141</number>
 		<name>Kabutops</name>
-		<number> 141</number>
 		<classification>Shellfish Pokémon</classification>
 		<height>1.3m</height>
 		<weight>40.5kg</weight>
@@ -1693,8 +1693,8 @@
 		<speed>80</speed>
 	</pokemon>
 	<pokemon>
+		<number>142</number>
 		<name>Aerodactyl</name>
-		<number> 142</number>
 		<classification>Fossil Pokémon</classification>
 		<height>1.8m</height>
 		<weight>59kg</weight>
@@ -1705,8 +1705,8 @@
 		<speed>130</speed>
 	</pokemon>
 	<pokemon>
+		<number>143</number>
 		<name>Snorlax</name>
-		<number> 143</number>
 		<classification>Sleeping Pokémon</classification>
 		<height>2.1m</height>
 		<weight>460kg</weight>
@@ -1717,8 +1717,8 @@
 		<speed>30</speed>
 	</pokemon>
 	<pokemon>
+		<number>144</number>
 		<name>Articuno</name>
-		<number> 144</number>
 		<classification>Freeze Pokémon</classification>
 		<height>1.7m</height>
 		<weight>55.4kg</weight>
@@ -1729,8 +1729,8 @@
 		<speed>85</speed>
 	</pokemon>
 	<pokemon>
+		<number>145</number>
 		<name>Zapdos</name>
-		<number> 145</number>
 		<classification>Electric Pokémon</classification>
 		<height>1.6m</height>
 		<weight>52.6kg</weight>
@@ -1741,8 +1741,8 @@
 		<speed>100</speed>
 	</pokemon>
 	<pokemon>
+		<number>146</number>
 		<name>Moltres</name>
-		<number> 146</number>
 		<classification>Flame Pokémon</classification>
 		<height>2m</height>
 		<weight>60kg</weight>
@@ -1753,8 +1753,8 @@
 		<speed>90</speed>
 	</pokemon>
 	<pokemon>
+		<number>147</number>
 		<name>Dratini</name>
-		<number> 147</number>
 		<classification>Dragon Pokémon</classification>
 		<height>1.8m</height>
 		<weight>3.3kg</weight>
@@ -1765,8 +1765,8 @@
 		<speed>50</speed>
 	</pokemon>
 	<pokemon>
+		<number>148</number>
 		<name>Dragonair</name>
-		<number> 148</number>
 		<classification>Dragon Pokémon</classification>
 		<height>4m</height>
 		<weight>16.5kg</weight>
@@ -1777,8 +1777,8 @@
 		<speed>70</speed>
 	</pokemon>
 	<pokemon>
+		<number>149</number>
 		<name>Dragonite</name>
-		<number> 149</number>
 		<classification>Dragon Pokémon</classification>
 		<height>2.2m</height>
 		<weight>210kg</weight>
@@ -1789,8 +1789,8 @@
 		<speed>80</speed>
 	</pokemon>
 	<pokemon>
+		<number>150</number>
 		<name>Mewtwo</name>
-		<number> 150</number>
 		<classification>Genetic Pokémon</classification>
 		<height>2m</height>
 		<weight>122kg</weight>
@@ -1801,8 +1801,8 @@
 		<speed>130</speed>
 	</pokemon>
 	<pokemon>
+		<number>151</number>
 		<name>Mew</name>
-		<number> 151</number>
 		<classification>New Species Pokémon</classification>
 		<height>0.4m</height>
 		<weight>4kg</weight>
