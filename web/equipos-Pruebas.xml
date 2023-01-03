@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><equipos>
+<?xml version="1.0" encoding="UTF-8"?><equipos>
 	<equipo nombreEntrenador="Jaime" photo="trainer1.png">
 		<pokemon>
-			<number>9</number>
+			<number>009</number>
 			<name>Blastoise</name>
 			<classification>Shellfish Pokémon</classification>
 			<height>1.6m</height>
@@ -25,7 +25,7 @@
 			<speed>100</speed>
 		</pokemon>
 		<pokemon>
-			<number>71</number>
+			<number>071</number>
 			<name>Victreebel</name>
 			<classification>Flycatcher Pokémon</classification>
 			<height>1.7m</height>
@@ -37,7 +37,7 @@
 			<speed>70</speed>
 		</pokemon>
 		<pokemon>
-			<number>59</number>
+			<number>059</number>
 			<name>Arcanine</name>
 			<classification>Legendary Pokémon</classification>
 			<height>1.9m</height>
@@ -61,7 +61,7 @@
 			<speed>30</speed>
 		</pokemon>
 		<pokemon>
-			<number>18</number>
+			<number>018</number>
 			<name>Pidgeot</name>
 			<classification>Bird Pokémon</classification>
 			<height>1.5m</height>
@@ -87,7 +87,7 @@
 			<speed>30</speed>
 		</pokemon>
 		<pokemon>
-			<number>95</number>
+			<number>095</number>
 			<name>Onix</name>
 			<classification>Rock Snake Pokémon</classification>
 			<height>8.8m</height>
@@ -99,7 +99,7 @@
 			<speed>70</speed>
 		</pokemon>
 		<pokemon>
-			<number>94</number>
+			<number>094</number>
 			<name>Gengar</name>
 			<classification>Shadow Pokémon</classification>
 			<height>1.5m</height>
@@ -111,7 +111,7 @@
 			<speed>110</speed>
 		</pokemon>
 		<pokemon>
-			<number>83</number>
+			<number>083</number>
 			<name>Farfetch'd</name>
 			<classification>Wild Duck Pokémon</classification>
 			<height>0.8m</height>
@@ -123,7 +123,7 @@
 			<speed>60</speed>
 		</pokemon>
 		<pokemon>
-			<number>65</number>
+			<number>065</number>
 			<name>Alakazam</name>
 			<classification>Psi Pokémon</classification>
 			<height>1.5m</height>
@@ -135,7 +135,7 @@
 			<speed>120</speed>
 		</pokemon>
 		<pokemon>
-			<number>6</number>
+			<number>006</number>
 			<name>Charizard</name>
 			<classification>Flame Pokémon</classification>
 			<height>1.7m</height>
@@ -147,4 +147,4 @@
 			<speed>100</speed>
 		</pokemon>
 	</equipo>
-<equipo nombreEntrenador="Julen" photo="trainer5.png"><pokemon><number>3</number><name>Venusaur</name><classification>Seed Pokémon</classification><height>2m</height><weight>1kg</weight><hit_points>80</hit_points><attack>82</attack><defense>83</defense><speed>80</speed></pokemon><pokemon><number>126</number><name>Magmar</name><classification>Spitfire Pokémon</classification><height>1.3m</height><weight>44.5kg</weight><hit_points>65</hit_points><attack>95</attack><defense>57</defense><speed>93</speed></pokemon><pokemon><number>55</number><name>Golduck</name><classification>Duck Pokémon</classification><height>1.7m</height><weight>76.6kg</weight><hit_points>80</hit_points><attack>82</attack><defense>78</defense><speed>85</speed></pokemon><pokemon><number>82</number><name>Magneton</name><classification>Magnet Pokémon</classification><height>1m</height><weight>60kg</weight><hit_points>50</hit_points><attack>60</attack><defense>95</defense><speed>70</speed></pokemon><pokemon><number>65</number><name>Alakazam</name><classification>Psi Pokémon</classification><height>1.5m</height><weight>48kg</weight><hit_points>55</hit_points><attack>50</attack><defense>45</defense><speed>120</speed></pokemon><pokemon><number>94</number><name>Gengar</name><classification>Shadow Pokémon</classification><height>1.5m</height><weight>40.5kg</weight><hit_points>60</hit_points><attack>65</attack><defense>60</defense><speed>110</speed></pokemon></equipo></equipos>
+<equipo nombreEntrenador="Jaime" photo="trainer2.png"><pokemon><number>1</number><name>Bulbasaur</name><classification>Seed Pokémon</classification><height>0.7m</height><weight>6.9kg</weight><hit_points>45</hit_points><attack>49</attack><defense>49</defense><speed>45</speed></pokemon><pokemon><number>2</number><name>Ivysaur</name><classification>Seed Pokémon</classification><height>1m</height><weight>13kg</weight><hit_points>60</hit_points><attack>62</attack><defense>63</defense><speed>60</speed></pokemon><pokemon><number>3</number><name>Venusaur</name><classification>Seed Pokémon</classification><height>2m</height><weight>1kg</weight><hit_points>80</hit_points><attack>82</attack><defense>83</defense><speed>80</speed></pokemon><pokemon><number>4</number><name>Charmander</name><classification>Lizard Pokémon</classification><height>0.6m</height><weight>8.5kg</weight><hit_points>39</hit_points><attack>52</attack><defense>43</defense><speed>65</speed></pokemon><pokemon><number>5</number><name>Charmeleon</name><classification>Flame Pokémon</classification><height>1.1m</height><weight>19kg</weight><hit_points>58</hit_points><attack>64</attack><defense>58</defense><speed>80</speed></pokemon><pokemon><number>6</number><name>Charizard</name><classification>Flame Pokémon</classification><height>1.7m</height><weight>90.5kg</weight><hit_points>78</hit_points><attack>84</attack><defense>78</defense><speed>1</speed></pokemon></equipo></equipos>

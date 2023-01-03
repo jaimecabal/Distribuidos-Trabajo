@@ -2,11 +2,13 @@ package trabajo;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
+import java.io.OutputStreamWriter;
 import java.io.PrintStream;
 import java.net.Socket;
 import java.net.URLConnection;
@@ -17,6 +19,12 @@ import java.util.List;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -26,7 +34,7 @@ import org.xml.sax.SAXException;
 import clases.Equipo;
 import clases.Pokemon;
 
-public class AtenderPeticion extends Thread{
+public class AtenderPeticion extends Thread {
 	private Socket s;
 	private String peticion;
 	private String HOMEDIR = "./web";
@@ -44,59 +52,183 @@ public class AtenderPeticion extends Thread{
 
 	@Override
 	public void run() {
-		File fich = buscaFichero(this.peticion);
-		try {
-			if (fich.exists()) {
-				String cType = "";
-				if (fich.getName().endsWith(".css")) {
-					cType = "text/css";
-				} else {
-					cType = URLConnection.guessContentTypeFromName(fich.getName());
-				}
-				if (this.peticion.startsWith("HEAD ")) {
-					sendMIMEHeading(this.s.getOutputStream(), 200, cType, fich.length());
-				} else {
-					if (fich.isFile()) {
-						try (BufferedInputStream dis = new BufferedInputStream(new FileInputStream(fich))) {
-							sendMIMEHeading(this.s.getOutputStream(), 200, cType, fich.length());
+		if (this.peticion.startsWith("PUT")) {
+			try {
+				BufferedWriter bwr = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
+				
+				String [] peticionProcesada = peticion.split(" ");
+//				PUT NombreEntrenador foto.png xxx xxx xxx xxx xxx xxx
+								
+				int pkmns[] = { Integer.parseInt(peticionProcesada[3]), Integer.parseInt(peticionProcesada[4]), Integer.parseInt(peticionProcesada[5]), Integer.parseInt(peticionProcesada[6]), Integer.parseInt(peticionProcesada[7]), Integer.parseInt(peticionProcesada[8]) };
+				
+				addEquipo(peticionProcesada[1],pkmns,peticionProcesada[2]);
+				
+				//Si todo sale bien:
+				bwr.write("OK \r\n");
+				bwr.flush();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} else {
+			File fich = buscaFichero(this.peticion);
+			try {
+				if (fich.exists()) {
+					String cType = "";
+					if (fich.getName().endsWith(".css")) {
+						cType = "text/css";
+					} else {
+						cType = URLConnection.guessContentTypeFromName(fich.getName());
+					}
+					if (this.peticion.startsWith("HEAD ")) {
+						sendMIMEHeading(this.s.getOutputStream(), 200, cType, fich.length());
+					} else {
+						if (fich.isFile()) {
+							try (BufferedInputStream dis = new BufferedInputStream(new FileInputStream(fich))) {
+								sendMIMEHeading(this.s.getOutputStream(), 200, cType, fich.length());
 
-							int bytesLeidos;
-							byte[] buff = new byte[1024 * 32];
-							System.out.println(peticion);
+								int bytesLeidos;
+								byte[] buff = new byte[1024 * 32];
+								System.out.println(peticion);
 
-							while ((bytesLeidos = dis.read(buff)) != -1) {
-								s.getOutputStream().write(buff, 0, bytesLeidos);
+								while ((bytesLeidos = dis.read(buff)) != -1) {
+									s.getOutputStream().write(buff, 0, bytesLeidos);
+								}
+
+								s.getOutputStream().flush();
 							}
-
+						} else {
+							String error = makeHTMLErrorText(501, "No implementado");
+							sendMIMEHeading(this.s.getOutputStream(), 501, "text/css", error.length());
+							s.getOutputStream().write(error.getBytes());
 							s.getOutputStream().flush();
 						}
-					} else {
-						String error = makeHTMLErrorText(501, "No implementado");
-						sendMIMEHeading(this.s.getOutputStream(), 501, "text/css", error.length());
-						s.getOutputStream().write(error.getBytes());
-						s.getOutputStream().flush();
 					}
+				} else {
+					String error = makeHTMLErrorText(404, "Pagina no encontrada");
+					sendMIMEHeading(this.s.getOutputStream(), 404, "text/html", error.length());
+					s.getOutputStream().write(error.getBytes());
+					s.getOutputStream().flush();
 				}
-			} else {
-				String error = makeHTMLErrorText(404, "Pagina no encontrada");
-				sendMIMEHeading(this.s.getOutputStream(), 404, "text/html", error.length());
-				s.getOutputStream().write(error.getBytes());
-				s.getOutputStream().flush();
+			} catch (IOException io) {
+				io.printStackTrace();
 			}
-		} catch (IOException io) {
-			io.printStackTrace();
 		}
 	}
+
 	/*
 	 * 
-	 *  METODOS DEL TRABAJO
+	 * METODOS DEL TRABAJO
 	 * 
 	 */
+
+
+	public static void addEquipo(String nombreEntrenador, int[] array, String foto) {
+		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		try {
+			//Creamos un Arbol DOM a partir del fichero pokemon.xml
+			DocumentBuilder db = dbf.newDocumentBuilder();
+			Document docu = db.parse("./web/pokemon.xml");
+			Element raiz = docu.getDocumentElement();
+			
+			//Creamos un Objeto equipo que es el que añadiremos a equipos.xml
+			Equipo eq = new Equipo();
+			eq.setNombreEntrenador(nombreEntrenador);
+			NodeList listaPkmn = raiz.getElementsByTagName("pokemon");
+			// Solo tengo que acceder a los numeros que el usuario indique
+			/*
+			 * Venusaur Arbok Sandslash Vileplume Shellder Electrode
+			 */
+			List<Pokemon> equipo = new ArrayList<>();
+
+			//Esto es para pasar el Arbol DOM a XML
+			//Creamos otro Arbol DOM para los equipos
+			DocumentBuilder dbEquipos = dbf.newDocumentBuilder();
+			Document docEquipos = db.parse("./web/equipos.xml");
+			Element raizEquipo = docEquipos.getDocumentElement();
+			
+			//Creamos el nuevo equipo
+			Element equipoNuevo = docEquipos.createElement("equipo");
+			//Añadimos los atributos
+			equipoNuevo.setAttribute("nombreEntrenador", nombreEntrenador);
+			equipoNuevo.setAttribute("photo", foto);
+			for (int i = 0; i < array.length; i++) {
+				//Ahora habria que añadir los 6 Pokemon del equipo
+				Element nuevoPkmn = docEquipos.createElement("pokemon");
+				Element pkmnActual = (Element) listaPkmn.item(array[i] - 1);
+				
+				System.out.println(pkmnActual.getElementsByTagName("name").item(0).getTextContent());
+				
+				Element number = docEquipos.createElement("number");
+				number.setTextContent(pkmnActual.getElementsByTagName("number").item(0).getTextContent());
+				
+				Element name = docEquipos.createElement("name");
+				name.setTextContent(pkmnActual.getElementsByTagName("name").item(0).getTextContent());
+				
+				Element classification = docEquipos.createElement("classification");
+				classification.setTextContent(pkmnActual.getElementsByTagName("classification").item(0).getTextContent());
+				
+				Element height = docEquipos.createElement("height");
+				height.setTextContent(pkmnActual.getElementsByTagName("height").item(0).getTextContent());
+				
+				Element weight = docEquipos.createElement("weight");
+				weight.setTextContent(pkmnActual.getElementsByTagName("weight").item(0).getTextContent());
+				
+				Element hit_points = docEquipos.createElement("hit_points");
+				hit_points.setTextContent(pkmnActual.getElementsByTagName("hit_points").item(0).getTextContent());
+				
+				Element attack = docEquipos.createElement("attack");
+				attack.setTextContent(pkmnActual.getElementsByTagName("attack").item(0).getTextContent());
+				
+				Element defense = docEquipos.createElement("defense");
+				defense.setTextContent(pkmnActual.getElementsByTagName("defense").item(0).getTextContent());
+				
+				Element speed = docEquipos.createElement("speed");
+				speed.setTextContent(pkmnActual.getElementsByTagName("speed").item(0).getTextContent());
+				
+				nuevoPkmn.appendChild(number);
+				nuevoPkmn.appendChild(name);
+				nuevoPkmn.appendChild(classification);
+				nuevoPkmn.appendChild(height);
+				nuevoPkmn.appendChild(weight);
+				nuevoPkmn.appendChild(hit_points);
+				nuevoPkmn.appendChild(attack);
+				nuevoPkmn.appendChild(defense);
+				nuevoPkmn.appendChild(speed);
+				
+				equipoNuevo.appendChild(nuevoPkmn);
+			}
+			raizEquipo.appendChild(equipoNuevo);			
+			
+			//Transformamos el DOM a XML
+			TransformerFactory tf = TransformerFactory.newInstance();
+			Transformer transformer = tf.newTransformer();
+			DOMSource source = new DOMSource(docEquipos);
+//			StreamResult result = new StreamResult(new File("./web/equipos-Pruebas.xml"));
+			StreamResult result = new StreamResult(new File("./web/equipos.xml"));
+			transformer.transform(source, result);
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SAXException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (TransformerConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (TransformerException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 	public static void verEquipos() {
 		try {
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			DocumentBuilder db = dbf.newDocumentBuilder();
-			Document doc = db.parse("equipos.xml");
+			Document doc = db.parse("./web/equipos.xml");
 
 			Element raiz = doc.getDocumentElement(); // El elemento raiz es equipos
 			NodeList nl = raiz.getElementsByTagName("equipo");
@@ -110,10 +242,11 @@ public class AtenderPeticion extends Thread{
 				NodeList lPkmn = nodoActual.getElementsByTagName("pokemon");
 				List<Pokemon> equipo = new ArrayList<>();
 				for (int j = 0; j < lPkmn.getLength(); j++) {
-					//Creamos un array de cadenas para poder guardar los contenidos de texto del XML
-					
-					
-					//Casteamos el Nodo actual a un Element para poder sacar sus Elementos y los guardamos en el array
+					// Creamos un array de cadenas para poder guardar los contenidos de texto del
+					// XML
+
+					// Casteamos el Nodo actual a un Element para poder sacar sus Elementos y los
+					// guardamos en el array
 					Element pkmnActual = (Element) lPkmn.item(j);
 					String[] pkmnString = new String[10];
 					pkmnString[0] = pkmnActual.getElementsByTagName("number").item(0).getTextContent();
@@ -126,8 +259,9 @@ public class AtenderPeticion extends Thread{
 					pkmnString[7] = pkmnActual.getElementsByTagName("defense").item(0).getTextContent();
 					pkmnString[8] = pkmnActual.getElementsByTagName("special").item(0).getTextContent();
 					pkmnString[9] = pkmnActual.getElementsByTagName("speed").item(0).getTextContent();
-					
-					//Creamos un objeto Pokemon nuevo con los valores que hemos guardado en el array
+
+					// Creamos un objeto Pokemon nuevo con los valores que hemos guardado en el
+					// array
 					Pokemon pkmnNuevo = new Pokemon(pkmnString[0], pkmnString[1], pkmnString[2], pkmnString[3],
 							pkmnString[4], Integer.parseInt(pkmnString[5]), Integer.parseInt(pkmnString[6]),
 							Integer.parseInt(pkmnString[7]), Integer.parseInt(pkmnString[8]),
@@ -152,7 +286,7 @@ public class AtenderPeticion extends Thread{
 			e.printStackTrace();
 		}
 	}
-	
+
 	/*
 	 * < --------------------- METODOS DADOS EN LA PRACTICA --------------------- >
 	 */
