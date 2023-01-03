@@ -1,143 +1,198 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
-	<!-- Basic -->
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<!-- Mobile Metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<!-- Site Metas -->
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<meta name="author" content="" />
+    <title>Pokedex</title>
 
-	<title>Trabajo distribuidos</title>
+    <!-- slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
+    />
 
-	<!-- slider stylesheet -->
-	<link rel="stylesheet" type="text/css"
-		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!-- fonts style -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Poppins:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Complete Pokedex</title>
+  </head>
 
-	<!-- bootstrap core css -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-	<!-- fonts style -->
-	<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Poppins:400,600,700&display=swap"
-		rel="stylesheet">
-	<!-- Custom styles for this template -->
-	<link href="css/style.css" rel="stylesheet" />
-	<!-- responsive style -->
-	<link href="css/responsive.css" rel="stylesheet" />
-	<link rel="stylesheet" href="styles.css">
-	<title>Pokedex Completa</title>
-</head>
+  <body onload="loadXMLDoc()">
+    <div class="hero_area">
+      <header class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" alt="" />
+              <span> Pokedex </span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-<body onload="loadXMLDoc()">
-	<div class="hero_area">
-		<!-- CONTENIDO DEL HEADER DE NAVIGACION -->	
-	</div>
-	<div class="slider_section">
-		<div class="container">
-			<div class="main-content">
-				<h1>Listado de Pokemon actuales</h1>
-				<!--<button type="button" onclick="loadXMLDoc()">Recargar Pokedex</button>-->
-				<table id="demo" class="tg">
-					<!--ESTA ES LA TABLA QUE CREAMOS USANDO JS-->
-				</table>
-				<script>
-					function loadXMLDoc() {
-						var xmlhttp = new XMLHttpRequest();
-						xmlhttp.onreadystatechange = function () {
-							if (this.readyState == 4 && this.status == 200) {
-								myFunction(this);
-							}
-						};
-						xmlhttp.open("GET", "pokemon.xml", true);
-						xmlhttp.send();
-					}
-					function myFunction(xml) {
-						var i;
-						var xmlDoc = xml.responseXML;
-						var table = "<thead><tr><th class=\"tg-m1ak\" rowspan=\"2\">No.</th><th class=\"tg-m1ak\" rowspan=\"2\">Pic<br></th><th class=\"tg-m1ak\" rowspan=\"2\">Name</th><th class=\"tg-m1ak\" rowspan=\"2\">Classification</th><th class=\"tg-m1ak\" rowspan=\"2\">Height</th><th class=\"tg-m1ak\" rowspan=\"2\">Weight</th><th class=\"tg-m1ak\" colspan=\"5\">Base stats</th></tr><tr><th class=\"tg-m1ak\">HP</th><th class=\"tg-m1ak\">Attack</th><th class=\"tg-m1ak\">Defense</th><th class=\"tg-m1ak\">Special</th><th class=\"tg-m1ak\">Speed</th></tr></thead>";
-						var x = xmlDoc.getElementsByTagName("pokemon");
-						for (i = 0; i < x.length; i++) {
-							table += "<tr><td>" +
-								x[i].getElementsByTagName("number")[0].childNodes[0].nodeValue +
-								"</td><td>" +
-								"<img src=\"images/pokemon-img/" + x[i].getElementsByTagName("number")[0].childNodes[0].nodeValue + ".png\"/></td><td>" +
-								x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
-								"</td><td>" +
-								x[i].getElementsByTagName("classification")[0].childNodes[0].nodeValue +
-								"</td><td>" +
-								x[i].getElementsByTagName("height")[0].childNodes[0].nodeValue +
-								"</td><td>" +
-								x[i].getElementsByTagName("weight")[0].childNodes[0].nodeValue +
-								"</td><td>" +
-								x[i].getElementsByTagName("hit_points")[0].childNodes[0].nodeValue +
-								"</td><td>" +
-								x[i].getElementsByTagName("attack")[0].childNodes[0].nodeValue +
-								"</td><td>" +
-								x[i].getElementsByTagName("defense")[0].childNodes[0].nodeValue +
-								"</td><td>" +
-								x[i].getElementsByTagName("special")[0].childNodes[0].nodeValue +
-								"</td><td>" +
-								x[i].getElementsByTagName("speed")[0].childNodes[0].nodeValue +
-								"</td></tr>";
-						}
-						document.getElementById("demo").innerHTML = table;
-					}
-				</script>
-			</div>
-		</div>
-	</div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div
+                class="d-flex ml-auto flex-column flex-lg-row align-items-center"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html"
+                      >Indice <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pokedex.html"> Pokedex </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="equipos.html">Equipos </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="slider_section">
+        <div class="container">
+          <div class="main-content">
+            <h1>Listado de Pokemon actuales</h1>
+            <!--<button type="button" onclick="loadXMLDoc()">Recargar Pokedex</button>-->
+            <table id="demo" class="tg">
+              <!--ESTA ES LA TABLA QUE CREAMOS USANDO JS-->
+            </table>
+            <script>
+              function loadXMLDoc() {
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function () {
+                  if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                  }
+                };
+                xmlhttp.open("GET", "pokemon.xml", true);
+                xmlhttp.send();
+              }
+              function myFunction(xml) {
+                var i;
+                var xmlDoc = xml.responseXML;
+                var table =
+                  '<thead><tr><th class="tg-m1ak" rowspan="2">No.</th><th class="tg-m1ak" rowspan="2">Pic<br></th><th class="tg-m1ak" rowspan="2">Name</th><th class="tg-m1ak" rowspan="2">Classification</th><th class="tg-m1ak" rowspan="2">Height</th><th class="tg-m1ak" rowspan="2">Weight</th><th class="tg-m1ak" colspan="5">Base stats</th></tr><tr><th class="tg-m1ak">HP</th><th class="tg-m1ak">Attack</th><th class="tg-m1ak">Defense</th><th class="tg-m1ak">Special</th><th class="tg-m1ak">Speed</th></tr></thead>';
+                var x = xmlDoc.getElementsByTagName("pokemon");
+                for (i = 0; i < x.length; i++) {
+                  table +=
+                    "<tr><td>" +
+                    x[i].getElementsByTagName("number")[0].childNodes[0]
+                      .nodeValue +
+                    "</td><td>" +
+                    '<img src="images/pokemon-img/' +
+                    x[i].getElementsByTagName("number")[0].childNodes[0]
+                      .nodeValue +
+                    '.png"/></td><td>' +
+                    x[i].getElementsByTagName("name")[0].childNodes[0]
+                      .nodeValue +
+                    "</td><td>" +
+                    x[i].getElementsByTagName("classification")[0].childNodes[0]
+                      .nodeValue +
+                    "</td><td>" +
+                    x[i].getElementsByTagName("height")[0].childNodes[0]
+                      .nodeValue +
+                    "</td><td>" +
+                    x[i].getElementsByTagName("weight")[0].childNodes[0]
+                      .nodeValue +
+                    "</td><td>" +
+                    x[i].getElementsByTagName("hit_points")[0].childNodes[0]
+                      .nodeValue +
+                    "</td><td>" +
+                    x[i].getElementsByTagName("attack")[0].childNodes[0]
+                      .nodeValue +
+                    "</td><td>" +
+                    x[i].getElementsByTagName("defense")[0].childNodes[0]
+                      .nodeValue +
+                    "</td><td>" +
+                    x[i].getElementsByTagName("special")[0].childNodes[0]
+                      .nodeValue +
+                    "</td><td>" +
+                    x[i].getElementsByTagName("speed")[0].childNodes[0]
+                      .nodeValue +
+                    "</td></tr>";
+                }
+                document.getElementById("demo").innerHTML = table;
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+    <!-- info section -->
+    <section class="info_section">
+      <div class="container">
+        <div class="info_container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="info_contact">
+                <a href="">
+                  <img src="images/phone.png" alt="" />
+                  <span> +34 123456789 </span>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="info_contact">
+                <a href="">
+                  <img src="images/mail.png" alt="" />
+                  <span> profesoroak@gmail.com </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="info_form">
+            <form action="">
+              <div class="email_box">
+                <label for="email2">Enter Your Email</label>
+                <input type="text" id="email2" />
+              </div>
+              <div>
+                <button>subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<!-- info section -->
-	<section class="info_section ">
-		<div class="container">
-			<div class="info_container">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="info_contact">
-							<a href="">
-								<img src="images/phone.png" alt="">
-								<span>
-									+34 123456789
-								</span>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="info_contact">
-							<a href="">
-								<img src="images/mail.png" alt="">
-								<span>
-									profesoroak@gmail.com
-								</span>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="info_form">
-					<form action="">
-						<div class="email_box">
-							<label for="email2">Enter Your Email</label>
-							<input type="text" id="email2">
-						</div>
-						<div>
-							<button>
-								subscribe
-							</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
+    <!-- end info_section -->
 
-	<!-- end info_section -->
-
-	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/custom.js"></script>
-</body>
-
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+  </body>
 </html>

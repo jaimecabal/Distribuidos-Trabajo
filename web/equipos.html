@@ -14,7 +14,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Pokedex</title>
+    <title>Teams</title>
 
     <!-- slider stylesheet -->
     <link
@@ -25,25 +25,22 @@
 
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-    <!-- fonts style -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Poppins:400,600,700&display=swap"
-      rel="stylesheet"
-    />
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet" />
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>List of Pokemon teams</title>
   </head>
 
-  <body>
+  <body onload="loadXMLDoc()">
     <div class="hero_area">
       <header class="header_section">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg custom_nav-container">
             <a class="navbar-brand" href="index.html">
               <img src="images/logo.png" alt="" />
-              <span> Pokedex </span>
+              <span> Pokemon teams </span>
             </a>
             <button
               class="navbar-toggler"
@@ -64,14 +61,14 @@
                 <ul class="navbar-nav">
                   <li class="nav-item active">
                     <a class="nav-link" href="index.html"
-                      >Indice <span class="sr-only">(current)</span></a
+                      >Home <span class="sr-only">(current)</span></a
                     >
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="pokedex.html"> Pokedex </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="equipos.html">Equipos </a>
+                    <a class="nav-link" href="equipos.html">Teams </a>
                   </li>
                 </ul>
               </div>
@@ -79,69 +76,70 @@
           </nav>
         </div>
       </header>
-      <!-- Seccion del texto principal -->
-      <section class="slider_section position-relative">
-        <div class="design-box">
-          <img src="images/design-1.png" alt="" />
-        </div>
+      <div class="slider_section">
         <div class="container">
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="detail_box">
-                      <h1>Pokedex</h1>
-                      <p>
-                        This is a list of all the available Pokemon that you can use in your team at the moment.
-                      </p>
-                      <div>
-                        <a href="pokedex.html">Go to Pokedex</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="img-box">
-                      <img src="images/rotomPhone.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="detail_box">
-                      <h2>
-                        <span> Team list </span>
-                        <hr />
-                      </h2>
-                      <h1>Equipos</h1>
-                      <p>
-                        This is to show a list of all the teams that other trainers have added and their respective Pokemon.
-                      </p>
-                      <div>
-                        <a href="equipos.html">Show team list</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="img-box">
-                      <img src="images/battleFrontier_logo.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div class="main-content">
+            <h1>List of current pokemon teams</h1>
+            <div id="entrenadores">
+              <!-- Aqui es donde vamos a poner todos los datos de los entrenadores -->
             </div>
+            <script>
+              function loadXMLDoc() {
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function () {
+                  if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                  }
+                };
+                xmlhttp.open("GET", "equipos.xml", true);
+                xmlhttp.send();
+              }
+              function myFunction(xml) {
+                var i, j;
+                var xmlDoc = xml.responseXML;
+                var trainerName = "<h2> Entrenador: ";
+                var eq = xmlDoc.getElementsByTagName("equipo");
+                var table;
+                for (i = 0; i < eq.length; i++) {
+					console.log(i)
+                  //SOLO MUESTRA EL PRIMER ENTRENADOR DE LA LISTA
+                  //Recorremos cada uno de los equipos
+                  trainerName +=
+                    eq[i].getAttribute("nombreEntrenador") +
+                    "<img src=/images/trainer-img/" +
+                    eq[i].getAttribute("photo") +
+                    "/></h2>";
+				console.log(trainerName);
+                  //Ahora recorremos los pokemon del entrenador
+                  table = document.createElement("table");
+                  var contTabla =
+                    '<thead><tr><th class="tg-0lax">Pokemon 1</th><th class="tg-0lax">Pokemon 2</th><th class="tg-0lax">Pokemon 3</th><th class="tg-0lax">Pokemon 4</th><th class="tg-0lax">Pokemon 5</th><th class="tg-0lax">Pokemon 6</th></tr></thead>';
+                  var x = eq[i].getElementsByTagName("pokemon");
+                  contTabla += "<tr>";
+                  for (j = 0; j < x.length; j++) {
+                    contTabla +=
+                      "<td>" +
+                      '<img src="images/pokemon-img/' +
+                      x[j].getElementsByTagName("number")[0].childNodes[0]
+                        .nodeValue +
+                      '.png"/></td>';
+                  }
+                  contTabla += "</tr></table>";
+                  table.innerHTML = contTabla;
+                  document.getElementById("entrenadores").innerHTML +=
+                    trainerName;
+                  document.getElementById("entrenadores").appendChild(table);
+                  trainerName = "<h2> Entrenador: "; //Reseteamos trainerName
+				  
+                }
+              }
+            </script>
           </div>
         </div>
-      </section>
-      <!-- end slider section -->
+      </div>
     </div>
-    <!-- info seccion de contacto -->
+
+    <!-- info section -->
     <section class="info_section">
       <div class="container">
         <div class="info_container">
@@ -163,21 +161,12 @@
               </div>
             </div>
           </div>
-          <div class="info_form">
-            <form action="">
-              <div class="email_box">
-                <label for="email2">Enter Your Email</label>
-                <input type="text" id="email2" />
-              </div>
-              <div>
-                <button>subscribe</button>
-              </div>
-            </form>
-          </div>
         </div>
       </div>
     </section>
+
     <!-- end info_section -->
+
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>

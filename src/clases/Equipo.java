@@ -11,20 +11,33 @@ import jakarta.xml.bind.annotation.XmlElementWrapper;
 public class Equipo implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private String nombreEntrenador;
+	private String photo;
 	private List<Pokemon> equipo = new ArrayList<>();
 
-	public Equipo(String nombre, ArrayList<Pokemon> equipo) {
+	public Equipo(String nombre, String photo, ArrayList<Pokemon> equipo) {
 		this.nombreEntrenador = nombre;
+		this.photo = photo;
 		this.equipo = equipo;
 	}
+
 	public Equipo() {
 
+	}
+
+	@XmlAttribute
+	public String getPhoto() {
+		return photo;
+	}
+
+	public void setPhoto(String photo) {
+		this.photo = photo;
 	}
 
 	@XmlAttribute
 	public String getNombreEntrenador() {
 		return nombreEntrenador;
 	}
+
 	public void setNombreEntrenador(String nombreEntrenador) {
 		this.nombreEntrenador = nombreEntrenador;
 	}
@@ -34,14 +47,16 @@ public class Equipo implements Serializable {
 	public List<Pokemon> getEquipo() {
 		return equipo;
 	}
+
 	public void setEquipo(List<Pokemon> equipo) {
 		this.equipo = equipo;
 	}
+
 	@Override
 	public String toString() {
 		String str = "Nombre: " + nombreEntrenador + "\r\n";
 
-		for(Pokemon p : equipo) {
+		for (Pokemon p : equipo) {
 			str += p.toString() + "\r\n";
 		}
 
