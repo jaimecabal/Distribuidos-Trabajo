@@ -76,7 +76,7 @@ public class AtenderPeticion extends Thread {
 			try {
 				BufferedWriter bwr = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
 				String[] peticionProcesada = peticion.split(" ");
-//				REMOVE NombreEntrenador
+				// REMOVE NombreEntrenador
 				removeEquipo(peticionProcesada[1]);
 
 				// Si todo sale bien:
