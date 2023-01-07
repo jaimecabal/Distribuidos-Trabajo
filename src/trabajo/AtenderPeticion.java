@@ -55,15 +55,31 @@ public class AtenderPeticion extends Thread {
 		if (this.peticion.startsWith("PUT")) {
 			try {
 				BufferedWriter bwr = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
-				
-				String [] peticionProcesada = peticion.split(" ");
+
+				String[] peticionProcesada = peticion.split(" ");
 //				PUT NombreEntrenador foto.png xxx xxx xxx xxx xxx xxx
-								
-				int pkmns[] = { Integer.parseInt(peticionProcesada[3]), Integer.parseInt(peticionProcesada[4]), Integer.parseInt(peticionProcesada[5]), Integer.parseInt(peticionProcesada[6]), Integer.parseInt(peticionProcesada[7]), Integer.parseInt(peticionProcesada[8]) };
-				
-				addEquipo(peticionProcesada[1],pkmns,peticionProcesada[2]);
-				
-				//Si todo sale bien:
+
+				int pkmns[] = { Integer.parseInt(peticionProcesada[3]), Integer.parseInt(peticionProcesada[4]),
+						Integer.parseInt(peticionProcesada[5]), Integer.parseInt(peticionProcesada[6]),
+						Integer.parseInt(peticionProcesada[7]), Integer.parseInt(peticionProcesada[8]) };
+
+				addEquipo(peticionProcesada[1], pkmns, peticionProcesada[2]);
+
+				// Si todo sale bien:
+				bwr.write("OK \r\n");
+				bwr.flush();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} else if (this.peticion.startsWith("REMOVE")) {
+			try {
+				BufferedWriter bwr = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
+				String[] peticionProcesada = peticion.split(" ");
+//				REMOVE NombreEntrenador
+				removeEquipo(peticionProcesada[1]);
+
+				// Si todo sale bien:
 				bwr.write("OK \r\n");
 				bwr.flush();
 			} catch (IOException e) {
@@ -121,17 +137,61 @@ public class AtenderPeticion extends Thread {
 	 * METODOS DEL TRABAJO
 	 * 
 	 */
+	public static void removeEquipo(String nom) {
+		try {
+			// Creamos un arbol DOM con los equipos que estan en el fichero equipos.xml
+			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+			DocumentBuilder db = dbf.newDocumentBuilder();
+			Document docEquipos = db.parse("./web/equipos.xml");
+			Element raizEquipo = docEquipos.getDocumentElement();
+			NodeList lEquipos = raizEquipo.getElementsByTagName("equipo");
 
+			for (int i = lEquipos.getLength() - 1; i >= 0; i--) {
+				Element e = (Element) lEquipos.item(i);
+				String nomEntrenador = e.getAttribute("nombreEntrenador");
+				System.out.println("Nombre entrenador actual: " + nomEntrenador);
+				if (nomEntrenador.equals(nom)) {
+					System.out.println("Entrenador encontrado, borrando");
+					raizEquipo.removeChild(e);
+					break;
+				}
+			}
+
+			// Transformamos el DOM a XML
+			TransformerFactory tf = TransformerFactory.newInstance();
+			Transformer transformer = tf.newTransformer();
+			DOMSource source = new DOMSource(docEquipos);
+			StreamResult result = new StreamResult(new File("./web/equipos.xml"));
+			transformer.transform(source, result);
+			
+			
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SAXException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (TransformerConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (TransformerException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 
 	public static void addEquipo(String nombreEntrenador, int[] array, String foto) {
 		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		try {
-			//Creamos un Arbol DOM a partir del fichero pokemon.xml
+			// Creamos un Arbol DOM a partir del fichero pokemon.xml
 			DocumentBuilder db = dbf.newDocumentBuilder();
 			Document docu = db.parse("./web/pokemon.xml");
 			Element raiz = docu.getDocumentElement();
-			
-			//Creamos un Objeto equipo que es el que añadiremos a equipos.xml
+
+			// Creamos un Objeto equipo que es el que añadiremos a equipos.xml
 			Equipo eq = new Equipo();
 			eq.setNombreEntrenador(nombreEntrenador);
 			NodeList listaPkmn = raiz.getElementsByTagName("pokemon");
@@ -141,51 +201,54 @@ public class AtenderPeticion extends Thread {
 			 */
 			List<Pokemon> equipo = new ArrayList<>();
 
-			//Esto es para pasar el Arbol DOM a XML
-			//Creamos otro Arbol DOM para los equipos
+			// Esto es para pasar el Arbol DOM a XML
+			// Creamos otro Arbol DOM para los equipos
 			DocumentBuilder dbEquipos = dbf.newDocumentBuilder();
 			Document docEquipos = db.parse("./web/equipos.xml");
 			Element raizEquipo = docEquipos.getDocumentElement();
-			
-			//Creamos el nuevo equipo
+
+			// Creamos el nuevo equipo
 			Element equipoNuevo = docEquipos.createElement("equipo");
-			//Añadimos los atributos
+			// Añadimos los atributos
 			equipoNuevo.setAttribute("nombreEntrenador", nombreEntrenador);
-			equipoNuevo.setAttribute("photo", foto);
+			//Comprobamos si la foto existe, y sino se pone una por defecto:
+			
+			equipoNuevo.setAttribute("photo", checkFoto(foto));
 			for (int i = 0; i < array.length; i++) {
-				//Ahora habria que añadir los 6 Pokemon del equipo
+				// Ahora habria que añadir los 6 Pokemon del equipo
 				Element nuevoPkmn = docEquipos.createElement("pokemon");
 				Element pkmnActual = (Element) listaPkmn.item(array[i] - 1);
-				
+
 				System.out.println(pkmnActual.getElementsByTagName("name").item(0).getTextContent());
-				
+
 				Element number = docEquipos.createElement("number");
 				number.setTextContent(pkmnActual.getElementsByTagName("number").item(0).getTextContent());
-				
+
 				Element name = docEquipos.createElement("name");
 				name.setTextContent(pkmnActual.getElementsByTagName("name").item(0).getTextContent());
-				
+
 				Element classification = docEquipos.createElement("classification");
-				classification.setTextContent(pkmnActual.getElementsByTagName("classification").item(0).getTextContent());
-				
+				classification
+						.setTextContent(pkmnActual.getElementsByTagName("classification").item(0).getTextContent());
+
 				Element height = docEquipos.createElement("height");
 				height.setTextContent(pkmnActual.getElementsByTagName("height").item(0).getTextContent());
-				
+
 				Element weight = docEquipos.createElement("weight");
 				weight.setTextContent(pkmnActual.getElementsByTagName("weight").item(0).getTextContent());
-				
+
 				Element hit_points = docEquipos.createElement("hit_points");
 				hit_points.setTextContent(pkmnActual.getElementsByTagName("hit_points").item(0).getTextContent());
-				
+
 				Element attack = docEquipos.createElement("attack");
 				attack.setTextContent(pkmnActual.getElementsByTagName("attack").item(0).getTextContent());
-				
+
 				Element defense = docEquipos.createElement("defense");
 				defense.setTextContent(pkmnActual.getElementsByTagName("defense").item(0).getTextContent());
-				
+
 				Element speed = docEquipos.createElement("speed");
 				speed.setTextContent(pkmnActual.getElementsByTagName("speed").item(0).getTextContent());
-				
+
 				nuevoPkmn.appendChild(number);
 				nuevoPkmn.appendChild(name);
 				nuevoPkmn.appendChild(classification);
@@ -195,16 +258,15 @@ public class AtenderPeticion extends Thread {
 				nuevoPkmn.appendChild(attack);
 				nuevoPkmn.appendChild(defense);
 				nuevoPkmn.appendChild(speed);
-				
+
 				equipoNuevo.appendChild(nuevoPkmn);
 			}
-			raizEquipo.appendChild(equipoNuevo);			
-			
-			//Transformamos el DOM a XML
+			raizEquipo.appendChild(equipoNuevo);
+
+			// Transformamos el DOM a XML
 			TransformerFactory tf = TransformerFactory.newInstance();
 			Transformer transformer = tf.newTransformer();
 			DOMSource source = new DOMSource(docEquipos);
-//			StreamResult result = new StreamResult(new File("./web/equipos-Pruebas.xml"));
 			StreamResult result = new StreamResult(new File("./web/equipos.xml"));
 			transformer.transform(source, result);
 		} catch (ParserConfigurationException e) {
@@ -224,6 +286,16 @@ public class AtenderPeticion extends Thread {
 			e.printStackTrace();
 		}
 	}
+
+	private static String checkFoto(String foto) {
+		File locFoto = new File("./web/images/trainer-img/"+foto);
+		if(locFoto.exists()) {
+			return foto;
+		} else {
+			return "default.png";
+		}
+	}
+
 	public static void verEquipos() {
 		try {
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();

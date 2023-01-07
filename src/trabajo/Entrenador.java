@@ -14,23 +14,38 @@ public class Entrenador {
 		// Mandar el nombre del entrenador, la foto y los pokemon que se quiere mandar
 		Scanner scan = new Scanner(System.in);
 		// La peticion sera: PUT NombreEntrenador foto.png xxx xxx xxx xxx xxx xxx
-		String peticion = "PUT";
-		System.out.println("Introduce el nombre del entrenador nuevo: ");
-		peticion += " " + scan.nextLine();
+		String peticion = "";
+		System.out.println("1) Introducir un entrenador nuevo \r\n2) Quitar un entrenador de la lista \r\n");
+		System.out.println("Introduce la opcion que quieres hacer");
+		String menu = scan.nextLine();
+		
+		if(menu.equals("1")) {
+			peticion = "PUT"; 
+			//Jaime trainer1.png 9 145 71 59 143 18
+			//Migol trainer6.png 64 103 80 122 124 120
+			//Lublu trainer7.png 3 131 148 87 115 151
+			
+			System.out.println("Introduce el nombre del entrenador nuevo: ");
+			peticion += " " + scan.nextLine();
 
-		System.out.println("Introduce la foto que se quiere usar"); // Aqui habria que hacer una comprobacion de que la
-																	// foto esta disponible
-		peticion += " " + scan.nextLine();
+			System.out.println("Introduce la foto que se quiere usar");
+			peticion += " " + scan.nextLine();
 
-		System.out.println("Introduce los pokemon para añadir al equipo");
-		for (int i = 0; i < 6; i++) {
-			int numPkmn = scan.nextInt();
-			if (numPkmn < 0 || numPkmn > 151) {
-				System.out.println("Este Pokemon no esta en nuestra lista");
-				i--;
-			} else {
-				peticion += " " + numPkmn;
+			System.out.println("Introduce los pokemon para añadir al equipo");
+			for (int i = 0; i < 6; i++) {
+				int numPkmn = scan.nextInt();
+				if (numPkmn < 0 || numPkmn > 151) {
+					System.out.println("Este Pokemon no esta en nuestra lista, introduce un pokemon entre el 1 y el 151: ");
+					i--;
+				} else {
+					peticion += " " + numPkmn;
+				}
 			}
+		} else if(menu.equals("2")) {
+			peticion = "REMOVE";
+			System.out.println("Introduce el nombre del entrenador a quitar: ");
+//			String nomEntrenador = scan.nextLine();
+			peticion +=" " + scan.nextLine();
 		}
 		try (Socket s = new Socket("localhost", 8080);
 				BufferedWriter bwr = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
